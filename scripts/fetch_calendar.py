@@ -28,11 +28,12 @@ import requests
 API_ENDPOINT = os.getenv("WA_API_ENDPOINT", "https://PASTE_ENDPOINT_HERE")
 API_KEY      = os.getenv("WA_API_KEY",      "PASTE_API_KEY_HERE")
 
-MONTHS_AHEAD    = 18
-DAYS_PAST       = 14
-REQUEST_DELAY   = 0.5
-MAX_RETRIES     = 3
-MIN_MEETS_VALID = 20
+MONTHS_AHEAD       = 18
+DAYS_PAST          = 14
+REQUEST_DELAY      = 0.3   # seconds between detail requests
+MAX_RETRIES        = 3
+MIN_MEETS_VALID    = 20
+CACHE_REFRESH_DAYS = 7     # always re-fetch detail for meets within this many days
 
 OUTPUT_PATH = os.path.join(
     os.path.dirname(os.path.abspath(__file__)), "..", "data", "meets.json"
@@ -514,43 +515,88 @@ def main():
     print(f"Range: {past} → {end}")
     print(f"Endpoint: {API_ENDPOINT[:60]}…\n")
 
-    existing = load_existing()
+    # Load previous meets.json for smart caching
+    existing_data  = load_existing()
+    existing_meets = {str(m["id"]): m for m in existing_data.get("meets", [])}
+    print(f"  Loaded {len(existing_meets)} existing meet records from cache\n")
 
     raw_all = fetch_calendar(str(past), str(end))
 
     if len(raw_all) < MIN_MEETS_VALID:
         print(f"\nERROR: Only {len(raw_all)} meets returned (expected ≥ {MIN_MEETS_VALID}).")
         print("Check that WA_API_ENDPOINT and WA_API_KEY secrets are set correctly.")
-        if existing:
+        if existing_data:
             print("Keeping existing meets.json unchanged.")
         sys.exit(1)
 
     meets = []
-    total = len(raw_all)
-    skipped = 0
+    total    = len(raw_all)
+    fetched  = 0
+    cached   = 0
+    no_info  = 0
+
     for i, raw in enumerate(raw_all, 1):
-        meet_id  = raw.get("id")
+        meet_id  = str(raw.get("id") or "")
         name     = raw.get("name") or "?"
         has_info = bool(raw.get("hasCompetitionInformation"))
 
+        # Days until meet starts (for deciding whether to refresh cache)
+        try:
+            start_date = datetime.date.fromisoformat((raw.get("startDate") or "")[:10])
+            days_until = (start_date - today).days
+        except ValueError:
+            days_until = 999
+
         print(f"  [{i:>3}/{total}] {name}", end="")
 
-        if has_info:
-            print()
+        if not has_info:
+            # No competition information registered — skip detail fetch entirely
+            print(" [no info]")
+            no_info += 1
+            detail = {"website": "", "contact": {}, "events": {"men": [], "women": []}}
+
+        elif meet_id in existing_meets and days_until > CACHE_REFRESH_DAYS:
+            # Meet exists in cache and is not imminent — check if events are populated
+            ex        = existing_meets[meet_id]
+            ex_events = ex.get("events", {})
+            has_evs   = bool(ex_events.get("men") or ex_events.get("women"))
+            has_web   = bool(ex.get("website") or (ex.get("contact") or {}).get("email"))
+
+            if has_evs and has_web:
+                # Fully cached — reuse existing detail data
+                print(" [cached]")
+                cached += 1
+                detail = {
+                    "website": ex.get("website") or "",
+                    "contact": ex.get("contact") or {},
+                    "events":  ex_events,
+                }
+            else:
+                # In cache but missing events or website — re-fetch
+                print(" [refresh — incomplete]")
+                try:
+                    detail = parse_detail(fetch_detail(meet_id))
+                except Exception as exc:
+                    print(f"\n    Warning: {exc}")
+                    detail = {"website": "", "contact": {}, "events": {"men": [], "women": []}}
+                fetched += 1
+                time.sleep(REQUEST_DELAY)
+
+        else:
+            # New meet, or within CACHE_REFRESH_DAYS of start — always fetch fresh
+            tag = "[new]" if meet_id not in existing_meets else "[imminent — refresh]"
+            print(f" {tag}")
             try:
                 detail = parse_detail(fetch_detail(meet_id))
             except Exception as exc:
-                print(f"    Warning: detail fetch failed for {name}: {exc}")
+                print(f"\n    Warning: {exc}")
                 detail = {"website": "", "contact": {}, "events": {"men": [], "women": []}}
+            fetched += 1
             time.sleep(REQUEST_DELAY)
-        else:
-            print(" [no detail]")
-            skipped += 1
-            detail = {"website": "", "contact": {}, "events": {"men": [], "women": []}}
 
         meets.append(build_meet_record(raw, detail))
 
-    print(f"\n  Detail queries: {total - skipped} fetched, {skipped} skipped (no info registered)")
+    print(f"\n  Detail queries — fetched: {fetched}  cached: {cached}  no info: {no_info}")
 
     os.makedirs(os.path.dirname(OUTPUT_PATH), exist_ok=True)
     output = {
