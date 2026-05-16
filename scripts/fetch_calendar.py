@@ -171,17 +171,18 @@ query GetCalendarEvents(
 """
 
 DETAIL_QUERY = """
-query GetCompetitionDetail($id: Int!) {
-  getCalendarEventCompetitionDetail(id: $id) {
-    website
-    disciplines {
-      name
+query GetCompetitionOrganiserInfo($competitionId: Int!) {
+  getCompetitionOrganiserInfo(competitionId: $competitionId) {
+    websiteUrl
+    units {
+      events
       gender
     }
-    contacts {
+    contactPersons {
       name
       email
-      phone
+      phoneNumber
+      title
     }
   }
 }
@@ -276,8 +277,8 @@ def fetch_calendar(start: str, end: str) -> list:
 
 
 def fetch_detail(meet_id) -> dict:
-    data = wa_request(DETAIL_QUERY, {"id": int(meet_id)})
-    return data.get("getCalendarEventCompetitionDetail") or {}
+    data = wa_request(DETAIL_QUERY, {"competitionId": int(meet_id)})
+    return data.get("getCompetitionOrganiserInfo") or {}
 
 
 def parse_detail(detail: dict) -> dict:
@@ -285,36 +286,49 @@ def parse_detail(detail: dict) -> dict:
     if not detail:
         return out
 
-    out["website"] = (detail.get("website") or "").strip()
+    # Field is websiteUrl in the actual API
+    out["website"] = (detail.get("websiteUrl") or "").strip()
 
-    contacts = detail.get("contacts") or []
+    # contactPersons with phoneNumber (not contacts/phone)
+    contacts = detail.get("contactPersons") or []
     if contacts:
         c = contacts[0]
         out["contact"] = {
-            "name":  (c.get("name")  or "").strip(),
-            "email": (c.get("email") or "").strip(),
-            "phone": (c.get("phone") or "").strip(),
+            "name":  (c.get("name")        or "").strip(),
+            "email": (c.get("email")       or "").strip(),
+            "phone": (c.get("phoneNumber") or "").strip(),
         }
 
+    # units is a list of {gender, events} where events is a list of
+    # discipline name strings — e.g. {"gender": "Men", "events": ["100m", "800m"]}
     unknown = []
-    for d in (detail.get("disciplines") or []):
-        raw_name = (d.get("name") or "").strip()
-        gender   = (d.get("gender") or "").upper()
-        mapped   = map_discipline(raw_name)
-        if not mapped:
-            if raw_name:
-                unknown.append(raw_name)
-            continue
-        if gender == "M":
-            if mapped not in out["events"]["men"]:
-                out["events"]["men"].append(mapped)
-        elif gender == "W":
-            if mapped not in out["events"]["women"]:
-                out["events"]["women"].append(mapped)
+    for unit in (detail.get("units") or []):
+        gender_raw = (unit.get("gender") or "").strip().upper()
+        # Normalise: "MEN" → "M", "WOMEN" → "W", "MIXED" → ""
+        if gender_raw in ("M", "MEN", "MALE"):
+            gender = "M"
+        elif gender_raw in ("W", "WOMEN", "FEMALE"):
+            gender = "W"
         else:
-            for lst in (out["events"]["men"], out["events"]["women"]):
-                if mapped not in lst:
-                    lst.append(mapped)
+            gender = ""   # will add to both
+
+        for raw_name in (unit.get("events") or []):
+            raw_name = (raw_name or "").strip()
+            mapped = map_discipline(raw_name)
+            if not mapped:
+                if raw_name:
+                    unknown.append(raw_name)
+                continue
+            if gender == "M":
+                if mapped not in out["events"]["men"]:
+                    out["events"]["men"].append(mapped)
+            elif gender == "W":
+                if mapped not in out["events"]["women"]:
+                    out["events"]["women"].append(mapped)
+            else:
+                for lst in (out["events"]["men"], out["events"]["women"]):
+                    if mapped not in lst:
+                        lst.append(mapped)
 
     if unknown:
         print(f"      Unknown disciplines (add to DISCIPLINE_MAP): {unknown}")
