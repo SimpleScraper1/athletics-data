@@ -41,49 +41,197 @@ OUTPUT_PATH = os.path.join(
 
 
 # ── DISCIPLINE MAP ────────────────────────────────────────────────────────────
+# The WA API returns discipline names in a mix of formats:
+#   - Short form:  "60m", "800m", "110mH", "High Jump"
+#   - Long form:   "60 Metres", "800 Metres", "110 Metres Hurdles"
+#   - Short track: "800m sh", "Mile sh", "Mile sh U20"
+#   - Short relay: "4x100m", "4x400m"
+#   - Historic:    "100y" (100 yards)
+# Both short and long forms are included below.
+# The normalize_discipline() function strips "sh" and "U20" suffixes
+# before lookup, so variants are handled automatically.
 DISCIPLINE_MAP = {
-    "60 Metres": "60m", "100 Metres": "100m", "200 Metres": "200m",
-    "400 Metres": "400m", "800 Metres": "800m", "1500 Metres": "1500m",
-    "One Mile": "mile", "1 Mile": "mile", "1 mile": "mile",
+    # ── Short forms (as returned by WA API) ──────────────────────────────
+    "60m": "60m",
+    "100m": "100m", "100y": "100m",         # 100 yards → 100m approximation
+    "200m": "200m",
+    "300m": "300m",
+    "400m": "400m",
+    "500m": "500m",
+    "600m": "600m",
+    "800m": "800m",
+    "1000m": "1000m",
+    "1500m": "1500m",
+    "Mile": "mile", "mile": "mile",
+    "2000m": "2000m",
+    "3000m": "3000m",
+    "5000m": "5000m",
+    "10000m": "10000m", "10,000m": "10000m",
+    # Hurdles — short forms
+    "60mH": "60mh", "60mh": "60mh",
+    "80mH": "80mh", "80mh": "80mh",
+    "100mH": "100mh", "100mh": "100mh",
+    "110mH": "110mh", "110mh": "110mh",
+    "400mH": "400mh", "400mh": "400mh",
+    "3000mSC": "3000sc", "3000msc": "3000sc",
+    "2000mSC": "2000sc", "2000msc": "2000sc",
+    # Field — short forms
+    "High Jump": "hj",   "HJ": "hj",
+    "Pole Vault": "pv",  "PV": "pv",
+    "Long Jump": "lj",   "LJ": "lj",
+    "Triple Jump": "tj", "TJ": "tj",
+    "Shot Put": "sp",    "SP": "sp",
+    "Discus Throw": "dt","DT": "dt",
+    "Hammer Throw": "ht","HT": "ht",
+    "Javelin Throw": "jt","JT": "jt",
+    "Weight Throw": "wt","WT": "wt",
+    # Relays — short forms
+    "4x100m": "4x100", "4x100": "4x100",
+    "4x200m": "4x200", "4x200": "4x200",
+    "4x400m": "4x400", "4x400": "4x400",
+    "4x800m": "4x800", "4x800": "4x800",
+    "4x1500m": "4x1500",
+    "SMR": "smr", "DMR": "dmr",
+    # Combined — short forms
+    "Dec": "dec", "Hep": "hep", "Pen": "pen", "Oct": "oct",
+    # Road — short forms
+    "Mar": "mar", "HMar": "hmar",
+    "10km": "10km", "10Km": "10km",
+    "5km": "5km",
+    # Race walk — short forms
+    "20kmW": "20krw", "20KmW": "20krw",
+    "35kmW": "35krw", "50kmW": "50krw",
+
+    # ── Long forms ───────────────────────────────────────────────────────
+    "60 Metres": "60m",
+    "100 Metres": "100m", "200 Metres": "200m",
+    "400 Metres": "400m", "800 Metres": "800m",
+    "1500 Metres": "1500m", "One Mile": "mile", "1 Mile": "mile",
     "3000 Metres": "3000m", "5000 Metres": "5000m",
-    "10,000 Metres": "10000m", "10000 Metres": "10000m", "10 000 Metres": "10000m",
-    "60 Metres Hurdles": "60mh", "100 Metres Hurdles": "100mh",
-    "110 Metres Hurdles": "110mh", "400 Metres Hurdles": "400mh",
-    "3000 Metres Steeplechase": "3000sc", "2000 Metres Steeplechase": "2000sc",
+    "10,000 Metres": "10000m", "10000 Metres": "10000m",
+    "10 000 Metres": "10000m",
+    "60 Metres Hurdles": "60mh",
+    "100 Metres Hurdles": "100mh",
+    "110 Metres Hurdles": "110mh",
+    "400 Metres Hurdles": "400mh",
+    "3000 Metres Steeplechase": "3000sc",
+    "2000 Metres Steeplechase": "2000sc",
     "Marathon": "mar", "Half Marathon": "hmar",
-    "10 Kilometres": "10km", "10km": "10km", "5 Kilometres": "5km",
-    "20 Kilometres Race Walk": "20krw", "20km Race Walk": "20krw",
-    "35 Kilometres Race Walk": "35krw", "35km Race Walk": "35krw",
+    "10 Kilometres": "10km", "5 Kilometres": "5km",
+    "20 Kilometres Race Walk": "20krw",
+    "20km Race Walk": "20krw",
+    "35 Kilometres Race Walk": "35krw",
+    "35km Race Walk": "35krw",
     "50 Kilometres Race Walk": "50krw",
-    "High Jump": "hj", "Pole Vault": "pv", "Long Jump": "lj", "Triple Jump": "tj",
-    "Shot Put": "sp", "Discus Throw": "dt", "Hammer Throw": "ht", "Javelin Throw": "jt",
-    "Weight Throw": "wt",
-    "4x100 Metres Relay": "4x100", "4 x 100 Metres Relay": "4x100",
-    "4x400 Metres Relay": "4x400", "4 x 400 Metres Relay": "4x400",
-    "4x200 Metres Relay": "4x200", "4 x 200 Metres Relay": "4x200",
-    "4x800 Metres Relay": "4x800", "4x1500 Metres Relay": "4x1500",
-    "Sprint Medley Relay": "smr", "Distance Medley Relay": "dmr",
-    "Decathlon": "dec", "Heptathlon": "hep", "Pentathlon": "pen",
-    "Triathlon": "tri", "Octathlon": "oct",
-    "100 Metres U20": "100m", "200 Metres U20": "200m", "400 Metres U20": "400m",
-    "800 Metres U20": "800m", "1500 Metres U20": "1500m", "5000 Metres U20": "5000m",
-    "110 Metres Hurdles U20": "110mh", "100 Metres Hurdles U20": "100mh",
-    "400 Metres Hurdles U20": "400mh",
-    "2000 Metres Steeplechase U20": "2000sc", "3000 Metres Steeplechase U20": "3000sc",
-    "High Jump U20": "hj", "Pole Vault U20": "pv",
-    "Long Jump U20": "lj", "Triple Jump U20": "tj",
-    "Shot Put U20": "sp", "Discus Throw U20": "dt",
-    "Hammer Throw U20": "ht", "Javelin Throw U20": "jt",
-    "Decathlon U20": "dec", "Heptathlon U20": "hep",
+    "4x100 Metres Relay": "4x100",
+    "4 x 100 Metres Relay": "4x100",
+    "4x400 Metres Relay": "4x400",
+    "4 x 400 Metres Relay": "4x400",
+    "4x200 Metres Relay": "4x200",
+    "4 x 200 Metres Relay": "4x200",
+    "4x800 Metres Relay": "4x800",
+    "4x1500 Metres Relay": "4x1500",
+    "Sprint Medley Relay": "smr",
+    "Distance Medley Relay": "dmr",
+    "Decathlon": "dec", "Heptathlon": "hep",
+    "Pentathlon": "pen", "Triathlon": "tri", "Octathlon": "oct",
 }
 # ── END DISCIPLINE MAP ────────────────────────────────────────────────────────
 
 
-# ── CATEGORY DETECTION FROM NAME ──────────────────────────────────────────────
-# Since competitionType is not available in the API schema, we detect
-# the category from the meet name and any available fields.
+def normalize_discipline(raw: str) -> str:
+    """
+    Strip indoor/age-group suffixes so variants resolve automatically.
+    Examples:
+      "Mile sh U20" → "Mile"
+      "800m sh"     → "800m"
+      "1500m U20"   → "1500m"
+      "60mH"        → "60mH"   (no suffix to strip)
+    """
+    s = raw.strip()
+    # Order matters — strip the longest matching suffix first
+    for suffix in (" sh U20", " sh u20", " Sh U20",
+                   " U20", " u20",
+                   " sh", " Sh"):
+        if s.lower().endswith(suffix.lower()):
+            s = s[: -len(suffix)].strip()
+            break   # only strip one layer per call
+    return s
+
+
+# ── CATEGORY DETECTION ────────────────────────────────────────────────────────
+# Most Diamond League meets include "Diamond League" in their WA calendar name.
+# Continental Tour meets do not — they use proper meet names like "FBK Games".
+# KNOWN_MEET_CATEGORIES maps partial meet name strings to their category.
+# Keys are case-insensitive substring matches against the full meet name.
+# Review and extend this list at the start of each season.
+
+KNOWN_MEET_CATEGORIES = {
+    # ── Diamond League (meets that may not include "Diamond League" in name)
+    "Prefontaine":          "DL",
+    "Bislett":              "DL",
+    "Golden Gala":          "DL",
+    "Bauhaus-Galan":        "DL",
+    "Herculis":             "DL",
+    "Athletissima":         "DL",
+    "Memorial Van Damme":   "DL",
+    "Weltklasse":           "DL",
+    "Wanda Diamond":        "DL",
+    "Shanghai Diamond":     "DL",
+    "Doha Diamond":         "DL",
+    "Rome Diamond":         "DL",
+    # ── Continental Tour Gold
+    "FBK Games":            "CTG",
+    "Paavo Nurmi":          "CTG",
+    "Golden Spike":         "CTG",
+    "Meeting de Rabat":     "CTG",
+    "Galan Rabat":          "CTG",
+    "Décastar":             "CTG",
+    "Decastar":             "CTG",
+    "Skolimowska":          "CTG",
+    "Zagreb Athletics":     "CTG",
+    "Gyulai":               "CTG",
+    "Salto":                "CTG",
+    "Andújar":              "CTG",
+    "Andujar":              "CTG",
+    "Turku":                "CTG",   # Paavo Nurmi Games venue
+    # ── Continental Tour Silver
+    "Oordegem":             "CTS",
+    "Aarhus":               "CTS",
+    "Sollentuna":           "CTS",
+    "Bydgoszcz":            "CTS",
+    "Nembro":               "CTS",
+    "Marrakech":            "CTS",
+    # ── Indoor Tour Gold
+    "New Balance Indoor":   "ITG",
+    "Millrose":             "ITG",
+    "Glasgow Indoor":       "ITG",
+    "Madrid Indoor":        "ITG",
+    "Karlsruhe":            "ITG",
+    "Boston Indoor":        "ITG",
+    "Birmingham Indoor":    "ITG",
+    "Torun":                "ITG",
+    "Toruń":                "ITG",
+    "Val-de-Reuil":         "ITG",
+    "Lievin":               "ITG",
+    "Liévin":               "ITG",
+}
+
+
 def detect_category(name: str) -> str:
+    """
+    Detect WA competition category from meet name.
+    Checks the known-meets lookup table first (case-insensitive substring),
+    then falls back to keyword detection in the full name.
+    """
     name_lower = name.lower()
+
+    # 1. Known meets lookup (most reliable — covers meets with proper names)
+    for partial, cat in KNOWN_MEET_CATEGORIES.items():
+        if partial.lower() in name_lower:
+            return cat
+
+    # 2. Keyword detection (covers meets that include their tier in the name)
     if "diamond league" in name_lower:
         return "DL"
     if "continental tour gold" in name_lower or "ct gold" in name_lower:
@@ -105,6 +253,7 @@ def detect_category(name: str) -> str:
     if "area championship" in name_lower or "european championship" in name_lower \
        or "african championship" in name_lower or "asian championship" in name_lower:
         return "AREA"
+
     return "OTHER"
 # ── END CATEGORY DETECTION ────────────────────────────────────────────────────
 
@@ -224,16 +373,37 @@ def wa_request(query: str, variables: dict, retries: int = MAX_RETRIES) -> dict:
 
 
 def map_discipline(raw_name: str) -> Optional[str]:
-    """Convert a WA discipline string to our short ID."""
+    """
+    Convert a WA discipline string to our short ID.
+    Tries in order: exact match → suffix-stripped match →
+    case-insensitive match → partial match.
+    Returns None if nothing matches (caller logs the unknown name).
+    """
     clean = raw_name.strip()
+    if not clean:
+        return None
+
+    # 1. Exact match
     if clean in DISCIPLINE_MAP:
         return DISCIPLINE_MAP[clean]
-    for key, val in DISCIPLINE_MAP.items():
-        if key.lower() == clean.lower():
-            return val
-    for key, val in DISCIPLINE_MAP.items():
-        if key.lower() in clean.lower():
-            return val
+
+    # 2. After stripping indoor/age-group suffixes
+    normalized = normalize_discipline(clean)
+    if normalized in DISCIPLINE_MAP:
+        return DISCIPLINE_MAP[normalized]
+
+    # 3. Case-insensitive exact match on original and normalized
+    for candidate in (clean, normalized):
+        for key, val in DISCIPLINE_MAP.items():
+            if key.lower() == candidate.lower():
+                return val
+
+    # 4. Partial match (last resort)
+    for candidate in (clean, normalized):
+        for key, val in DISCIPLINE_MAP.items():
+            if key.lower() in candidate.lower():
+                return val
+
     return None
 
 
