@@ -161,24 +161,28 @@ def normalize_discipline(raw: str) -> str:
 
 def map_competition_category(competition_group: str, competition_subgroup: str, ranking_category: str) -> str:
     """
-    Derive the Meet Map category from the three fields now available
-    directly in the calendar API response. No name guessing required.
+    Derive the Meet Map category from the three fields available in the
+    calendar API response. The API sometimes includes the subgroup (Gold/Silver/Bronze)
+    inside the competitionGroup string rather than as a separate field,
+    so we check the full combined string rather than subgroup alone.
     """
     group    = (competition_group    or "").lower()
     subgroup = (competition_subgroup or "").lower()
     rank     = (ranking_category     or "").upper()
+    # Combine group + subgroup so we catch either pattern
+    combined = group + " " + subgroup
 
     if "diamond league" in group:
         return "DL"
     if "continental tour" in group:
-        if "gold"   in subgroup: return "CTG"
-        if "silver" in subgroup: return "CTS"
-        if "bronze" in subgroup: return "CTB"
+        if "gold"   in combined: return "CTG"
+        if "silver" in combined: return "CTS"
+        if "bronze" in combined: return "CTB"
         return "CT"
     if "indoor tour" in group:
-        if "gold"   in subgroup: return "ITG"
-        if "silver" in subgroup: return "ITS"
-        if "bronze" in subgroup: return "ITB"
+        if "gold"   in combined: return "ITG"
+        if "silver" in combined: return "ITS"
+        if "bronze" in combined: return "ITB"
         return "IT"
     if any(x in group for x in ("world athletics championship", "world championship",
                                  "world indoor championship", "world cross country")):
@@ -193,9 +197,9 @@ def map_competition_category(competition_group: str, competition_subgroup: str, 
         return "NAT"
 
     # Fallback: use the ranking category letter code
-    if rank == "DF":  return "DL"    # Diamond Final
-    if rank in ("GW", "GL"): return "CTG"  # Gold World / Gold Level
-    if rank == "OW":  return "WCH"   # Olympic / World
+    if rank == "DF":             return "DL"
+    if rank in ("GW", "GL"):     return "CTG"
+    if rank == "OW":             return "WCH"
 
     return "OTHER"
 
@@ -256,6 +260,7 @@ query getCalendarEvents(
       name
       venue
       area
+      country
       rankingCategory
       competitionGroup
       competitionSubgroup
@@ -464,7 +469,8 @@ def build_meet_record(raw: dict, detail: dict) -> dict:
     rather than being inferred from the meet name.
     """
     name       = (raw.get("name")               or "").strip()
-    country    = (raw.get("area")               or "").strip()  # 'area' = country code
+    # 'country' returns the 3-letter code (e.g. "BEL"); 'area' returns region label ("Europe")
+    country    = (raw.get("country")            or raw.get("area") or "").strip()
     start      = (raw.get("startDate")          or "")[:10]
     end_date   = (raw.get("endDate")            or "")[:10]
     comp_group = (raw.get("competitionGroup")   or "").strip()
