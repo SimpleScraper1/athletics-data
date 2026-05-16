@@ -165,7 +165,70 @@ def normalize_discipline(raw: str) -> str:
     return s
 
 
-def map_competition_category(competition_group: str, competition_subgroup: str, ranking_category: str) -> str:
+
+# ── DIAMOND LEAGUE 2026 PER-MEET EVENT PROGRAMME ──────────────────────────────
+# Source: diamondleague.com/wp-content/uploads/2026/01/WDL-season-per-discipline-2026-.pdf
+# Used as fallback when WA API returns no competition information for DL meets.
+# Events shown in the tool link to the meet website so athletes can verify details.
+# Update this block at the start of each season.
+
+DL_EVENTS_2026 = {
+    "doha":     {"men": ["800m","110mh","400mh","pv","lj","tj","sp","dt","jt"],
+                 "women": ["100m","800m","5000m","3000sc","400mh","hj","sp","dt","jt"]},
+    "shanghai": {"men": ["400m","1500m","400mh","hj","pv","tj","lj"],
+                 "women": ["200m","5000m","100mh","400mh","sp","dt","jt"]},
+    "xiamen":   {"men": ["100m","3000sc","400mh","hj","pv","tj"],
+                 "women": ["400m","1500m","100mh","400mh","lj"]},
+    "rabat":    {"men": ["200m","5000m","3000sc","110mh","lj","tj","sp","dt","jt"],
+                 "women": ["400m","hj","pv","lj","tj","sp","dt","jt"]},
+    "rome":     {"men": ["5000m","110mh","400mh","pv","tj"],
+                 "women": ["100m","400m","800m","1500m","3000sc","400mh","sp","dt","jt"]},
+    "stockholm":{"men": ["400m","1500m","hj","pv","lj","sp","dt","jt"],
+                 "women": ["200m","5000m","hj","pv","lj","tj","sp","dt","jt"]},
+    "oslo":     {"men": ["100m","400m","800m","110mh"],
+                 "women": ["800m","5000m","100mh","pv"]},
+    "paris":    {"men": ["100m","400m","5000m","400mh","lj","tj"],
+                 "women": ["400mh","hj","lj","dt","jt"]},
+    "eugene":   {"men": ["400m","1500m","hj","pv","lj","sp"],
+                 "women": ["200m","400m","pv","lj","sp"]},
+    "monaco":   {"men": ["100m","800m","5000m","400mh","lj","tj"],
+                 "women": ["1500m","3000sc","hj"]},
+    "london":   {"men": ["200m","1500m","3000sc","lj","tj"],
+                 "women": ["5000m","100mh","pv"]},
+    "silesia":  {"men": ["800m","1500m","3000sc","pv","lj"],
+                 "women": ["3000sc","100mh","400mh","hj","pv","lj"]},
+    "lausanne": {"men": ["800m","5000m","110mh","400mh","hj","tj","sp"],
+                 "women": ["100m","800m","1500m","5000m","sp"]},
+    "zurich":   {"men": ["5000m","3000sc","110mh","sp","dt"],
+                 "women": ["100m","1500m","pv","sp"]},
+    "brussels": {"men": ["100m","200m","400m","800m","1500m","5000m","3000sc",
+                         "110mh","400mh","hj","pv","lj","tj","sp","dt","jt"],
+                 "women": ["100m","200m","400m","800m","1500m","5000m","3000sc",
+                           "100mh","400mh","hj","pv","lj","tj","sp","dt","jt"]},
+}
+
+# Fallback if city not matched: all DL disciplines
+DL_ALL_EVENTS = {
+    "men":   ["100m","200m","400m","800m","1500m","mile","5000m","3000sc",
+              "110mh","400mh","hj","pv","lj","tj","sp","dt","jt"],
+    "women": ["100m","200m","400m","800m","1500m","mile","5000m","3000sc",
+              "100mh","400mh","hj","pv","lj","tj","sp","dt","jt"],
+}
+
+def dl_events_for_meet(city: str) -> dict:
+    """
+    Return the 2026 DL event programme for a given meet city.
+    Matches city name case-insensitively against the lookup table.
+    Falls back to the full DL programme if the city is not found.
+    """
+    city_lower = city.lower()
+    for key, events in DL_EVENTS_2026.items():
+        if key in city_lower:
+            return events
+    return DL_ALL_EVENTS
+
+# ── END DL EVENTS ─────────────────────────────────────────────────────────────
+
     """
     Derive the Meet Map category from the three fields available in the
     calendar API response. The API sometimes includes the subgroup (Gold/Silver/Bronze)
@@ -484,6 +547,14 @@ def build_meet_record(raw: dict, detail: dict) -> dict:
     rank_cat   = (raw.get("rankingCategory")    or "").strip()
     season     = (raw.get("season")             or "").lower()
 
+    category   = map_competition_category(comp_group, subgroup, rank_cat)
+    events     = detail.get("events") or {"men": [], "women": []}
+
+    # DL meets often have hasCompetitionInformation = False so events come back empty.
+    # Apply the 2026 per-meet programme as a fallback so filtering still works.
+    if category == "DL" and not events.get("men") and not events.get("women"):
+        events = dl_events_for_meet(raw.get("venue") or "")
+
     return {
         "id":          str(raw.get("id") or ""),
         "name":        name,
@@ -493,12 +564,12 @@ def build_meet_record(raw: dict, detail: dict) -> dict:
         "countryCode": country,
         "countryName": country,
         "region":      COUNTRY_REGION.get(country, "OTHER"),
-        "category":    map_competition_category(comp_group, subgroup, rank_cat),
+        "category":    category,
         "categoryRaw": (comp_group + (" — " + subgroup if subgroup else "")).strip(),
         "isIndoor":    season == "indoor",
         "website":     detail.get("website") or "",
         "contact":     detail.get("contact") or {},
-        "events":      detail.get("events") or {"men": [], "women": []},
+        "events":      events,
         "hasResults":  bool(raw.get("hasResults")),
     }
 
