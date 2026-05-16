@@ -159,103 +159,45 @@ def normalize_discipline(raw: str) -> str:
     return s
 
 
-# ── CATEGORY DETECTION ────────────────────────────────────────────────────────
-# Most Diamond League meets include "Diamond League" in their WA calendar name.
-# Continental Tour meets do not — they use proper meet names like "FBK Games".
-# KNOWN_MEET_CATEGORIES maps partial meet name strings to their category.
-# Keys are case-insensitive substring matches against the full meet name.
-# Review and extend this list at the start of each season.
-
-KNOWN_MEET_CATEGORIES = {
-    # ── Diamond League (meets that may not include "Diamond League" in name)
-    "Prefontaine":          "DL",
-    "Bislett":              "DL",
-    "Golden Gala":          "DL",
-    "Bauhaus-Galan":        "DL",
-    "Herculis":             "DL",
-    "Athletissima":         "DL",
-    "Memorial Van Damme":   "DL",
-    "Weltklasse":           "DL",
-    "Wanda Diamond":        "DL",
-    "Shanghai Diamond":     "DL",
-    "Doha Diamond":         "DL",
-    "Rome Diamond":         "DL",
-    # ── Continental Tour Gold
-    "FBK Games":            "CTG",
-    "Paavo Nurmi":          "CTG",
-    "Golden Spike":         "CTG",
-    "Meeting de Rabat":     "CTG",
-    "Galan Rabat":          "CTG",
-    "Décastar":             "CTG",
-    "Decastar":             "CTG",
-    "Skolimowska":          "CTG",
-    "Zagreb Athletics":     "CTG",
-    "Gyulai":               "CTG",
-    "Salto":                "CTG",
-    "Andújar":              "CTG",
-    "Andujar":              "CTG",
-    "Turku":                "CTG",   # Paavo Nurmi Games venue
-    # ── Continental Tour Silver
-    "Oordegem":             "CTS",
-    "Aarhus":               "CTS",
-    "Sollentuna":           "CTS",
-    "Bydgoszcz":            "CTS",
-    "Nembro":               "CTS",
-    "Marrakech":            "CTS",
-    # ── Indoor Tour Gold
-    "New Balance Indoor":   "ITG",
-    "Millrose":             "ITG",
-    "Glasgow Indoor":       "ITG",
-    "Madrid Indoor":        "ITG",
-    "Karlsruhe":            "ITG",
-    "Boston Indoor":        "ITG",
-    "Birmingham Indoor":    "ITG",
-    "Torun":                "ITG",
-    "Toruń":                "ITG",
-    "Val-de-Reuil":         "ITG",
-    "Lievin":               "ITG",
-    "Liévin":               "ITG",
-}
-
-
-def detect_category(name: str) -> str:
+def map_competition_category(competition_group: str, competition_subgroup: str, ranking_category: str) -> str:
     """
-    Detect WA competition category from meet name.
-    Checks the known-meets lookup table first (case-insensitive substring),
-    then falls back to keyword detection in the full name.
+    Derive the Meet Map category from the three fields now available
+    directly in the calendar API response. No name guessing required.
     """
-    name_lower = name.lower()
+    group    = (competition_group    or "").lower()
+    subgroup = (competition_subgroup or "").lower()
+    rank     = (ranking_category     or "").upper()
 
-    # 1. Known meets lookup (most reliable — covers meets with proper names)
-    for partial, cat in KNOWN_MEET_CATEGORIES.items():
-        if partial.lower() in name_lower:
-            return cat
-
-    # 2. Keyword detection (covers meets that include their tier in the name)
-    if "diamond league" in name_lower:
+    if "diamond league" in group:
         return "DL"
-    if "continental tour gold" in name_lower or "ct gold" in name_lower:
-        return "CTG"
-    if "continental tour silver" in name_lower or "ct silver" in name_lower:
-        return "CTS"
-    if "continental tour bronze" in name_lower or "ct bronze" in name_lower:
-        return "CTB"
-    if "indoor tour gold" in name_lower:
-        return "ITG"
-    if "indoor tour silver" in name_lower:
-        return "ITS"
-    if "world championship" in name_lower or "world indoor" in name_lower:
+    if "continental tour" in group:
+        if "gold"   in subgroup: return "CTG"
+        if "silver" in subgroup: return "CTS"
+        if "bronze" in subgroup: return "CTB"
+        return "CT"
+    if "indoor tour" in group:
+        if "gold"   in subgroup: return "ITG"
+        if "silver" in subgroup: return "ITS"
+        if "bronze" in subgroup: return "ITB"
+        return "IT"
+    if any(x in group for x in ("world athletics championship", "world championship",
+                                 "world indoor championship", "world cross country")):
         return "WCH"
-    if "olympic" in name_lower:
+    if "olympic" in group:
         return "OLY"
-    if "national championship" in name_lower or "national champ" in name_lower:
-        return "NAT"
-    if "area championship" in name_lower or "european championship" in name_lower \
-       or "african championship" in name_lower or "asian championship" in name_lower:
+    if any(x in group for x in ("area championship", "european athletics championship",
+                                 "african championship", "asian championship",
+                                 "pan american", "oceanian championship")):
         return "AREA"
+    if "national championship" in group or "national champ" in group:
+        return "NAT"
+
+    # Fallback: use the ranking category letter code
+    if rank == "DF":  return "DL"    # Diamond Final
+    if rank in ("GW", "GL"): return "CTG"  # Gold World / Gold Level
+    if rank == "OW":  return "WCH"   # Olympic / World
 
     return "OTHER"
-# ── END CATEGORY DETECTION ────────────────────────────────────────────────────
 
 
 # ── REGION MAP ────────────────────────────────────────────────────────────────
@@ -294,11 +236,11 @@ INDOOR_MONTHS = {1, 2, 3, 11, 12}
 # and total does not exist on CalendarEvents.
 
 CALENDAR_QUERY = """
-query GetCalendarEvents(
-  $startDate: String!
-  $endDate:   String!
-  $offset:    Int!
-  $limit:     Int!
+query getCalendarEvents(
+  $startDate: String
+  $endDate:   String
+  $offset:    Int
+  $limit:     Int
 ) {
   getCalendarEvents(
     startDate: $startDate
@@ -306,14 +248,20 @@ query GetCalendarEvents(
     offset:    $offset
     limit:     $limit
   ) {
+    hits
     results {
       id
+      hasResults
+      hasCompetitionInformation
       name
       venue
+      area
+      rankingCategory
+      competitionGroup
+      competitionSubgroup
       startDate
       endDate
-      country
-      hasResults
+      season
     }
   }
 }
@@ -417,14 +365,11 @@ def is_indoor_meet(name: str, date_str: str) -> bool:
 
 
 def fetch_calendar(start: str, end: str) -> list:
-    """
-    Fetch all meets in the date range.
-    Pagination: keep fetching until a page returns fewer results than the limit,
-    which means we have reached the end. (The 'total' field does not exist
-    in the current WA API schema.)
-    """
+    """Fetch all meets in the date range using the hits field for accurate pagination."""
     all_results = []
     limit, offset = 100, 0
+    total = None
+
     while True:
         print(f"    Fetching calendar (offset={offset})…")
         data = wa_request(CALENDAR_QUERY, {
@@ -435,13 +380,19 @@ def fetch_calendar(start: str, end: str) -> list:
         })
         page    = data.get("getCalendarEvents") or {}
         results = page.get("results") or []
+
+        if total is None:
+            total = page.get("hits") or 0
+            print(f"    Total meets available: {total}")
+
         all_results.extend(results)
-        print(f"    Got {len(results)} meets (running total: {len(all_results)})")
-        # Stop when we get fewer results than the page size — end of data
-        if len(results) < limit:
+        print(f"    Got {len(results)} meets (running total: {len(all_results)}/{total})")
+
+        if not results or len(all_results) >= total:
             break
         offset += limit
         time.sleep(REQUEST_DELAY)
+
     print(f"    Calendar fetch complete: {len(all_results)} meets")
     return all_results
 
@@ -509,14 +460,17 @@ def parse_detail(detail: dict) -> dict:
 def build_meet_record(raw: dict, detail: dict) -> dict:
     """
     Build a clean meet record.
-    NOTE: 'country' is returned as a plain string (country code) by the WA API,
-    not as an object. 'competitionType' is not available — category is inferred
-    from the meet name instead.
+    Category, indoor flag, and country now come directly from the API
+    rather than being inferred from the meet name.
     """
-    name      = (raw.get("name") or "").strip()
-    country   = (raw.get("country") or "").strip()  # Plain string e.g. "GBR"
-    start     = (raw.get("startDate") or "")[:10]
-    end_date  = (raw.get("endDate")   or "")[:10]
+    name       = (raw.get("name")               or "").strip()
+    country    = (raw.get("area")               or "").strip()  # 'area' = country code
+    start      = (raw.get("startDate")          or "")[:10]
+    end_date   = (raw.get("endDate")            or "")[:10]
+    comp_group = (raw.get("competitionGroup")   or "").strip()
+    subgroup   = (raw.get("competitionSubgroup") or "").strip()
+    rank_cat   = (raw.get("rankingCategory")    or "").strip()
+    season     = (raw.get("season")             or "").lower()
 
     return {
         "id":          str(raw.get("id") or ""),
@@ -525,11 +479,11 @@ def build_meet_record(raw: dict, detail: dict) -> dict:
         "dateEnd":     end_date if end_date and end_date != start else start,
         "city":        (raw.get("venue") or "").strip(),
         "countryCode": country,
-        "countryName": country,   # Name not available separately — use code for now
+        "countryName": country,
         "region":      COUNTRY_REGION.get(country, "OTHER"),
-        "category":    detect_category(name),
-        "categoryRaw": "",
-        "isIndoor":    is_indoor_meet(name, start),
+        "category":    map_competition_category(comp_group, subgroup, rank_cat),
+        "categoryRaw": (comp_group + (" — " + subgroup if subgroup else "")).strip(),
+        "isIndoor":    season == "indoor",
         "website":     detail.get("website") or "",
         "contact":     detail.get("contact") or {},
         "events":      detail.get("events") or {"men": [], "women": []},
@@ -567,17 +521,30 @@ def main():
 
     meets = []
     total = len(raw_all)
+    skipped = 0
     for i, raw in enumerate(raw_all, 1):
-        meet_id = raw.get("id")
-        name    = raw.get("name") or "?"
-        print(f"  [{i:>3}/{total}] {name}")
-        try:
-            detail = parse_detail(fetch_detail(meet_id))
-        except Exception as exc:
-            print(f"    Warning: detail fetch failed for {name}: {exc}")
+        meet_id  = raw.get("id")
+        name     = raw.get("name") or "?"
+        has_info = bool(raw.get("hasCompetitionInformation"))
+
+        print(f"  [{i:>3}/{total}] {name}", end="")
+
+        if has_info:
+            print()
+            try:
+                detail = parse_detail(fetch_detail(meet_id))
+            except Exception as exc:
+                print(f"    Warning: detail fetch failed for {name}: {exc}")
+                detail = {"website": "", "contact": {}, "events": {"men": [], "women": []}}
+            time.sleep(REQUEST_DELAY)
+        else:
+            print(" [no detail]")
+            skipped += 1
             detail = {"website": "", "contact": {}, "events": {"men": [], "women": []}}
+
         meets.append(build_meet_record(raw, detail))
-        time.sleep(REQUEST_DELAY)
+
+    print(f"\n  Detail queries: {total - skipped} fetched, {skipped} skipped (no info registered)")
 
     os.makedirs(os.path.dirname(OUTPUT_PATH), exist_ok=True)
     output = {
