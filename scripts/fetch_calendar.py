@@ -33,7 +33,12 @@ DAYS_PAST          = 14
 REQUEST_DELAY      = 0.3   # seconds between detail requests
 MAX_RETRIES        = 3
 MIN_MEETS_VALID    = 20
-CACHE_REFRESH_DAYS = 7     # always re-fetch detail for meets within this many days
+# Caching thresholds — based on athlete planning behaviour:
+#   Meets within 7 days are past entry deadlines — cache is fine
+#   Meets 7–180 days away are the active planning window — always refresh
+#   Meets beyond 180 days are too early for accurate programmes — cache unless empty
+IMMINENT_DAYS      = 7     # days before start: cache (past entry)
+PLANNING_HORIZON   = 180   # days before start: always fetch fresh beyond IMMINENT_DAYS
 
 OUTPUT_PATH = os.path.join(
     os.path.dirname(os.path.abspath(__file__)), "..", "data", "meets.json"
@@ -555,37 +560,9 @@ def main():
             no_info += 1
             detail = {"website": "", "contact": {}, "events": {"men": [], "women": []}}
 
-        elif meet_id in existing_meets and days_until > CACHE_REFRESH_DAYS:
-            # Meet exists in cache and is not imminent — check if events are populated
-            ex        = existing_meets[meet_id]
-            ex_events = ex.get("events", {})
-            has_evs   = bool(ex_events.get("men") or ex_events.get("women"))
-            has_web   = bool(ex.get("website") or (ex.get("contact") or {}).get("email"))
-
-            if has_evs and has_web:
-                # Fully cached — reuse existing detail data
-                print(" [cached]")
-                cached += 1
-                detail = {
-                    "website": ex.get("website") or "",
-                    "contact": ex.get("contact") or {},
-                    "events":  ex_events,
-                }
-            else:
-                # In cache but missing events or website — re-fetch
-                print(" [refresh — incomplete]")
-                try:
-                    detail = parse_detail(fetch_detail(meet_id))
-                except Exception as exc:
-                    print(f"\n    Warning: {exc}")
-                    detail = {"website": "", "contact": {}, "events": {"men": [], "women": []}}
-                fetched += 1
-                time.sleep(REQUEST_DELAY)
-
-        else:
-            # New meet, or within CACHE_REFRESH_DAYS of start — always fetch fresh
-            tag = "[new]" if meet_id not in existing_meets else "[imminent — refresh]"
-            print(f" {tag}")
+        elif meet_id not in existing_meets:
+            # New meet — always fetch
+            print(" [new]")
             try:
                 detail = parse_detail(fetch_detail(meet_id))
             except Exception as exc:
@@ -593,6 +570,59 @@ def main():
                 detail = {"website": "", "contact": {}, "events": {"men": [], "women": []}}
             fetched += 1
             time.sleep(REQUEST_DELAY)
+
+        elif days_until < IMMINENT_DAYS:
+            # Within 7 days — past entry deadlines, cache is fine
+            ex = existing_meets[meet_id]
+            print(" [cached — imminent]")
+            cached += 1
+            detail = {
+                "website": ex.get("website") or "",
+                "contact": ex.get("contact") or {},
+                "events":  ex.get("events") or {"men": [], "women": []},
+            }
+
+        elif days_until <= PLANNING_HORIZON:
+            # Active planning window (7–180 days) — always fetch fresh.
+            # Athletes are making entry decisions now; accuracy is critical.
+            print(" [planning window — refresh]")
+            try:
+                detail = parse_detail(fetch_detail(meet_id))
+            except Exception as exc:
+                print(f"\n    Warning: {exc}")
+                ex = existing_meets[meet_id]
+                detail = {
+                    "website": ex.get("website") or "",
+                    "contact": ex.get("contact") or {},
+                    "events":  ex.get("events") or {"men": [], "women": []},
+                }
+            fetched += 1
+            time.sleep(REQUEST_DELAY)
+
+        else:
+            # Beyond 6 months — too early for programmes to be finalised.
+            # Cache if events are populated; fetch if empty (new info may have been added).
+            ex        = existing_meets[meet_id]
+            ex_events = ex.get("events") or {}
+            has_evs   = bool(ex_events.get("men") or ex_events.get("women"))
+
+            if has_evs:
+                print(" [cached — far out]")
+                cached += 1
+                detail = {
+                    "website": ex.get("website") or "",
+                    "contact": ex.get("contact") or {},
+                    "events":  ex_events,
+                }
+            else:
+                print(" [far out — no events yet, fetch]")
+                try:
+                    detail = parse_detail(fetch_detail(meet_id))
+                except Exception as exc:
+                    print(f"\n    Warning: {exc}")
+                    detail = {"website": "", "contact": {}, "events": {"men": [], "women": []}}
+                fetched += 1
+                time.sleep(REQUEST_DELAY)
 
         meets.append(build_meet_record(raw, detail))
 
