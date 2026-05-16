@@ -229,6 +229,8 @@ def dl_events_for_meet(city: str) -> dict:
 
 # ── END DL EVENTS ─────────────────────────────────────────────────────────────
 
+
+def map_competition_category(competition_group: str, competition_subgroup: str, ranking_category: str) -> str:
     """
     Derive the Meet Map category from the three fields available in the
     calendar API response. The API sometimes includes the subgroup (Gold/Silver/Bronze)
