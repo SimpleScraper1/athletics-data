@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-23T09:05:57.440636Z",
+  "updated": "2026-05-23T16:23:05.557434Z",
   "count": 4077,
   "meets": [
     {
@@ -144785,7 +144785,7 @@
           "lj"
         ]
       },
-      "hasResults": false
+      "hasResults": true
     },
     {
       "id": "7242760",
@@ -150577,7 +150577,7 @@
           "hep"
         ]
       },
-      "hasResults": false
+      "hasResults": true
     },
     {
       "id": "7241410",
@@ -155995,7 +155995,7 @@
           "jt"
         ]
       },
-      "hasResults": false
+      "hasResults": true
     },
     {
       "id": "7238614",
