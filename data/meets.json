@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-06T09:42:23.397145Z",
+  "updated": "2026-06-06T16:45:26.277545Z",
   "count": 3516,
   "meets": [
     {
@@ -55529,6 +55529,48 @@
       "hasResults": false
     },
     {
+      "id": "7242205",
+      "name": "Virkiän myötätuulisprintit (osa 2/2)",
+      "dateStart": "2026-07-09",
+      "dateEnd": "2026-07-09",
+      "city": "Lapuan keskuskenttä, Lapua (FIN)",
+      "countryCode": "FIN",
+      "countryName": "FIN",
+      "region": "EUR",
+      "category": "OTHER",
+      "categoryRaw": "",
+      "isIndoor": false,
+      "website": "www.lapuanvirkia.fi/yleisurheilu",
+      "contact": {
+        "name": "Hannu Tuuri",
+        "email": "virkiayu@gmail.com",
+        "phone": "+358408302346"
+      },
+      "events": {
+        "men": [
+          "100m",
+          "200m",
+          "800m",
+          "110mh",
+          "lj",
+          "pv",
+          "300m",
+          "sp"
+        ],
+        "women": [
+          "100m",
+          "200m",
+          "800m",
+          "100mh",
+          "lj",
+          "pv",
+          "300m",
+          "sp"
+        ]
+      },
+      "hasResults": false
+    },
+    {
       "id": "7243209",
       "name": "U16 Clubs Championships",
       "dateStart": "2026-07-09",
@@ -55577,48 +55619,6 @@
           "dt",
           "ht",
           "jt"
-        ]
-      },
-      "hasResults": false
-    },
-    {
-      "id": "7242205",
-      "name": "Virkiän myötätuulisprintit (osa 2/2)",
-      "dateStart": "2026-07-09",
-      "dateEnd": "2026-07-09",
-      "city": "Lapuan keskuskenttä, Lapua (FIN)",
-      "countryCode": "FIN",
-      "countryName": "FIN",
-      "region": "EUR",
-      "category": "OTHER",
-      "categoryRaw": "",
-      "isIndoor": false,
-      "website": "www.lapuanvirkia.fi/yleisurheilu",
-      "contact": {
-        "name": "Hannu Tuuri",
-        "email": "virkiayu@gmail.com",
-        "phone": "+358408302346"
-      },
-      "events": {
-        "men": [
-          "100m",
-          "200m",
-          "800m",
-          "110mh",
-          "lj",
-          "pv",
-          "300m",
-          "sp"
-        ],
-        "women": [
-          "100m",
-          "200m",
-          "800m",
-          "100mh",
-          "lj",
-          "pv",
-          "300m",
-          "sp"
         ]
       },
       "hasResults": false
@@ -110114,6 +110114,36 @@
       "hasResults": false
     },
     {
+      "id": "7234688",
+      "name": "Salix Sub Astra",
+      "dateStart": "2026-06-10",
+      "dateEnd": "2026-06-11",
+      "city": "City square, Vrbovec (CRO)",
+      "countryCode": "CRO",
+      "countryName": "CRO",
+      "region": "EUR",
+      "category": "CT",
+      "categoryRaw": "World Athletics Continental Tour – Challenger",
+      "isIndoor": false,
+      "website": "https://salixsubastra.wixsite.com/my-site-2",
+      "contact": {
+        "name": "Tena Dautanec",
+        "email": "salix.sub.astra@outlook.com",
+        "phone": "+385917665739"
+      },
+      "events": {
+        "men": [
+          "pv",
+          "lj"
+        ],
+        "women": [
+          "pv",
+          "lj"
+        ]
+      },
+      "hasResults": false
+    },
+    {
       "id": "7242176",
       "name": "Meeting Regional à Label Rouen",
       "dateStart": "2026-06-10",
@@ -110159,36 +110189,6 @@
           "5000m",
           "pv",
           "sp"
-        ]
-      },
-      "hasResults": false
-    },
-    {
-      "id": "7234688",
-      "name": "Salix Sub Astra",
-      "dateStart": "2026-06-10",
-      "dateEnd": "2026-06-11",
-      "city": "City square, Vrbovec (CRO)",
-      "countryCode": "CRO",
-      "countryName": "CRO",
-      "region": "EUR",
-      "category": "CT",
-      "categoryRaw": "World Athletics Continental Tour – Challenger",
-      "isIndoor": false,
-      "website": "https://salixsubastra.wixsite.com/my-site-2",
-      "contact": {
-        "name": "Tena Dautanec",
-        "email": "salix.sub.astra@outlook.com",
-        "phone": "+385917665739"
-      },
-      "events": {
-        "men": [
-          "pv",
-          "lj"
-        ],
-        "women": [
-          "pv",
-          "lj"
         ]
       },
       "hasResults": false
@@ -114822,37 +114822,6 @@
       "hasResults": false
     },
     {
-      "id": "7235081",
-      "name": "23. Sparkassen Werfertag",
-      "dateStart": "2026-06-07",
-      "dateEnd": "2026-06-07",
-      "city": "Stadion Erzgebirgsblick, Gelenau (GER)",
-      "countryCode": "GER",
-      "countryName": "GER",
-      "region": "EUR",
-      "category": "CTB",
-      "categoryRaw": "World Athletics Continental Tour – Bronze",
-      "isIndoor": false,
-      "website": "https://werfertag.lv90.de/",
-      "contact": {
-        "name": "Bianca Maneck",
-        "email": "b.maneck@lv90.de",
-        "phone": "+491723171364"
-      },
-      "events": {
-        "men": [
-          "sp",
-          "dt"
-        ],
-        "women": [
-          "sp",
-          "dt",
-          "ht"
-        ]
-      },
-      "hasResults": false
-    },
-    {
       "id": "7241157",
       "name": "Slovenian U20 Team Championships",
       "dateStart": "2026-06-07",
@@ -114908,6 +114877,37 @@
           "dt",
           "ht",
           "jt"
+        ]
+      },
+      "hasResults": false
+    },
+    {
+      "id": "7235081",
+      "name": "23. Sparkassen Werfertag",
+      "dateStart": "2026-06-07",
+      "dateEnd": "2026-06-07",
+      "city": "Stadion Erzgebirgsblick, Gelenau (GER)",
+      "countryCode": "GER",
+      "countryName": "GER",
+      "region": "EUR",
+      "category": "CTB",
+      "categoryRaw": "World Athletics Continental Tour – Bronze",
+      "isIndoor": false,
+      "website": "https://werfertag.lv90.de/",
+      "contact": {
+        "name": "Bianca Maneck",
+        "email": "b.maneck@lv90.de",
+        "phone": "+491723171364"
+      },
+      "events": {
+        "men": [
+          "sp",
+          "dt"
+        ],
+        "women": [
+          "sp",
+          "dt",
+          "ht"
         ]
       },
       "hasResults": false
@@ -123835,53 +123835,44 @@
       "hasResults": false
     },
     {
-      "id": "7242908",
-      "name": "Algeria Athletics One Day",
+      "id": "7241213",
+      "name": "Campeonato Paulista Loterias Caixa De Atletismo Sub-20",
       "dateStart": "2026-06-05",
-      "dateEnd": "2026-06-05",
-      "city": "Stade Souk Ethnine, Béjaïa (ALG)",
-      "countryCode": "ALG",
-      "countryName": "ALG",
-      "region": "AFR",
+      "dateEnd": "2026-06-07",
+      "city": "COTP Stadium, São Paulo (BRA)",
+      "countryCode": "BRA",
+      "countryName": "BRA",
+      "region": "AME",
       "category": "OTHER",
       "categoryRaw": "",
       "isIndoor": false,
-      "website": "",
+      "website": "https://atletismopaulista.com.br/",
       "contact": {
-        "name": "Amine DJOUHRI",
-        "email": "amine.djouhri@faa.dz",
-        "phone": "+213561958159"
+        "name": "JOEL LUCAS VIEIRA OLIVEIRA",
+        "email": "joel@atletismopaulista.com.br",
+        "phone": "+5511913076596"
       },
       "events": {
         "men": [
+          "60m",
           "100m",
           "200m",
+          "300m",
           "400m",
-          "800m",
           "500m",
-          "110mh",
-          "2000m",
-          "hj",
-          "pv",
-          "lj",
-          "tj",
-          "sp",
-          "dt",
-          "ht",
-          "jt",
-          "5000m",
-          "1500m",
-          "400mh",
-          "3000sc"
-        ],
-        "women": [
-          "100m",
-          "200m",
-          "400m",
+          "600m",
           "800m",
+          "1000m",
           "1500m",
-          "100mh",
+          "mile",
+          "2000m",
+          "3000m",
+          "5000m",
+          "10000m",
+          "60mh",
+          "110mh",
           "400mh",
+          "2000sc",
           "3000sc",
           "hj",
           "pv",
@@ -123891,12 +123882,83 @@
           "dt",
           "ht",
           "jt",
-          "5000m",
+          "dec",
+          "4x100",
+          "4x200",
+          "4x400",
+          "4x800",
+          "4x1500",
+          "mar"
+        ],
+        "women": [
+          "60m",
+          "100m",
+          "200m",
+          "300m",
+          "400m",
           "500m",
-          "2000m"
+          "600m",
+          "800m",
+          "1000m",
+          "1500m",
+          "mile",
+          "2000m",
+          "3000m",
+          "5000m",
+          "10000m",
+          "60mh",
+          "100mh",
+          "400mh",
+          "2000sc",
+          "3000sc",
+          "hj",
+          "pv",
+          "lj",
+          "tj",
+          "sp",
+          "dt",
+          "ht",
+          "jt",
+          "hep",
+          "4x100",
+          "4x200",
+          "4x400",
+          "4x1500",
+          "4x800",
+          "mar"
         ]
       },
       "hasResults": false
+    },
+    {
+      "id": "7240745",
+      "name": "WoluTrackClassic",
+      "dateStart": "2026-06-05",
+      "dateEnd": "2026-06-05",
+      "city": "Stade Fallon, Sint-Lambrechts-Woluwé (BEL)",
+      "countryCode": "BEL",
+      "countryName": "BEL",
+      "region": "EUR",
+      "category": "OTHER",
+      "categoryRaw": "",
+      "isIndoor": false,
+      "website": "www.whitestarac-athletic.com",
+      "contact": {
+        "name": "LBFA",
+        "email": "whitestarac@outlook.com",
+        "phone": "+3224747201"
+      },
+      "events": {
+        "men": [
+          "3000m",
+          "2000m"
+        ],
+        "women": [
+          "2000m",
+          "3000m"
+        ]
+      },
+      "hasResults": true
     },
     {
       "id": "7237638",
@@ -123950,36 +124012,6 @@
         ]
       },
       "hasResults": false
-    },
-    {
-      "id": "7240745",
-      "name": "WoluTrackClassic",
-      "dateStart": "2026-06-05",
-      "dateEnd": "2026-06-05",
-      "city": "Stade Fallon, Sint-Lambrechts-Woluwé (BEL)",
-      "countryCode": "BEL",
-      "countryName": "BEL",
-      "region": "EUR",
-      "category": "OTHER",
-      "categoryRaw": "",
-      "isIndoor": false,
-      "website": "www.whitestarac-athletic.com",
-      "contact": {
-        "name": "LBFA",
-        "email": "whitestarac@outlook.com",
-        "phone": "+3224747201"
-      },
-      "events": {
-        "men": [
-          "3000m",
-          "2000m"
-        ],
-        "women": [
-          "2000m",
-          "3000m"
-        ]
-      },
-      "hasResults": true
     },
     {
       "id": "7235095",
@@ -124094,34 +124126,6 @@
       "hasResults": false
     },
     {
-      "id": "7234677",
-      "name": "Touch the clouds festival 2026",
-      "dateStart": "2026-06-05",
-      "dateEnd": "2026-06-07",
-      "city": "G-Town Track, Gräfelfing (GER)",
-      "countryCode": "GER",
-      "countryName": "GER",
-      "region": "EUR",
-      "category": "CTB",
-      "categoryRaw": "World Athletics Continental Tour – Bronze",
-      "isIndoor": false,
-      "website": "www.touchtheclouds.de",
-      "contact": {
-        "name": "Matthias Schimmelpfennig",
-        "email": "info@touchtheclouds.de",
-        "phone": "+491636701160"
-      },
-      "events": {
-        "men": [
-          "pv"
-        ],
-        "women": [
-          "pv"
-        ]
-      },
-      "hasResults": true
-    },
-    {
       "id": "7239045",
       "name": "10K da Cidade do Rio de Janeiro",
       "dateStart": "2026-06-05",
@@ -124148,6 +124152,44 @@
         ]
       },
       "hasResults": false
+    },
+    {
+      "id": "7242172",
+      "name": "Virkiän myötätuulisprintit",
+      "dateStart": "2026-06-05",
+      "dateEnd": "2026-06-05",
+      "city": "Lapuan keskuskenttä, Lapua (FIN)",
+      "countryCode": "FIN",
+      "countryName": "FIN",
+      "region": "EUR",
+      "category": "OTHER",
+      "categoryRaw": "",
+      "isIndoor": false,
+      "website": "www.lapuanvirkia.fi/yleisurheilu",
+      "contact": {
+        "name": "Hannu Tuuri",
+        "email": "virkiayu@gmail.com",
+        "phone": "+358408302346"
+      },
+      "events": {
+        "men": [
+          "100m",
+          "200m",
+          "400m",
+          "sp",
+          "hj",
+          "800m"
+        ],
+        "women": [
+          "100m",
+          "200m",
+          "400m",
+          "sp",
+          "hj",
+          "800m"
+        ]
+      },
+      "hasResults": true
     },
     {
       "id": "7239046",
@@ -124241,7 +124283,7 @@
         "men": [],
         "women": []
       },
-      "hasResults": false
+      "hasResults": true
     },
     {
       "id": "7239080",
@@ -124307,7 +124349,7 @@
           "4x400"
         ]
       },
-      "hasResults": false
+      "hasResults": true
     },
     {
       "id": "7234511",
@@ -124529,6 +124571,72 @@
           "pv"
         ]
       },
+      "hasResults": true
+    },
+    {
+      "id": "7241786",
+      "name": "Memorial José Barrientos",
+      "dateStart": "2026-06-05",
+      "dateEnd": "2026-06-05",
+      "city": "Estadio Panamericano, La Habana (CUB)",
+      "countryCode": "CUB",
+      "countryName": "CUB",
+      "region": "AME",
+      "category": "CT",
+      "categoryRaw": "World Athletics Continental Tour – Challenger",
+      "isIndoor": false,
+      "website": "",
+      "contact": {
+        "name": "Alfredo Sánchez Barrios",
+        "email": "alfredo.sanchez.65@gmail.com",
+        "phone": "+5353960384"
+      },
+      "events": {
+        "men": [
+          "100m",
+          "200m",
+          "400m",
+          "800m",
+          "1500m",
+          "5000m",
+          "10000m",
+          "110mh",
+          "400mh",
+          "3000sc",
+          "hj",
+          "pv",
+          "lj",
+          "tj",
+          "sp",
+          "dt",
+          "ht",
+          "jt",
+          "4x100",
+          "4x400"
+        ],
+        "women": [
+          "100m",
+          "200m",
+          "400m",
+          "800m",
+          "1500m",
+          "5000m",
+          "10000m",
+          "100mh",
+          "400mh",
+          "3000sc",
+          "hj",
+          "pv",
+          "lj",
+          "tj",
+          "sp",
+          "dt",
+          "ht",
+          "jt",
+          "4x100",
+          "4x400"
+        ]
+      },
       "hasResults": false
     },
     {
@@ -124557,35 +124665,7 @@
           "mile"
         ]
       },
-      "hasResults": false
-    },
-    {
-      "id": "7234146",
-      "name": "Road Race Nes Ziona",
-      "dateStart": "2026-06-05",
-      "dateEnd": "2026-06-05",
-      "city": "Nes Ziona (ISR)",
-      "countryCode": "ISR",
-      "countryName": "ISR",
-      "region": "EUR",
-      "category": "OTHER",
-      "categoryRaw": "",
-      "isIndoor": false,
-      "website": "",
-      "contact": {
-        "name": "Arie Gamliel",
-        "email": "arie@iaa.co.il",
-        "phone": "+972506433033"
-      },
-      "events": {
-        "men": [
-          "10km"
-        ],
-        "women": [
-          "10km"
-        ]
-      },
-      "hasResults": false
+      "hasResults": true
     },
     {
       "id": "7242920",
@@ -124653,6 +124733,34 @@
           "4x100",
           "4x400",
           "sp"
+        ]
+      },
+      "hasResults": false
+    },
+    {
+      "id": "7234146",
+      "name": "Road Race Nes Ziona",
+      "dateStart": "2026-06-05",
+      "dateEnd": "2026-06-05",
+      "city": "Nes Ziona (ISR)",
+      "countryCode": "ISR",
+      "countryName": "ISR",
+      "region": "EUR",
+      "category": "OTHER",
+      "categoryRaw": "",
+      "isIndoor": false,
+      "website": "",
+      "contact": {
+        "name": "Arie Gamliel",
+        "email": "arie@iaa.co.il",
+        "phone": "+972506433033"
+      },
+      "events": {
+        "men": [
+          "10km"
+        ],
+        "women": [
+          "10km"
         ]
       },
       "hasResults": false
@@ -124736,6 +124844,40 @@
       "hasResults": false
     },
     {
+      "id": "7243022",
+      "name": "Roma Sprint Festival",
+      "dateStart": "2026-06-05",
+      "dateEnd": "2026-06-05",
+      "city": "Stadio dei Marmi, Roma (ITA)",
+      "countryCode": "ITA",
+      "countryName": "ITA",
+      "region": "EUR",
+      "category": "OTHER",
+      "categoryRaw": "",
+      "isIndoor": false,
+      "website": "",
+      "contact": {
+        "name": "Andrea Amato",
+        "email": "andreamato3@gmail.com",
+        "phone": "+393516798329"
+      },
+      "events": {
+        "men": [
+          "100m",
+          "200m",
+          "400m",
+          "4x100"
+        ],
+        "women": [
+          "100m",
+          "200m",
+          "400m",
+          "4x100"
+        ]
+      },
+      "hasResults": false
+    },
+    {
       "id": "7238613",
       "name": "Meeting du CDA 65",
       "dateStart": "2026-06-05",
@@ -124773,42 +124915,97 @@
           "lj"
         ]
       },
-      "hasResults": false
+      "hasResults": true
     },
     {
-      "id": "7242172",
-      "name": "Virkiän myötätuulisprintit (osa1/2)",
+      "id": "7238642",
+      "name": "Meeting National de Colmar",
       "dateStart": "2026-06-05",
       "dateEnd": "2026-06-05",
-      "city": "Lapuan keskuskenttä, Lapua (FIN)",
-      "countryCode": "FIN",
-      "countryName": "FIN",
+      "city": "Complexe athlétisme Europe, Colmar (FRA)",
+      "countryCode": "FRA",
+      "countryName": "FRA",
       "region": "EUR",
       "category": "OTHER",
       "categoryRaw": "",
       "isIndoor": false,
-      "website": "www.lapuanvirkia.fi/yleisurheilu",
+      "website": "",
       "contact": {
-        "name": "Hannu Tuuri",
-        "email": "virkiayu@gmail.com",
-        "phone": "+358408302346"
+        "name": "Adrien Kalt",
+        "email": "developpement.pca@gmail.com",
+        "phone": "+33781918942"
       },
       "events": {
         "men": [
           "100m",
           "200m",
           "400m",
-          "sp",
-          "hj",
-          "800m"
+          "800m",
+          "1500m",
+          "jt",
+          "dt"
         ],
         "women": [
           "100m",
           "200m",
-          "400m",
-          "sp",
-          "hj",
-          "800m"
+          "800m",
+          "3000m",
+          "jt"
+        ]
+      },
+      "hasResults": false
+    },
+    {
+      "id": "7234677",
+      "name": "Touch the clouds festival 2026",
+      "dateStart": "2026-06-05",
+      "dateEnd": "2026-06-07",
+      "city": "G-Town Track, Gräfelfing (GER)",
+      "countryCode": "GER",
+      "countryName": "GER",
+      "region": "EUR",
+      "category": "CTB",
+      "categoryRaw": "World Athletics Continental Tour – Bronze",
+      "isIndoor": false,
+      "website": "www.touchtheclouds.de",
+      "contact": {
+        "name": "Matthias Schimmelpfennig",
+        "email": "info@touchtheclouds.de",
+        "phone": "+491636701160"
+      },
+      "events": {
+        "men": [
+          "pv"
+        ],
+        "women": [
+          "pv"
+        ]
+      },
+      "hasResults": true
+    },
+    {
+      "id": "7241735",
+      "name": "FH mót 1",
+      "dateStart": "2026-06-05",
+      "dateEnd": "2026-06-05",
+      "city": "Kaplakriki, íþróttavöllur, Hafnarfjördur (ISL)",
+      "countryCode": "ISL",
+      "countryName": "ISL",
+      "region": "OTHER",
+      "category": "OTHER",
+      "categoryRaw": "",
+      "isIndoor": false,
+      "website": "roster",
+      "contact": {
+        "name": "Sigurdur Haraldsson",
+        "email": "siggih@hafnarfjordur.is",
+        "phone": "+3546645631"
+      },
+      "events": {
+        "men": [],
+        "women": [
+          "dt",
+          "ht"
         ]
       },
       "hasResults": false
@@ -124884,105 +125081,6 @@
       "hasResults": false
     },
     {
-      "id": "7238642",
-      "name": "Meeting National de Colmar",
-      "dateStart": "2026-06-05",
-      "dateEnd": "2026-06-05",
-      "city": "Complexe athlétisme Europe, Colmar (FRA)",
-      "countryCode": "FRA",
-      "countryName": "FRA",
-      "region": "EUR",
-      "category": "OTHER",
-      "categoryRaw": "",
-      "isIndoor": false,
-      "website": "",
-      "contact": {
-        "name": "Adrien Kalt",
-        "email": "developpement.pca@gmail.com",
-        "phone": "+33781918942"
-      },
-      "events": {
-        "men": [
-          "100m",
-          "200m",
-          "400m",
-          "800m",
-          "1500m",
-          "jt",
-          "dt"
-        ],
-        "women": [
-          "100m",
-          "200m",
-          "800m",
-          "3000m",
-          "jt"
-        ]
-      },
-      "hasResults": false
-    },
-    {
-      "id": "7243022",
-      "name": "Roma Sprint Festival",
-      "dateStart": "2026-06-05",
-      "dateEnd": "2026-06-05",
-      "city": "Stadio dei Marmi, Roma (ITA)",
-      "countryCode": "ITA",
-      "countryName": "ITA",
-      "region": "EUR",
-      "category": "OTHER",
-      "categoryRaw": "",
-      "isIndoor": false,
-      "website": "",
-      "contact": {
-        "name": "Andrea Amato",
-        "email": "andreamato3@gmail.com",
-        "phone": "+393516798329"
-      },
-      "events": {
-        "men": [
-          "100m",
-          "200m",
-          "400m",
-          "4x100"
-        ],
-        "women": [
-          "100m",
-          "200m",
-          "400m",
-          "4x100"
-        ]
-      },
-      "hasResults": false
-    },
-    {
-      "id": "7241735",
-      "name": "FH mót 1",
-      "dateStart": "2026-06-05",
-      "dateEnd": "2026-06-05",
-      "city": "Kaplakriki, íþróttavöllur, Hafnarfjördur (ISL)",
-      "countryCode": "ISL",
-      "countryName": "ISL",
-      "region": "OTHER",
-      "category": "OTHER",
-      "categoryRaw": "",
-      "isIndoor": false,
-      "website": "roster",
-      "contact": {
-        "name": "Sigurdur Haraldsson",
-        "email": "siggih@hafnarfjordur.is",
-        "phone": "+3546645631"
-      },
-      "events": {
-        "men": [],
-        "women": [
-          "dt",
-          "ht"
-        ]
-      },
-      "hasResults": false
-    },
-    {
       "id": "7235204",
       "name": "Running and Music with Pole Vault",
       "dateStart": "2026-06-05",
@@ -125025,6 +125123,64 @@
         ]
       },
       "hasResults": true
+    },
+    {
+      "id": "7240860",
+      "name": "Sumarleikar HSÞ",
+      "dateStart": "2026-06-05",
+      "dateEnd": "2026-06-07",
+      "city": "Laugavöllur, Laugar (ISL)",
+      "countryCode": "ISL",
+      "countryName": "ISL",
+      "region": "OTHER",
+      "category": "OTHER",
+      "categoryRaw": "",
+      "isIndoor": false,
+      "website": "https://meets.rosterathletics.com/public/competitions/details/about?id=28449",
+      "contact": {
+        "name": "Gunnhildur Hinriksdóttir",
+        "email": "ghinriks@gmail.com",
+        "phone": "+3546945244"
+      },
+      "events": {
+        "men": [
+          "100m",
+          "200m",
+          "400m",
+          "800m",
+          "1500m",
+          "110mh",
+          "400mh",
+          "hj",
+          "pv",
+          "lj",
+          "tj",
+          "4x100",
+          "sp",
+          "dt",
+          "ht",
+          "jt"
+        ],
+        "women": [
+          "100m",
+          "200m",
+          "400m",
+          "800m",
+          "1500m",
+          "100mh",
+          "400mh",
+          "hj",
+          "pv",
+          "lj",
+          "tj",
+          "sp",
+          "dt",
+          "ht",
+          "jt",
+          "4x100"
+        ]
+      },
+      "hasResults": false
     },
     {
       "id": "7242532",
@@ -125089,64 +125245,6 @@
           "4x100",
           "4x400",
           "5km"
-        ]
-      },
-      "hasResults": false
-    },
-    {
-      "id": "7240860",
-      "name": "Sumarleikar HSÞ",
-      "dateStart": "2026-06-05",
-      "dateEnd": "2026-06-07",
-      "city": "Laugavöllur, Laugar (ISL)",
-      "countryCode": "ISL",
-      "countryName": "ISL",
-      "region": "OTHER",
-      "category": "OTHER",
-      "categoryRaw": "",
-      "isIndoor": false,
-      "website": "https://meets.rosterathletics.com/public/competitions/details/about?id=28449",
-      "contact": {
-        "name": "Gunnhildur Hinriksdóttir",
-        "email": "ghinriks@gmail.com",
-        "phone": "+3546945244"
-      },
-      "events": {
-        "men": [
-          "100m",
-          "200m",
-          "400m",
-          "800m",
-          "1500m",
-          "110mh",
-          "400mh",
-          "hj",
-          "pv",
-          "lj",
-          "tj",
-          "4x100",
-          "sp",
-          "dt",
-          "ht",
-          "jt"
-        ],
-        "women": [
-          "100m",
-          "200m",
-          "400m",
-          "800m",
-          "1500m",
-          "100mh",
-          "400mh",
-          "hj",
-          "pv",
-          "lj",
-          "tj",
-          "sp",
-          "dt",
-          "ht",
-          "jt",
-          "4x100"
         ]
       },
       "hasResults": false
@@ -125264,6 +125362,43 @@
       "hasResults": false
     },
     {
+      "id": "7241722",
+      "name": "Meeting Demi-Fond Georges Willems",
+      "dateStart": "2026-06-05",
+      "dateEnd": "2026-06-05",
+      "city": "Stade G. Lemaire, Villeneuve d'Ascq (FRA)",
+      "countryCode": "FRA",
+      "countryName": "FRA",
+      "region": "EUR",
+      "category": "OTHER",
+      "categoryRaw": "",
+      "isIndoor": false,
+      "website": "",
+      "contact": {
+        "name": "ANTOINE MANGEZ",
+        "email": "antoine.athle59@orange.fr",
+        "phone": "+33320611843"
+      },
+      "events": {
+        "men": [
+          "800m",
+          "1500m",
+          "3000m",
+          "2000m",
+          "3000sc"
+        ],
+        "women": [
+          "800m",
+          "1500m",
+          "3000m",
+          "2000sc",
+          "2000m",
+          "3000sc"
+        ]
+      },
+      "hasResults": true
+    },
+    {
       "id": "7240717",
       "name": "SHSAA Championships",
       "dateStart": "2026-06-05",
@@ -125317,43 +125452,6 @@
           "1500m",
           "4x100",
           "4x400"
-        ]
-      },
-      "hasResults": false
-    },
-    {
-      "id": "7241722",
-      "name": "Meeting Demi-Fond Georges Willems",
-      "dateStart": "2026-06-05",
-      "dateEnd": "2026-06-05",
-      "city": "Stade G. Lemaire, Villeneuve d'Ascq (FRA)",
-      "countryCode": "FRA",
-      "countryName": "FRA",
-      "region": "EUR",
-      "category": "OTHER",
-      "categoryRaw": "",
-      "isIndoor": false,
-      "website": "",
-      "contact": {
-        "name": "ANTOINE MANGEZ",
-        "email": "antoine.athle59@orange.fr",
-        "phone": "+33320611843"
-      },
-      "events": {
-        "men": [
-          "800m",
-          "1500m",
-          "3000m",
-          "2000m",
-          "3000sc"
-        ],
-        "women": [
-          "800m",
-          "1500m",
-          "3000m",
-          "2000sc",
-          "2000m",
-          "3000sc"
         ]
       },
       "hasResults": false
@@ -125800,45 +125898,32 @@
       "hasResults": true
     },
     {
-      "id": "7241213",
-      "name": "Campeonato Paulista Loterias Caixa De Atletismo Sub-20",
+      "id": "7242908",
+      "name": "Algeria Athletics One Day",
       "dateStart": "2026-06-05",
-      "dateEnd": "2026-06-07",
-      "city": "COTP Stadium, São Paulo (BRA)",
-      "countryCode": "BRA",
-      "countryName": "BRA",
-      "region": "AME",
+      "dateEnd": "2026-06-05",
+      "city": "Stade Souk Ethnine, Béjaïa (ALG)",
+      "countryCode": "ALG",
+      "countryName": "ALG",
+      "region": "AFR",
       "category": "OTHER",
       "categoryRaw": "",
       "isIndoor": false,
-      "website": "https://atletismopaulista.com.br/",
+      "website": "",
       "contact": {
-        "name": "JOEL LUCAS VIEIRA OLIVEIRA",
-        "email": "joel@atletismopaulista.com.br",
-        "phone": "+5511913076596"
+        "name": "Amine DJOUHRI",
+        "email": "amine.djouhri@faa.dz",
+        "phone": "+213561958159"
       },
       "events": {
         "men": [
-          "60m",
           "100m",
           "200m",
-          "300m",
           "400m",
-          "500m",
-          "600m",
           "800m",
-          "1000m",
-          "1500m",
-          "mile",
-          "2000m",
-          "3000m",
-          "5000m",
-          "10000m",
-          "60mh",
+          "500m",
           "110mh",
-          "400mh",
-          "2000sc",
-          "3000sc",
+          "2000m",
           "hj",
           "pv",
           "lj",
@@ -125847,34 +125932,19 @@
           "dt",
           "ht",
           "jt",
-          "dec",
-          "4x100",
-          "4x200",
-          "4x400",
-          "4x800",
-          "4x1500",
-          "mar"
+          "5000m",
+          "1500m",
+          "400mh",
+          "3000sc"
         ],
         "women": [
-          "60m",
           "100m",
           "200m",
-          "300m",
           "400m",
-          "500m",
-          "600m",
           "800m",
-          "1000m",
           "1500m",
-          "mile",
-          "2000m",
-          "3000m",
-          "5000m",
-          "10000m",
-          "60mh",
           "100mh",
           "400mh",
-          "2000sc",
           "3000sc",
           "hj",
           "pv",
@@ -125884,13 +125954,9 @@
           "dt",
           "ht",
           "jt",
-          "hep",
-          "4x100",
-          "4x200",
-          "4x400",
-          "4x1500",
-          "4x800",
-          "mar"
+          "5000m",
+          "500m",
+          "2000m"
         ]
       },
       "hasResults": false
@@ -126133,72 +126199,6 @@
         ]
       },
       "hasResults": true
-    },
-    {
-      "id": "7241786",
-      "name": "Memorial José Barrientos",
-      "dateStart": "2026-06-04",
-      "dateEnd": "2026-06-05",
-      "city": "Estadio Panamericano, La Habana (CUB)",
-      "countryCode": "CUB",
-      "countryName": "CUB",
-      "region": "AME",
-      "category": "CT",
-      "categoryRaw": "World Athletics Continental Tour – Challenger",
-      "isIndoor": false,
-      "website": "",
-      "contact": {
-        "name": "Alfredo Sánchez Barrios",
-        "email": "alfredo.sanchez.65@gmail.com",
-        "phone": "+5353960384"
-      },
-      "events": {
-        "men": [
-          "100m",
-          "200m",
-          "400m",
-          "800m",
-          "1500m",
-          "5000m",
-          "10000m",
-          "110mh",
-          "400mh",
-          "3000sc",
-          "hj",
-          "pv",
-          "lj",
-          "tj",
-          "sp",
-          "dt",
-          "ht",
-          "jt",
-          "4x100",
-          "4x400"
-        ],
-        "women": [
-          "100m",
-          "200m",
-          "400m",
-          "800m",
-          "1500m",
-          "5000m",
-          "10000m",
-          "100mh",
-          "400mh",
-          "3000sc",
-          "hj",
-          "pv",
-          "lj",
-          "tj",
-          "sp",
-          "dt",
-          "ht",
-          "jt",
-          "4x100",
-          "4x400"
-        ]
-      },
-      "hasResults": false
     },
     {
       "id": "7241188",
@@ -127117,73 +127117,99 @@
       "hasResults": true
     },
     {
-      "id": "7240316",
-      "name": "Silver Gala",
+      "id": "7240990",
+      "name": "38. Freienbacher Abendmeeting",
       "dateStart": "2026-06-03",
       "dateEnd": "2026-06-03",
-      "city": "Stadio Olimpico, Roma (ITA)",
-      "countryCode": "ITA",
-      "countryName": "ITA",
+      "city": "Sportanlage Chrummen, Freienbach (SUI)",
+      "countryCode": "SUI",
+      "countryName": "SUI",
       "region": "EUR",
       "category": "OTHER",
       "categoryRaw": "",
       "isIndoor": false,
-      "website": "https://www.fidal.it/calendario/SILVER-GALA/COD15360",
+      "website": "https://www.ktvfreienbach.ch/index.php/abendmeeting-freienbach",
       "contact": {
-        "name": "Lorenzo Cipriani",
-        "email": "globalcalendar@fidal.it",
-        "phone": "+390633484738"
+        "name": "Martin Kuster",
+        "email": "m.kuster@bluewin.ch",
+        "phone": "+41786742043"
       },
       "events": {
         "men": [
           "100m",
           "200m",
+          "800m",
+          "5000m",
           "110mh",
           "hj",
+          "pv",
           "lj",
-          "jt"
+          "sp",
+          "dt"
         ],
         "women": [
           "100m",
+          "200m",
+          "600m",
           "800m",
-          "1500m",
-          "400mh"
+          "5000m",
+          "100mh",
+          "hj",
+          "pv",
+          "lj",
+          "sp",
+          "dt"
         ]
       },
       "hasResults": true
     },
     {
-      "id": "7240843",
-      "name": "Granada Challenger",
+      "id": "7242335",
+      "name": "Crépuscule André-Grimard",
       "dateStart": "2026-06-03",
       "dateEnd": "2026-06-03",
-      "city": "Estadio de la Juventud de Granada, Granada (ESP)",
-      "countryCode": "ESP",
-      "countryName": "ESP",
-      "region": "EUR",
-      "category": "CT",
-      "categoryRaw": "World Athletics Continental Tour – Challenger",
+      "city": "Stade University Sherbrooke, Sherbrooke (CAN)",
+      "countryCode": "CAN",
+      "countryName": "CAN",
+      "region": "AME",
+      "category": "OTHER",
+      "categoryRaw": "",
       "isIndoor": false,
-      "website": "atletismofaa.es",
+      "website": "",
       "contact": {
-        "name": "RAFAEL JARAMILLO GARCIA",
-        "email": "mitinandalucia@atletismofaa.es",
-        "phone": "+34605804871"
+        "name": "Emilie Rochefort",
+        "email": "erochefort@athletisme.qc.ca",
+        "phone": "+14384979792"
       },
       "events": {
         "men": [
-          "100m",
+          "800m",
+          "110mh",
+          "pv",
           "lj",
-          "pv"
-        ],
-        "women": [
+          "jt",
           "100m",
           "400m",
-          "hj",
-          "tj"
+          "1500m",
+          "3000sc",
+          "tj",
+          "ht"
+        ],
+        "women": [
+          "800m",
+          "100mh",
+          "pv",
+          "lj",
+          "jt",
+          "100m",
+          "400m",
+          "1500m",
+          "3000sc",
+          "tj",
+          "ht"
         ]
       },
-      "hasResults": true
+      "hasResults": false
     },
     {
       "id": "7237312",
@@ -127278,6 +127304,192 @@
       "hasResults": true
     },
     {
+      "id": "7237186",
+      "name": "Dublin Graded Leagues 4",
+      "dateStart": "2026-06-03",
+      "dateEnd": "2026-06-03",
+      "city": "Morton Stadium, Santry, Dublin (IRL)",
+      "countryCode": "IRL",
+      "countryName": "IRL",
+      "region": "EUR",
+      "category": "OTHER",
+      "categoryRaw": "",
+      "isIndoor": false,
+      "website": "www.dublinathletics.com",
+      "contact": {
+        "name": "Dermot Nagle",
+        "email": "dublinathleticsgradedleagues23@gmail.com",
+        "phone": "+353863189820"
+      },
+      "events": {
+        "men": [
+          "100m",
+          "800m",
+          "5000m",
+          "hj",
+          "tj",
+          "ht"
+        ],
+        "women": [
+          "100m",
+          "800m",
+          "5000m",
+          "hj",
+          "tj",
+          "ht"
+        ]
+      },
+      "hasResults": true
+    },
+    {
+      "id": "7241553",
+      "name": "Gran Premio de Valladolid - Ciudad Europea del Deporte",
+      "dateStart": "2026-06-03",
+      "dateEnd": "2026-06-03",
+      "city": "Complejo Deportivo Ciudad de Valladolid, Valladolid (ESP)",
+      "countryCode": "ESP",
+      "countryName": "ESP",
+      "region": "EUR",
+      "category": "OTHER",
+      "categoryRaw": "",
+      "isIndoor": false,
+      "website": "",
+      "contact": {
+        "name": "Victor Alonso",
+        "email": "victoralonso10k@gmail.com",
+        "phone": "+34655559337"
+      },
+      "events": {
+        "men": [
+          "100m",
+          "200m",
+          "400m",
+          "600m",
+          "800m",
+          "110mh",
+          "3000sc",
+          "hj",
+          "sp",
+          "dt",
+          "jt",
+          "4x100"
+        ],
+        "women": [
+          "100m",
+          "200m",
+          "400m",
+          "800m",
+          "100mh",
+          "hj",
+          "sp",
+          "dt",
+          "jt",
+          "4x100",
+          "1500m"
+        ]
+      },
+      "hasResults": true
+    },
+    {
+      "id": "7242334",
+      "name": "2ª Noite Quente",
+      "dateStart": "2026-06-03",
+      "dateEnd": "2026-06-03",
+      "city": "Complexo Desportivo de Leça da Palmeira, Matosinhos (POR)",
+      "countryCode": "POR",
+      "countryName": "POR",
+      "region": "EUR",
+      "category": "OTHER",
+      "categoryRaw": "",
+      "isIndoor": false,
+      "website": "www.aaporto.com",
+      "contact": {
+        "name": "Filipe Silva",
+        "email": "dtr.aaporto@gmail.com",
+        "phone": "+351936805047"
+      },
+      "events": {
+        "men": [
+          "100m",
+          "1500m",
+          "400mh",
+          "tj",
+          "sp",
+          "200m",
+          "hj",
+          "5000m"
+        ],
+        "women": [
+          "100m",
+          "1500m",
+          "400mh",
+          "tj",
+          "sp",
+          "200m",
+          "5000m",
+          "hj"
+        ]
+      },
+      "hasResults": false
+    },
+    {
+      "id": "7235085",
+      "name": "Filothei Women Gala",
+      "dateStart": "2026-06-03",
+      "dateEnd": "2026-06-03",
+      "city": "Filothei Stadium, Athina (GRE)",
+      "countryCode": "GRE",
+      "countryName": "GRE",
+      "region": "EUR",
+      "category": "CTB",
+      "categoryRaw": "World Athletics Continental Tour – Bronze",
+      "isIndoor": false,
+      "website": "www.filothei-gala.org",
+      "contact": {
+        "name": "IOANNIS KOUTSOGIANNOPOULOS",
+        "email": "koutsoyannopoulos@gmail.com",
+        "phone": "+306932245454"
+      },
+      "events": {
+        "men": [],
+        "women": [
+          "hj",
+          "pv",
+          "lj",
+          "tj"
+        ]
+      },
+      "hasResults": true
+    },
+    {
+      "id": "7241892",
+      "name": "Kohila pikamaajooksude sari IV etapp",
+      "dateStart": "2026-06-03",
+      "dateEnd": "2026-06-03",
+      "city": "Kohila staadion, Kohila (EST)",
+      "countryCode": "EST",
+      "countryName": "EST",
+      "region": "EUR",
+      "category": "OTHER",
+      "categoryRaw": "",
+      "isIndoor": false,
+      "website": "",
+      "contact": {
+        "name": "Artur Ojasalu",
+        "email": "artur.ojasalu@kohila.ee",
+        "phone": "+37255560085"
+      },
+      "events": {
+        "men": [
+          "400m"
+        ],
+        "women": [
+          "400m"
+        ]
+      },
+      "hasResults": true
+    },
+    {
       "id": "7242505",
       "name": "Central Federal District Championships",
       "dateStart": "2026-06-03",
@@ -127352,143 +127564,6 @@
         ]
       },
       "hasResults": false
-    },
-    {
-      "id": "7242334",
-      "name": "2ª Noite Quente",
-      "dateStart": "2026-06-03",
-      "dateEnd": "2026-06-03",
-      "city": "Complexo Desportivo de Leça da Palmeira, Matosinhos (POR)",
-      "countryCode": "POR",
-      "countryName": "POR",
-      "region": "EUR",
-      "category": "OTHER",
-      "categoryRaw": "",
-      "isIndoor": false,
-      "website": "www.aaporto.com",
-      "contact": {
-        "name": "Filipe Silva",
-        "email": "dtr.aaporto@gmail.com",
-        "phone": "+351936805047"
-      },
-      "events": {
-        "men": [
-          "100m",
-          "1500m",
-          "400mh",
-          "tj",
-          "sp",
-          "200m",
-          "hj",
-          "5000m"
-        ],
-        "women": [
-          "100m",
-          "1500m",
-          "400mh",
-          "tj",
-          "sp",
-          "200m",
-          "5000m",
-          "hj"
-        ]
-      },
-      "hasResults": false
-    },
-    {
-      "id": "7243188",
-      "name": "6ª Noite do Lis",
-      "dateStart": "2026-06-03",
-      "dateEnd": "2026-06-03",
-      "city": "Estádio Dr. Magalhães Pessoa, Leiria (POR)",
-      "countryCode": "POR",
-      "countryName": "POR",
-      "region": "EUR",
-      "category": "OTHER",
-      "categoryRaw": "",
-      "isIndoor": false,
-      "website": "https://beta.fpacompeticoes.pt/inscriptions/6144",
-      "contact": {
-        "name": "António Reis",
-        "email": "antonio.reis@adal.pt",
-        "phone": "+351927908526"
-      },
-      "events": {
-        "men": [
-          "200m",
-          "800m",
-          "3000m",
-          "400mh",
-          "tj"
-        ],
-        "women": [
-          "200m",
-          "800m",
-          "3000m",
-          "400mh",
-          "400m",
-          "pv",
-          "tj"
-        ]
-      },
-      "hasResults": false
-    },
-    {
-      "id": "7235085",
-      "name": "Filothei Women Gala",
-      "dateStart": "2026-06-03",
-      "dateEnd": "2026-06-03",
-      "city": "Filothei Stadium, Athina (GRE)",
-      "countryCode": "GRE",
-      "countryName": "GRE",
-      "region": "EUR",
-      "category": "CTB",
-      "categoryRaw": "World Athletics Continental Tour – Bronze",
-      "isIndoor": false,
-      "website": "www.filothei-gala.org",
-      "contact": {
-        "name": "IOANNIS KOUTSOGIANNOPOULOS",
-        "email": "koutsoyannopoulos@gmail.com",
-        "phone": "+306932245454"
-      },
-      "events": {
-        "men": [],
-        "women": [
-          "hj",
-          "pv",
-          "lj",
-          "tj"
-        ]
-      },
-      "hasResults": true
-    },
-    {
-      "id": "7241892",
-      "name": "Kohila pikamaajooksude sari IV etapp",
-      "dateStart": "2026-06-03",
-      "dateEnd": "2026-06-03",
-      "city": "Kohila staadion, Kohila (EST)",
-      "countryCode": "EST",
-      "countryName": "EST",
-      "region": "EUR",
-      "category": "OTHER",
-      "categoryRaw": "",
-      "isIndoor": false,
-      "website": "",
-      "contact": {
-        "name": "Artur Ojasalu",
-        "email": "artur.ojasalu@kohila.ee",
-        "phone": "+37255560085"
-      },
-      "events": {
-        "men": [
-          "400m"
-        ],
-        "women": [
-          "400m"
-        ]
-      },
-      "hasResults": true
     },
     {
       "id": "7241879",
@@ -127599,88 +127674,75 @@
       "hasResults": false
     },
     {
-      "id": "7230225",
-      "name": "Paavo Nurmi Games",
+      "id": "7243188",
+      "name": "6ª Noite do Lis",
       "dateStart": "2026-06-03",
       "dateEnd": "2026-06-03",
-      "city": "Paavo Nurmen Stadion, Turku (FIN)",
-      "countryCode": "FIN",
-      "countryName": "FIN",
+      "city": "Estádio Dr. Magalhães Pessoa, Leiria (POR)",
+      "countryCode": "POR",
+      "countryName": "POR",
       "region": "EUR",
-      "category": "CTG",
-      "categoryRaw": "World Athletics Continental Tour – Gold",
+      "category": "OTHER",
+      "categoryRaw": "",
       "isIndoor": false,
-      "website": "https://paavonurmigames.fi/",
+      "website": "https://beta.fpacompeticoes.pt/inscriptions/6144",
       "contact": {
-        "name": "Jari Salonen",
-        "email": "jari.salonen@paavonurmigames.fi",
-        "phone": "+358500627973"
+        "name": "António Reis",
+        "email": "antonio.reis@adal.pt",
+        "phone": "+351927908526"
       },
       "events": {
         "men": [
-          "100m",
-          "1500m",
-          "5000m",
-          "3000sc",
-          "dt",
-          "400mh",
-          "pv"
-        ],
-        "women": [
-          "100m",
-          "1500m",
-          "100mh",
-          "3000sc",
-          "hj",
-          "pv",
-          "ht",
-          "sp",
-          "lj"
-        ]
-      },
-      "hasResults": true
-    },
-    {
-      "id": "7236631",
-      "name": "Royal City Inferno Track and Field Festival",
-      "dateStart": "2026-06-03",
-      "dateEnd": "2026-06-03",
-      "city": "Alumni Stadium, Guelph (CAN)",
-      "countryCode": "CAN",
-      "countryName": "CAN",
-      "region": "AME",
-      "category": "CTB",
-      "categoryRaw": "World Athletics Continental Tour – Bronze",
-      "isIndoor": false,
-      "website": "",
-      "contact": {
-        "name": "Paul Galas",
-        "email": "royalcityinferno@gmail.com",
-        "phone": "+16479397260"
-      },
-      "events": {
-        "men": [
-          "100m",
-          "400m",
+          "200m",
           "800m",
-          "1500m",
-          "10000m",
-          "110mh",
+          "3000m",
           "400mh",
-          "hj"
+          "tj"
         ],
         "women": [
           "200m",
+          "800m",
+          "3000m",
+          "400mh",
+          "400m",
+          "pv",
+          "tj"
+        ]
+      },
+      "hasResults": false
+    },
+    {
+      "id": "7242504",
+      "name": "Meeting Città della Quintana",
+      "dateStart": "2026-06-03",
+      "dateEnd": "2026-06-03",
+      "city": "Stadio Enzo Blasone, Foligno (ITA)",
+      "countryCode": "ITA",
+      "countryName": "ITA",
+      "region": "EUR",
+      "category": "OTHER",
+      "categoryRaw": "",
+      "isIndoor": false,
+      "website": "",
+      "contact": {
+        "name": "francesco giovannini",
+        "email": "giovannini97@icloud.com",
+        "phone": "+393391267993"
+      },
+      "events": {
+        "men": [
+          "100m",
           "400m",
           "800m",
-          "1500m",
-          "10000m",
-          "100mh",
-          "400mh",
-          "hj",
-          "pv",
-          "lj",
-          "sp"
+          "5000m",
+          "2000m"
+        ],
+        "women": [
+          "100m",
+          "400m",
+          "800m",
+          "5000m",
+          "2000m"
         ]
       },
       "hasResults": true
@@ -127827,74 +127889,43 @@
       "hasResults": true
     },
     {
-      "id": "7242504",
-      "name": "Meeting Città della Quintana",
+      "id": "7230225",
+      "name": "Paavo Nurmi Games",
       "dateStart": "2026-06-03",
       "dateEnd": "2026-06-03",
-      "city": "Stadio Enzo Blasone, Foligno (ITA)",
-      "countryCode": "ITA",
-      "countryName": "ITA",
+      "city": "Paavo Nurmen Stadion, Turku (FIN)",
+      "countryCode": "FIN",
+      "countryName": "FIN",
       "region": "EUR",
-      "category": "OTHER",
-      "categoryRaw": "",
+      "category": "CTG",
+      "categoryRaw": "World Athletics Continental Tour – Gold",
       "isIndoor": false,
-      "website": "",
+      "website": "https://paavonurmigames.fi/",
       "contact": {
-        "name": "francesco giovannini",
-        "email": "giovannini97@icloud.com",
-        "phone": "+393391267993"
+        "name": "Jari Salonen",
+        "email": "jari.salonen@paavonurmigames.fi",
+        "phone": "+358500627973"
       },
       "events": {
         "men": [
           "100m",
-          "400m",
-          "800m",
+          "1500m",
           "5000m",
-          "2000m"
+          "3000sc",
+          "dt",
+          "400mh",
+          "pv"
         ],
         "women": [
           "100m",
-          "400m",
-          "800m",
-          "5000m",
-          "2000m"
-        ]
-      },
-      "hasResults": true
-    },
-    {
-      "id": "7242424",
-      "name": "Belgrade U18 Trophy",
-      "dateStart": "2026-06-03",
-      "dateEnd": "2026-06-03",
-      "city": "Athletics Stadium, Beograd (SRB)",
-      "countryCode": "SRB",
-      "countryName": "SRB",
-      "region": "EUR",
-      "category": "OTHER",
-      "categoryRaw": "",
-      "isIndoor": false,
-      "website": "http://atletskisavezbeograda.com/",
-      "contact": {
-        "name": "Goran Milosavljević",
-        "email": "atletskisavezbeograda@gmail.com",
-        "phone": "+381603886102"
-      },
-      "events": {
-        "men": [
-          "100m",
-          "110mh",
+          "1500m",
+          "100mh",
+          "3000sc",
           "hj",
-          "lj",
+          "pv",
+          "ht",
           "sp",
-          "jt"
-        ],
-        "women": [
-          "100m",
-          "hj",
-          "lj",
-          "sp",
-          "jt"
+          "lj"
         ]
       },
       "hasResults": true
@@ -127940,52 +127971,119 @@
       "hasResults": true
     },
     {
-      "id": "7242335",
-      "name": "Crépuscule André-Grimard",
+      "id": "7236631",
+      "name": "Royal City Inferno Track and Field Festival",
       "dateStart": "2026-06-03",
       "dateEnd": "2026-06-03",
-      "city": "Stade University Sherbrooke, Sherbrooke (CAN)",
+      "city": "Alumni Stadium, Guelph (CAN)",
       "countryCode": "CAN",
       "countryName": "CAN",
       "region": "AME",
-      "category": "OTHER",
-      "categoryRaw": "",
+      "category": "CTB",
+      "categoryRaw": "World Athletics Continental Tour – Bronze",
       "isIndoor": false,
       "website": "",
       "contact": {
-        "name": "Emilie Rochefort",
-        "email": "erochefort@athletisme.qc.ca",
-        "phone": "+14384979792"
+        "name": "Paul Galas",
+        "email": "royalcityinferno@gmail.com",
+        "phone": "+16479397260"
       },
       "events": {
         "men": [
-          "800m",
-          "110mh",
-          "pv",
-          "lj",
-          "jt",
           "100m",
           "400m",
+          "800m",
           "1500m",
-          "3000sc",
-          "tj",
-          "ht"
+          "10000m",
+          "110mh",
+          "400mh",
+          "hj"
         ],
         "women": [
+          "200m",
+          "400m",
           "800m",
+          "1500m",
+          "10000m",
           "100mh",
+          "400mh",
+          "hj",
           "pv",
           "lj",
-          "jt",
-          "100m",
-          "400m",
-          "1500m",
-          "3000sc",
-          "tj",
-          "ht"
+          "sp"
         ]
       },
-      "hasResults": false
+      "hasResults": true
+    },
+    {
+      "id": "7242424",
+      "name": "Belgrade U18 Trophy",
+      "dateStart": "2026-06-03",
+      "dateEnd": "2026-06-03",
+      "city": "Athletics Stadium, Beograd (SRB)",
+      "countryCode": "SRB",
+      "countryName": "SRB",
+      "region": "EUR",
+      "category": "OTHER",
+      "categoryRaw": "",
+      "isIndoor": false,
+      "website": "http://atletskisavezbeograda.com/",
+      "contact": {
+        "name": "Goran Milosavljević",
+        "email": "atletskisavezbeograda@gmail.com",
+        "phone": "+381603886102"
+      },
+      "events": {
+        "men": [
+          "100m",
+          "110mh",
+          "hj",
+          "lj",
+          "sp",
+          "jt"
+        ],
+        "women": [
+          "100m",
+          "hj",
+          "lj",
+          "sp",
+          "jt"
+        ]
+      },
+      "hasResults": true
+    },
+    {
+      "id": "7240843",
+      "name": "Granada Challenger",
+      "dateStart": "2026-06-03",
+      "dateEnd": "2026-06-03",
+      "city": "Estadio de la Juventud de Granada, Granada (ESP)",
+      "countryCode": "ESP",
+      "countryName": "ESP",
+      "region": "EUR",
+      "category": "CT",
+      "categoryRaw": "World Athletics Continental Tour – Challenger",
+      "isIndoor": false,
+      "website": "atletismofaa.es",
+      "contact": {
+        "name": "RAFAEL JARAMILLO GARCIA",
+        "email": "mitinandalucia@atletismofaa.es",
+        "phone": "+34605804871"
+      },
+      "events": {
+        "men": [
+          "100m",
+          "lj",
+          "pv"
+        ],
+        "women": [
+          "100m",
+          "400m",
+          "hj",
+          "tj"
+        ]
+      },
+      "hasResults": true
     },
     {
       "id": "7240216",
@@ -128112,53 +128210,6 @@
       "hasResults": true
     },
     {
-      "id": "7240990",
-      "name": "38. Freienbacher Abendmeeting",
-      "dateStart": "2026-06-03",
-      "dateEnd": "2026-06-03",
-      "city": "Sportanlage Chrummen, Freienbach (SUI)",
-      "countryCode": "SUI",
-      "countryName": "SUI",
-      "region": "EUR",
-      "category": "OTHER",
-      "categoryRaw": "",
-      "isIndoor": false,
-      "website": "https://www.ktvfreienbach.ch/index.php/abendmeeting-freienbach",
-      "contact": {
-        "name": "Martin Kuster",
-        "email": "m.kuster@bluewin.ch",
-        "phone": "+41786742043"
-      },
-      "events": {
-        "men": [
-          "100m",
-          "200m",
-          "800m",
-          "5000m",
-          "110mh",
-          "hj",
-          "pv",
-          "lj",
-          "sp",
-          "dt"
-        ],
-        "women": [
-          "100m",
-          "200m",
-          "600m",
-          "800m",
-          "5000m",
-          "100mh",
-          "hj",
-          "pv",
-          "lj",
-          "sp",
-          "dt"
-        ]
-      },
-      "hasResults": true
-    },
-    {
       "id": "7241946",
       "name": "Kenya Defence Forces Track and Field Championships",
       "dateStart": "2026-06-03",
@@ -128227,6 +128278,42 @@
       "hasResults": false
     },
     {
+      "id": "7240316",
+      "name": "Silver Gala",
+      "dateStart": "2026-06-03",
+      "dateEnd": "2026-06-03",
+      "city": "Stadio Olimpico, Roma (ITA)",
+      "countryCode": "ITA",
+      "countryName": "ITA",
+      "region": "EUR",
+      "category": "OTHER",
+      "categoryRaw": "",
+      "isIndoor": false,
+      "website": "https://www.fidal.it/calendario/SILVER-GALA/COD15360",
+      "contact": {
+        "name": "Lorenzo Cipriani",
+        "email": "globalcalendar@fidal.it",
+        "phone": "+390633484738"
+      },
+      "events": {
+        "men": [
+          "100m",
+          "200m",
+          "110mh",
+          "hj",
+          "lj",
+          "jt"
+        ],
+        "women": [
+          "100m",
+          "800m",
+          "1500m",
+          "400mh"
+        ]
+      },
+      "hasResults": true
+    },
+    {
       "id": "7241659",
       "name": "5. vrhačská středa",
       "dateStart": "2026-06-03",
@@ -128259,98 +128346,11 @@
       "hasResults": false
     },
     {
-      "id": "7241553",
-      "name": "Gran Premio de Valladolid - Ciudad Europea del Deporte",
-      "dateStart": "2026-06-03",
-      "dateEnd": "2026-06-03",
-      "city": "Complejo Deportivo Ciudad de Valladolid, Valladolid (ESP)",
-      "countryCode": "ESP",
-      "countryName": "ESP",
-      "region": "EUR",
-      "category": "OTHER",
-      "categoryRaw": "",
-      "isIndoor": false,
-      "website": "",
-      "contact": {
-        "name": "Victor Alonso",
-        "email": "victoralonso10k@gmail.com",
-        "phone": "+34655559337"
-      },
-      "events": {
-        "men": [
-          "100m",
-          "200m",
-          "400m",
-          "600m",
-          "800m",
-          "110mh",
-          "3000sc",
-          "hj",
-          "sp",
-          "dt",
-          "jt",
-          "4x100"
-        ],
-        "women": [
-          "100m",
-          "200m",
-          "400m",
-          "800m",
-          "100mh",
-          "hj",
-          "sp",
-          "dt",
-          "jt",
-          "4x100",
-          "1500m"
-        ]
-      },
-      "hasResults": true
-    },
-    {
-      "id": "7237186",
-      "name": "Dublin Graded Leagues 4",
-      "dateStart": "2026-06-03",
-      "dateEnd": "2026-06-03",
-      "city": "Morton Stadium, Santry, Dublin (IRL)",
-      "countryCode": "IRL",
-      "countryName": "IRL",
-      "region": "EUR",
-      "category": "OTHER",
-      "categoryRaw": "",
-      "isIndoor": false,
-      "website": "www.dublinathletics.com",
-      "contact": {
-        "name": "Dermot Nagle",
-        "email": "dublinathleticsgradedleagues23@gmail.com",
-        "phone": "+353863189820"
-      },
-      "events": {
-        "men": [
-          "100m",
-          "800m",
-          "5000m",
-          "hj",
-          "tj",
-          "ht"
-        ],
-        "women": [
-          "100m",
-          "800m",
-          "5000m",
-          "hj",
-          "tj",
-          "ht"
-        ]
-      },
-      "hasResults": true
-    },
-    {
-      "id": "7241245",
-      "name": "Lääne-Virumaa Noorte MV",
+      "id": "7242620",
+      "name": "Tartu City Championships Pole Vault",
       "dateStart": "2026-06-02",
-      "dateEnd": "2026-06-03",
-      "city": "Staadion, Rakvere (EST)",
+      "dateEnd": "2026-06-02",
+      "city": "Tamme staadion, Tartu (EST)",
       "countryCode": "EST",
       "countryName": "EST",
       "region": "EUR",
@@ -128359,40 +128359,114 @@
       "isIndoor": false,
       "website": "",
       "contact": {
-        "name": "Jaak Vettik",
-        "email": "jaak.vettik@rakvere.ee",
-        "phone": "+3725283122"
+        "name": "Harry Lemberg",
+        "email": "harry.lemberg@ut.ee",
+        "phone": "+3725116941"
       },
       "events": {
         "men": [
-          "100m",
-          "1500m",
-          "lj",
-          "hj",
-          "pv",
-          "sp",
-          "dt",
-          "jt",
-          "500m"
+          "pv"
         ],
         "women": [
-          "100m",
-          "800m",
-          "hj",
-          "lj",
-          "sp",
-          "dt",
-          "jt"
+          "pv"
         ]
       },
       "hasResults": true
     },
     {
-      "id": "7240357",
-      "name": "Monika Pyrek Toruń - Poznań",
+      "id": "7239972",
+      "name": "Trofeo Bracco",
       "dateStart": "2026-06-02",
       "dateEnd": "2026-06-02",
-      "city": "Golęcin Stadion, Poznan (POL)",
+      "city": "Centro di Atletica, Busto Arsizio (ITA)",
+      "countryCode": "ITA",
+      "countryName": "ITA",
+      "region": "EUR",
+      "category": "OTHER",
+      "categoryRaw": "",
+      "isIndoor": false,
+      "website": "www.braccoatletica.it",
+      "contact": {
+        "name": "Franco Angelotti",
+        "email": "angelotti@braccoatletica.it",
+        "phone": "+393356180925"
+      },
+      "events": {
+        "men": [
+          "100m",
+          "400m",
+          "800m"
+        ],
+        "women": [
+          "100m",
+          "200m",
+          "400m",
+          "800m",
+          "1500m",
+          "100mh",
+          "400mh",
+          "hj",
+          "pv",
+          "lj",
+          "sp",
+          "ht",
+          "jt",
+          "4x100"
+        ]
+      },
+      "hasResults": true
+    },
+    {
+      "id": "7241158",
+      "name": "Meeting di Primavera",
+      "dateStart": "2026-06-02",
+      "dateEnd": "2026-06-02",
+      "city": "Pista Fantoni, Mondovi (ITA)",
+      "countryCode": "ITA",
+      "countryName": "ITA",
+      "region": "EUR",
+      "category": "OTHER",
+      "categoryRaw": "",
+      "isIndoor": false,
+      "website": "www.atleticamondovi.net",
+      "contact": {
+        "name": "Priale Enrico",
+        "email": "segreteria@atleticamondovi.net",
+        "phone": "+393397839622"
+      },
+      "events": {
+        "men": [
+          "100m",
+          "200m",
+          "800m",
+          "400mh",
+          "400m",
+          "pv",
+          "lj",
+          "dt",
+          "4x100",
+          "4x400"
+        ],
+        "women": [
+          "100m",
+          "200m",
+          "1500m",
+          "400mh",
+          "tj",
+          "dt",
+          "jt",
+          "4x100",
+          "4x400"
+        ]
+      },
+      "hasResults": true
+    },
+    {
+      "id": "7240362",
+      "name": "Monika Pyrek Tour - Bydgoszcz",
+      "dateStart": "2026-06-02",
+      "dateEnd": "2026-06-02",
+      "city": "Zdzisław Krzyszkowiak Stadium, Bydgoszcz (POL)",
       "countryCode": "POL",
       "countryName": "POL",
       "region": "EUR",
@@ -128414,6 +128488,34 @@
         ]
       },
       "hasResults": false
+    },
+    {
+      "id": "7243054",
+      "name": "Aspire Invitational 9",
+      "dateStart": "2026-06-02",
+      "dateEnd": "2026-06-03",
+      "city": "Aspire Academy Warm Up Track, Doha (QAT)",
+      "countryCode": "QAT",
+      "countryName": "QAT",
+      "region": "ASI",
+      "category": "OTHER",
+      "categoryRaw": "",
+      "isIndoor": false,
+      "website": "",
+      "contact": {
+        "name": "Tom Crick",
+        "email": "tom.crick@aspire.qa",
+        "phone": "+97444136906"
+      },
+      "events": {
+        "men": [
+          "100m",
+          "200m",
+          "110mh"
+        ],
+        "women": []
+      },
+      "hasResults": true
     },
     {
       "id": "7238937",
@@ -128451,34 +128553,6 @@
           "3000m",
           "hj",
           "dt"
-        ]
-      },
-      "hasResults": false
-    },
-    {
-      "id": "7240362",
-      "name": "Monika Pyrek Tour - Bydgoszcz",
-      "dateStart": "2026-06-02",
-      "dateEnd": "2026-06-02",
-      "city": "Zdzisław Krzyszkowiak Stadium, Bydgoszcz (POL)",
-      "countryCode": "POL",
-      "countryName": "POL",
-      "region": "EUR",
-      "category": "OTHER",
-      "categoryRaw": "",
-      "isIndoor": false,
-      "website": "",
-      "contact": {
-        "name": "Michał Wiatrolik",
-        "email": "michal.wiatrolik@fundacjamonikipyrek.pl",
-        "phone": "+48666606446"
-      },
-      "events": {
-        "men": [
-          "pv"
-        ],
-        "women": [
-          "pv"
         ]
       },
       "hasResults": false
@@ -128531,6 +128605,48 @@
       "hasResults": true
     },
     {
+      "id": "7241245",
+      "name": "Lääne-Virumaa Noorte MV",
+      "dateStart": "2026-06-02",
+      "dateEnd": "2026-06-03",
+      "city": "Staadion, Rakvere (EST)",
+      "countryCode": "EST",
+      "countryName": "EST",
+      "region": "EUR",
+      "category": "OTHER",
+      "categoryRaw": "",
+      "isIndoor": false,
+      "website": "",
+      "contact": {
+        "name": "Jaak Vettik",
+        "email": "jaak.vettik@rakvere.ee",
+        "phone": "+3725283122"
+      },
+      "events": {
+        "men": [
+          "100m",
+          "1500m",
+          "lj",
+          "hj",
+          "pv",
+          "sp",
+          "dt",
+          "jt",
+          "500m"
+        ],
+        "women": [
+          "100m",
+          "800m",
+          "hj",
+          "lj",
+          "sp",
+          "dt",
+          "jt"
+        ]
+      },
+      "hasResults": true
+    },
+    {
       "id": "7235550",
       "name": "EAP XX Atletica 2000 Meeting",
       "dateStart": "2026-06-02",
@@ -128569,110 +128685,22 @@
       "hasResults": true
     },
     {
-      "id": "7241158",
-      "name": "Meeting di Primavera",
+      "id": "7240357",
+      "name": "Monika Pyrek Toruń - Poznań",
       "dateStart": "2026-06-02",
       "dateEnd": "2026-06-02",
-      "city": "Pista Fantoni, Mondovi (ITA)",
-      "countryCode": "ITA",
-      "countryName": "ITA",
-      "region": "EUR",
-      "category": "OTHER",
-      "categoryRaw": "",
-      "isIndoor": false,
-      "website": "www.atleticamondovi.net",
-      "contact": {
-        "name": "Priale Enrico",
-        "email": "segreteria@atleticamondovi.net",
-        "phone": "+393397839622"
-      },
-      "events": {
-        "men": [
-          "100m",
-          "200m",
-          "800m",
-          "400mh",
-          "400m",
-          "pv",
-          "lj",
-          "dt",
-          "4x100",
-          "4x400"
-        ],
-        "women": [
-          "100m",
-          "200m",
-          "1500m",
-          "400mh",
-          "tj",
-          "dt",
-          "jt",
-          "4x100",
-          "4x400"
-        ]
-      },
-      "hasResults": true
-    },
-    {
-      "id": "7239972",
-      "name": "Trofeo Bracco",
-      "dateStart": "2026-06-02",
-      "dateEnd": "2026-06-02",
-      "city": "Centro di Atletica, Busto Arsizio (ITA)",
-      "countryCode": "ITA",
-      "countryName": "ITA",
-      "region": "EUR",
-      "category": "OTHER",
-      "categoryRaw": "",
-      "isIndoor": false,
-      "website": "www.braccoatletica.it",
-      "contact": {
-        "name": "Franco Angelotti",
-        "email": "angelotti@braccoatletica.it",
-        "phone": "+393356180925"
-      },
-      "events": {
-        "men": [
-          "100m",
-          "400m",
-          "800m"
-        ],
-        "women": [
-          "100m",
-          "200m",
-          "400m",
-          "800m",
-          "1500m",
-          "100mh",
-          "400mh",
-          "hj",
-          "pv",
-          "lj",
-          "sp",
-          "ht",
-          "jt",
-          "4x100"
-        ]
-      },
-      "hasResults": true
-    },
-    {
-      "id": "7242620",
-      "name": "Tartu City Championships Pole Vault",
-      "dateStart": "2026-06-02",
-      "dateEnd": "2026-06-02",
-      "city": "Tamme staadion, Tartu (EST)",
-      "countryCode": "EST",
-      "countryName": "EST",
+      "city": "Golęcin Stadion, Poznan (POL)",
+      "countryCode": "POL",
+      "countryName": "POL",
       "region": "EUR",
       "category": "OTHER",
       "categoryRaw": "",
       "isIndoor": false,
       "website": "",
       "contact": {
-        "name": "Harry Lemberg",
-        "email": "harry.lemberg@ut.ee",
-        "phone": "+3725116941"
+        "name": "Michał Wiatrolik",
+        "email": "michal.wiatrolik@fundacjamonikipyrek.pl",
+        "phone": "+48666606446"
       },
       "events": {
         "men": [
@@ -128682,35 +128710,37 @@
           "pv"
         ]
       },
-      "hasResults": true
+      "hasResults": false
     },
     {
-      "id": "7243054",
-      "name": "Aspire Invitational 9",
-      "dateStart": "2026-06-02",
-      "dateEnd": "2026-06-03",
-      "city": "Aspire Academy Warm Up Track, Doha (QAT)",
-      "countryCode": "QAT",
-      "countryName": "QAT",
-      "region": "ASI",
+      "id": "7241724",
+      "name": "Southampton AC Invitation Throws",
+      "dateStart": "2026-06-01",
+      "dateEnd": "2026-06-01",
+      "city": "Univ. of Winchester Sports Stadium, Winchester (GBR)",
+      "countryCode": "GBR",
+      "countryName": "GBR",
+      "region": "EUR",
       "category": "OTHER",
       "categoryRaw": "",
       "isIndoor": false,
       "website": "",
       "contact": {
-        "name": "Tom Crick",
-        "email": "tom.crick@aspire.qa",
-        "phone": "+97444136906"
+        "name": "Debbie Callaway",
+        "email": "daveanddeb.c@outlook.com",
+        "phone": "+447717501265"
       },
       "events": {
         "men": [
-          "100m",
-          "200m",
-          "110mh"
+          "dt",
+          "ht"
         ],
-        "women": []
+        "women": [
+          "dt",
+          "ht"
+        ]
       },
-      "hasResults": true
+      "hasResults": false
     },
     {
       "id": "7242757",
@@ -128792,100 +128822,6 @@
       "hasResults": true
     },
     {
-      "id": "7241721",
-      "name": "Leeds BMC",
-      "dateStart": "2026-06-01",
-      "dateEnd": "2026-06-01",
-      "city": "Beckett Park Athletics Centre, Leeds (GBR)",
-      "countryCode": "GBR",
-      "countryName": "GBR",
-      "region": "EUR",
-      "category": "OTHER",
-      "categoryRaw": "",
-      "isIndoor": false,
-      "website": "",
-      "contact": {
-        "name": "Andy Henderson",
-        "email": "a.e.henderson@leedsbeckett.ac.uk",
-        "phone": "+447725234758"
-      },
-      "events": {
-        "men": [
-          "1500m",
-          "3000m"
-        ],
-        "women": [
-          "1500m",
-          "3000m"
-        ]
-      },
-      "hasResults": true
-    },
-    {
-      "id": "7241724",
-      "name": "Southampton AC Invitation Throws",
-      "dateStart": "2026-06-01",
-      "dateEnd": "2026-06-01",
-      "city": "Univ. of Winchester Sports Stadium, Winchester (GBR)",
-      "countryCode": "GBR",
-      "countryName": "GBR",
-      "region": "EUR",
-      "category": "OTHER",
-      "categoryRaw": "",
-      "isIndoor": false,
-      "website": "",
-      "contact": {
-        "name": "Debbie Callaway",
-        "email": "daveanddeb.c@outlook.com",
-        "phone": "+447717501265"
-      },
-      "events": {
-        "men": [
-          "dt",
-          "ht"
-        ],
-        "women": [
-          "dt",
-          "ht"
-        ]
-      },
-      "hasResults": false
-    },
-    {
-      "id": "7240082",
-      "name": "Säästöpankki Paunu Games 1",
-      "dateStart": "2026-06-01",
-      "dateEnd": "2026-06-01",
-      "city": "Paunun urheilukeskus, Jämsä (FIN)",
-      "countryCode": "FIN",
-      "countryName": "FIN",
-      "region": "EUR",
-      "category": "OTHER",
-      "categoryRaw": "",
-      "isIndoor": false,
-      "website": "",
-      "contact": {
-        "name": "Miia Keskinen",
-        "email": "miia.kaipolanvire@gmail.com",
-        "phone": "+358400899259"
-      },
-      "events": {
-        "men": [
-          "100m",
-          "800m",
-          "lj",
-          "pv"
-        ],
-        "women": [
-          "100m",
-          "800m",
-          "pv",
-          "lj"
-        ]
-      },
-      "hasResults": true
-    },
-    {
       "id": "7242521",
       "name": "Far Eastern Federal District Championships (Long Throws)",
       "dateStart": "2026-06-01",
@@ -128920,6 +128856,36 @@
       "hasResults": false
     },
     {
+      "id": "7241721",
+      "name": "Leeds BMC",
+      "dateStart": "2026-06-01",
+      "dateEnd": "2026-06-01",
+      "city": "Beckett Park Athletics Centre, Leeds (GBR)",
+      "countryCode": "GBR",
+      "countryName": "GBR",
+      "region": "EUR",
+      "category": "OTHER",
+      "categoryRaw": "",
+      "isIndoor": false,
+      "website": "",
+      "contact": {
+        "name": "Andy Henderson",
+        "email": "a.e.henderson@leedsbeckett.ac.uk",
+        "phone": "+447725234758"
+      },
+      "events": {
+        "men": [
+          "1500m",
+          "3000m"
+        ],
+        "women": [
+          "1500m",
+          "3000m"
+        ]
+      },
+      "hasResults": true
+    },
+    {
       "id": "7239755",
       "name": "Ahkeran arkiheitot",
       "dateStart": "2026-06-01",
@@ -128943,6 +128909,40 @@
         ],
         "women": [
           "ht"
+        ]
+      },
+      "hasResults": true
+    },
+    {
+      "id": "7240082",
+      "name": "Säästöpankki Paunu Games 1",
+      "dateStart": "2026-06-01",
+      "dateEnd": "2026-06-01",
+      "city": "Paunun urheilukeskus, Jämsä (FIN)",
+      "countryCode": "FIN",
+      "countryName": "FIN",
+      "region": "EUR",
+      "category": "OTHER",
+      "categoryRaw": "",
+      "isIndoor": false,
+      "website": "",
+      "contact": {
+        "name": "Miia Keskinen",
+        "email": "miia.kaipolanvire@gmail.com",
+        "phone": "+358400899259"
+      },
+      "events": {
+        "men": [
+          "100m",
+          "800m",
+          "lj",
+          "pv"
+        ],
+        "women": [
+          "100m",
+          "800m",
+          "pv",
+          "lj"
         ]
       },
       "hasResults": true
@@ -128994,76 +128994,46 @@
       "hasResults": true
     },
     {
-      "id": "7239948",
-      "name": "Serbian U20 Team Championships",
+      "id": "7243503",
+      "name": "Spanish Clubs Championships Segunda Division Liga Joma-Men's Final B1",
       "dateStart": "2026-05-31",
       "dateEnd": "2026-05-31",
-      "city": "Atletski Stadion, Kruševac (SRB)",
-      "countryCode": "SRB",
-      "countryName": "SRB",
+      "city": "Pista atletismo Josefina Salgado, Pereiro de Aguiar (ESP)",
+      "countryCode": "ESP",
+      "countryName": "ESP",
       "region": "EUR",
       "category": "OTHER",
       "categoryRaw": "",
       "isIndoor": false,
-      "website": "https://serbia.opentrack.run/en-gb/",
+      "website": "www.rfea.es",
       "contact": {
-        "name": "Marko Ristov",
-        "email": "marko.risov@sas.rs",
-        "phone": "+381648816275"
+        "name": "Luis Saladie",
+        "email": "lsaladie@rfea.es",
+        "phone": "+34669987731"
       },
       "events": {
         "men": [
           "100m",
+          "200m",
           "400m",
           "800m",
+          "1500m",
           "3000m",
           "110mh",
+          "400mh",
+          "3000sc",
           "hj",
+          "pv",
           "lj",
           "tj",
           "sp",
+          "dt",
+          "ht",
           "jt",
-          "4x100"
+          "4x100",
+          "4x400"
         ],
-        "women": [
-          "100m",
-          "400m",
-          "800m",
-          "3000m",
-          "60mh",
-          "hj",
-          "lj",
-          "tj",
-          "sp",
-          "jt",
-          "4x100"
-        ]
-      },
-      "hasResults": true
-    },
-    {
-      "id": "7242823",
-      "name": "ASICS Österreichischer Frauenlauf",
-      "dateStart": "2026-05-31",
-      "dateEnd": "2026-05-31",
-      "city": "Prater Hauptallee, Wien (AUT)",
-      "countryCode": "AUT",
-      "countryName": "AUT",
-      "region": "EUR",
-      "category": "OTHER",
-      "categoryRaw": "",
-      "isIndoor": false,
-      "website": "https://www.oesterreichischer-frauenlauf.at",
-      "contact": {
-        "name": "Schnabl Andreas",
-        "email": "a.schnabl@austrianwomensrun.com",
-        "phone": "+4317138786212"
-      },
-      "events": {
-        "men": [],
-        "women": [
-          "10km"
-        ]
+        "women": []
       },
       "hasResults": true
     },
@@ -129171,6 +129141,54 @@
       "hasResults": true
     },
     {
+      "id": "7242494",
+      "name": "Competitie 3e Divisie Poule 13 R2",
+      "dateStart": "2026-05-31",
+      "dateEnd": "2026-05-31",
+      "city": "Atletiekbaan Helmondse Atletiek Club, Helmond (NED)",
+      "countryCode": "NED",
+      "countryName": "NED",
+      "region": "EUR",
+      "category": "OTHER",
+      "categoryRaw": "",
+      "isIndoor": false,
+      "website": "atletiek.nl/competitie",
+      "contact": {
+        "name": "Atletiekunie",
+        "email": "competitie@atletiekunie.nl",
+        "phone": "+31264834800"
+      },
+      "events": {
+        "men": [
+          "100m",
+          "200m",
+          "400m",
+          "1500m",
+          "400mh",
+          "hj",
+          "pv",
+          "lj",
+          "sp",
+          "jt",
+          "4x100"
+        ],
+        "women": [
+          "100m",
+          "200m",
+          "400m",
+          "800m",
+          "3000m",
+          "400mh",
+          "hj",
+          "tj",
+          "sp",
+          "jt",
+          "4x100"
+        ]
+      },
+      "hasResults": true
+    },
+    {
       "id": "7242500",
       "name": "Competitie 2e Divisie Poule 4 R2",
       "dateStart": "2026-05-31",
@@ -129222,57 +129240,45 @@
       "hasResults": true
     },
     {
-      "id": "7237229",
-      "name": "Hipro Utrecht Half Marathon & 10km",
+      "id": "7236632",
+      "name": "Bob Vigars Classic",
       "dateStart": "2026-05-31",
       "dateEnd": "2026-05-31",
-      "city": "Utrecht (NED)",
-      "countryCode": "NED",
-      "countryName": "NED",
-      "region": "EUR",
-      "category": "OTHER",
-      "categoryRaw": "National Senior Half Marathon Championships",
+      "city": "Alumni Stadium, London (CAN)",
+      "countryCode": "CAN",
+      "countryName": "CAN",
+      "region": "AME",
+      "category": "CTB",
+      "categoryRaw": "World Athletics Continental Tour – Bronze",
       "isIndoor": false,
-      "website": "",
-      "contact": {},
-      "events": {
-        "men": [],
-        "women": []
-      },
-      "hasResults": true
-    },
-    {
-      "id": "7239756",
-      "name": "PKO Games",
-      "dateStart": "2026-05-31",
-      "dateEnd": "2026-05-31",
-      "city": "Keskusurheilukenttä, Joensuu (FIN)",
-      "countryCode": "FIN",
-      "countryName": "FIN",
-      "region": "EUR",
-      "category": "OTHER",
-      "categoryRaw": "",
-      "isIndoor": false,
-      "website": "",
+      "website": "https://www.londonwesterntfc.com/host-meets",
       "contact": {
-        "name": "Tuomo Lehtinen",
-        "email": "tuomo.lehtinen@katajayu.fi",
-        "phone": "+358407740403"
+        "name": "Scott MacDonald",
+        "email": "scottmaclwtfc@gmail.com",
+        "phone": "+16132225674"
       },
       "events": {
         "men": [
           "100m",
           "400m",
-          "1500m",
+          "800m",
+          "mile",
+          "5000m",
+          "110mh",
+          "pv",
           "lj",
-          "2000m"
+          "jt"
         ],
         "women": [
           "100m",
           "400m",
+          "800m",
           "1500m",
-          "lj",
-          "2000m"
+          "5000m",
+          "100mh",
+          "pv",
+          "tj",
+          "sp"
         ]
       },
       "hasResults": true
@@ -129377,44 +129383,31 @@
       "hasResults": true
     },
     {
-      "id": "7236632",
-      "name": "Bob Vigars Classic",
+      "id": "7235044",
+      "name": "Mityng na Rynku w Białymstoku",
       "dateStart": "2026-05-31",
       "dateEnd": "2026-05-31",
-      "city": "Alumni Stadium, London (CAN)",
-      "countryCode": "CAN",
-      "countryName": "CAN",
-      "region": "AME",
+      "city": "Market square, Białystok (POL)",
+      "countryCode": "POL",
+      "countryName": "POL",
+      "region": "EUR",
       "category": "CTB",
       "categoryRaw": "World Athletics Continental Tour – Bronze",
       "isIndoor": false,
-      "website": "https://www.londonwesterntfc.com/host-meets",
+      "website": "",
       "contact": {
-        "name": "Scott MacDonald",
-        "email": "scottmaclwtfc@gmail.com",
-        "phone": "+16132225674"
+        "name": "Marcin Rosengarten",
+        "email": "m.rosengarten@athleteam.pl",
+        "phone": "+48730606333"
       },
       "events": {
         "men": [
-          "100m",
-          "400m",
-          "800m",
-          "mile",
-          "5000m",
-          "110mh",
+          "hj",
           "pv",
-          "lj",
-          "jt"
+          "sp"
         ],
         "women": [
-          "100m",
-          "400m",
-          "800m",
-          "1500m",
-          "5000m",
-          "100mh",
-          "pv",
-          "tj",
+          "hj",
           "sp"
         ]
       },
@@ -129520,6 +129513,50 @@
       "hasResults": true
     },
     {
+      "id": "7243450",
+      "name": "Spanish Clubs Championships Segunda Division Liga Joma - Men's Final A",
+      "dateStart": "2026-05-31",
+      "dateEnd": "2026-05-31",
+      "city": "Estadio Vallehermoso, Madrid (ESP)",
+      "countryCode": "ESP",
+      "countryName": "ESP",
+      "region": "EUR",
+      "category": "OTHER",
+      "categoryRaw": "",
+      "isIndoor": false,
+      "website": "www.rfea.es",
+      "contact": {
+        "name": "Luis Saladie",
+        "email": "lsaladie@rfea.es",
+        "phone": "+34669987731"
+      },
+      "events": {
+        "men": [
+          "100m",
+          "200m",
+          "400m",
+          "800m",
+          "1500m",
+          "3000m",
+          "110mh",
+          "400mh",
+          "3000sc",
+          "hj",
+          "pv",
+          "lj",
+          "tj",
+          "sp",
+          "dt",
+          "ht",
+          "jt",
+          "4x100",
+          "4x400"
+        ],
+        "women": []
+      },
+      "hasResults": true
+    },
+    {
       "id": "7239419",
       "name": "Klaus Czech Memorial",
       "dateStart": "2026-05-31",
@@ -129567,45 +129604,22 @@
       "hasResults": true
     },
     {
-      "id": "7238287",
-      "name": "Laidunkauden avajaiskisat",
+      "id": "7237229",
+      "name": "Hipro Utrecht Half Marathon & 10km",
       "dateStart": "2026-05-31",
       "dateEnd": "2026-05-31",
-      "city": "Limingan urheilukenttä, Liminka (FIN)",
-      "countryCode": "FIN",
-      "countryName": "FIN",
+      "city": "Utrecht (NED)",
+      "countryCode": "NED",
+      "countryName": "NED",
       "region": "EUR",
       "category": "OTHER",
-      "categoryRaw": "",
+      "categoryRaw": "National Senior Half Marathon Championships",
       "isIndoor": false,
       "website": "",
-      "contact": {
-        "name": "Vesa Kallio",
-        "email": "vesa.kallio58@gmail.com",
-        "phone": "+358401944736"
-      },
+      "contact": {},
       "events": {
-        "men": [
-          "100m",
-          "300m",
-          "800m",
-          "3000m",
-          "hj",
-          "lj",
-          "sp",
-          "jt"
-        ],
-        "women": [
-          "100m",
-          "300m",
-          "400m",
-          "800m",
-          "3000m",
-          "hj",
-          "lj",
-          "sp",
-          "jt"
-        ]
+        "men": [],
+        "women": []
       },
       "hasResults": true
     },
@@ -129633,37 +129647,6 @@
         ],
         "women": [
           "10km"
-        ]
-      },
-      "hasResults": true
-    },
-    {
-      "id": "7235044",
-      "name": "Mityng na Rynku w Białymstoku",
-      "dateStart": "2026-05-31",
-      "dateEnd": "2026-05-31",
-      "city": "Market square, Białystok (POL)",
-      "countryCode": "POL",
-      "countryName": "POL",
-      "region": "EUR",
-      "category": "CTB",
-      "categoryRaw": "World Athletics Continental Tour – Bronze",
-      "isIndoor": false,
-      "website": "",
-      "contact": {
-        "name": "Marcin Rosengarten",
-        "email": "m.rosengarten@athleteam.pl",
-        "phone": "+48730606333"
-      },
-      "events": {
-        "men": [
-          "hj",
-          "pv",
-          "sp"
-        ],
-        "women": [
-          "hj",
-          "sp"
         ]
       },
       "hasResults": true
@@ -129708,46 +129691,44 @@
       "hasResults": true
     },
     {
-      "id": "7243503",
-      "name": "Spanish Clubs Championships Segunda Division Liga Joma-Men's Final B1",
+      "id": "7234907",
+      "name": "Meeting International de Forbach",
       "dateStart": "2026-05-31",
       "dateEnd": "2026-05-31",
-      "city": "Pista atletismo Josefina Salgado, Pereiro de Aguiar (ESP)",
-      "countryCode": "ESP",
-      "countryName": "ESP",
+      "city": "Stade Omnisports Schlossberg, Forbach (FRA)",
+      "countryCode": "FRA",
+      "countryName": "FRA",
       "region": "EUR",
-      "category": "OTHER",
-      "categoryRaw": "",
+      "category": "CTB",
+      "categoryRaw": "World Athletics Continental Tour – Bronze",
       "isIndoor": false,
-      "website": "www.rfea.es",
+      "website": "meetinginternationaldeforbach.fr",
       "contact": {
-        "name": "Luis Saladie",
-        "email": "lsaladie@rfea.es",
-        "phone": "+34669987731"
+        "name": "SCHULER PASCAL",
+        "email": "p.schuler@free.fr",
+        "phone": "+33614384606"
       },
       "events": {
         "men": [
           "100m",
-          "200m",
           "400m",
           "800m",
           "1500m",
-          "3000m",
           "110mh",
-          "400mh",
-          "3000sc",
-          "hj",
           "pv",
-          "lj",
           "tj",
-          "sp",
-          "dt",
           "ht",
-          "jt",
-          "4x100",
-          "4x400"
+          "4x100"
         ],
-        "women": []
+        "women": [
+          "100m",
+          "400m",
+          "800m",
+          "100mh",
+          "tj",
+          "ht",
+          "4x100"
+        ]
       },
       "hasResults": true
     },
@@ -129806,40 +129787,80 @@
       "hasResults": true
     },
     {
-      "id": "7242790",
-      "name": "Kentavria",
+      "id": "7238287",
+      "name": "Laidunkauden avajaiskisat",
       "dateStart": "2026-05-31",
       "dateEnd": "2026-05-31",
-      "city": "Municipal Stadium, Thiva (GRE)",
-      "countryCode": "GRE",
-      "countryName": "GRE",
+      "city": "Limingan urheilukenttä, Liminka (FIN)",
+      "countryCode": "FIN",
+      "countryName": "FIN",
       "region": "EUR",
       "category": "OTHER",
       "categoryRaw": "",
       "isIndoor": false,
-      "website": "Www.iraklisthivas.gr",
+      "website": "",
       "contact": {
-        "name": "Kiriakakis Kostantinos",
-        "email": "papadopoulos_thiva@yahoo.gr",
-        "phone": "+306947047059"
+        "name": "Vesa Kallio",
+        "email": "vesa.kallio58@gmail.com",
+        "phone": "+358401944736"
       },
       "events": {
         "men": [
-          "1000m",
+          "100m",
           "300m",
-          "2000m",
-          "lj"
+          "800m",
+          "3000m",
+          "hj",
+          "lj",
+          "sp",
+          "jt"
         ],
         "women": [
           "100m",
-          "100mh",
           "300m",
-          "1000m",
-          "2000m",
+          "400m",
+          "800m",
+          "3000m",
           "hj",
-          "jt",
+          "lj",
           "sp",
-          "dt"
+          "jt"
+        ]
+      },
+      "hasResults": true
+    },
+    {
+      "id": "7239756",
+      "name": "PKO Games",
+      "dateStart": "2026-05-31",
+      "dateEnd": "2026-05-31",
+      "city": "Keskusurheilukenttä, Joensuu (FIN)",
+      "countryCode": "FIN",
+      "countryName": "FIN",
+      "region": "EUR",
+      "category": "OTHER",
+      "categoryRaw": "",
+      "isIndoor": false,
+      "website": "",
+      "contact": {
+        "name": "Tuomo Lehtinen",
+        "email": "tuomo.lehtinen@katajayu.fi",
+        "phone": "+358407740403"
+      },
+      "events": {
+        "men": [
+          "100m",
+          "400m",
+          "1500m",
+          "lj",
+          "2000m"
+        ],
+        "women": [
+          "100m",
+          "400m",
+          "1500m",
+          "lj",
+          "2000m"
         ]
       },
       "hasResults": true
@@ -129906,45 +129927,6 @@
           "400mh",
           "400m",
           "300m"
-        ]
-      },
-      "hasResults": true
-    },
-    {
-      "id": "7214018",
-      "name": "Meeting International Mohammed VI d'Athletisme de Rabat",
-      "dateStart": "2026-05-31",
-      "dateEnd": "2026-05-31",
-      "city": "Complexe Sportif Prince Moulay Abdellah, Rabat (MAR)",
-      "countryCode": "MAR",
-      "countryName": "MAR",
-      "region": "AFR",
-      "category": "DL",
-      "categoryRaw": "Wanda Diamond League Meeting",
-      "isIndoor": false,
-      "website": "",
-      "contact": {},
-      "events": {
-        "men": [
-          "200m",
-          "5000m",
-          "3000sc",
-          "110mh",
-          "lj",
-          "tj",
-          "sp",
-          "dt",
-          "jt"
-        ],
-        "women": [
-          "400m",
-          "hj",
-          "pv",
-          "lj",
-          "tj",
-          "sp",
-          "dt",
-          "jt"
         ]
       },
       "hasResults": true
@@ -130050,6 +130032,45 @@
           "4x400"
         ],
         "women": []
+      },
+      "hasResults": true
+    },
+    {
+      "id": "7214018",
+      "name": "Meeting International Mohammed VI d'Athletisme de Rabat",
+      "dateStart": "2026-05-31",
+      "dateEnd": "2026-05-31",
+      "city": "Complexe Sportif Prince Moulay Abdellah, Rabat (MAR)",
+      "countryCode": "MAR",
+      "countryName": "MAR",
+      "region": "AFR",
+      "category": "DL",
+      "categoryRaw": "Wanda Diamond League Meeting",
+      "isIndoor": false,
+      "website": "",
+      "contact": {},
+      "events": {
+        "men": [
+          "200m",
+          "5000m",
+          "3000sc",
+          "110mh",
+          "lj",
+          "tj",
+          "sp",
+          "dt",
+          "jt"
+        ],
+        "women": [
+          "400m",
+          "hj",
+          "pv",
+          "lj",
+          "tj",
+          "sp",
+          "dt",
+          "jt"
+        ]
       },
       "hasResults": true
     },
@@ -130316,34 +130337,6 @@
       "hasResults": true
     },
     {
-      "id": "7241161",
-      "name": "KPJ LKAS v chůzi na dráze",
-      "dateStart": "2026-05-31",
-      "dateEnd": "2026-05-31",
-      "city": "Městský stadion, Rumburk (CZE)",
-      "countryCode": "CZE",
-      "countryName": "CZE",
-      "region": "EUR",
-      "category": "OTHER",
-      "categoryRaw": "",
-      "isIndoor": false,
-      "website": "",
-      "contact": {
-        "name": "Tomáš Krištof",
-        "email": "tkristof@atletika.cz",
-        "phone": "+420773995502"
-      },
-      "events": {
-        "men": [
-          "5000m"
-        ],
-        "women": [
-          "3000m"
-        ]
-      },
-      "hasResults": true
-    },
-    {
       "id": "7240257",
       "name": "Rheinland-Pfalz Meisterschaften M/F/U18",
       "dateStart": "2026-05-31",
@@ -130406,29 +130399,29 @@
       "hasResults": true
     },
     {
-      "id": "7231210",
-      "name": "V GPI Madrid Marcha Silbo Telecom",
+      "id": "7241161",
+      "name": "KPJ LKAS v chůzi na dráze",
       "dateStart": "2026-05-31",
       "dateEnd": "2026-05-31",
-      "city": "Gran Via, Madrid (ESP)",
-      "countryCode": "ESP",
-      "countryName": "ESP",
+      "city": "Městský stadion, Rumburk (CZE)",
+      "countryCode": "CZE",
+      "countryName": "CZE",
       "region": "EUR",
       "category": "OTHER",
-      "categoryRaw": "World Athletics Race Walking Tour – Gold",
+      "categoryRaw": "",
       "isIndoor": false,
-      "website": "www.madridmarcha.com",
+      "website": "",
       "contact": {
-        "name": "Diego García",
-        "email": "info@madridmarcha.com",
-        "phone": "+34669318159"
+        "name": "Tomáš Krištof",
+        "email": "tkristof@atletika.cz",
+        "phone": "+420773995502"
       },
       "events": {
         "men": [
-          "10km"
+          "5000m"
         ],
         "women": [
-          "10km"
+          "3000m"
         ]
       },
       "hasResults": true
@@ -130500,6 +130493,34 @@
       "hasResults": true
     },
     {
+      "id": "7231210",
+      "name": "V GPI Madrid Marcha Silbo Telecom",
+      "dateStart": "2026-05-31",
+      "dateEnd": "2026-05-31",
+      "city": "Gran Via, Madrid (ESP)",
+      "countryCode": "ESP",
+      "countryName": "ESP",
+      "region": "EUR",
+      "category": "OTHER",
+      "categoryRaw": "World Athletics Race Walking Tour – Gold",
+      "isIndoor": false,
+      "website": "www.madridmarcha.com",
+      "contact": {
+        "name": "Diego García",
+        "email": "info@madridmarcha.com",
+        "phone": "+34669318159"
+      },
+      "events": {
+        "men": [
+          "10km"
+        ],
+        "women": [
+          "10km"
+        ]
+      },
+      "hasResults": true
+    },
+    {
       "id": "7243787",
       "name": "Madrid Vintage Run by Total Energies",
       "dateStart": "2026-05-31",
@@ -130551,34 +130572,6 @@
         ],
         "women": [
           "10km"
-        ]
-      },
-      "hasResults": false
-    },
-    {
-      "id": "7241692",
-      "name": "Meeting Label Régional WA de Volgelsheim #2",
-      "dateStart": "2026-05-31",
-      "dateEnd": "2026-05-31",
-      "city": "Terrain de Sport, Volgelsheim (FRA)",
-      "countryCode": "FRA",
-      "countryName": "FRA",
-      "region": "EUR",
-      "category": "OTHER",
-      "categoryRaw": "",
-      "isIndoor": false,
-      "website": "",
-      "contact": {
-        "name": "Thierry Lichtle",
-        "email": "thierry.lichtle@athle.fr",
-        "phone": "+33685233145"
-      },
-      "events": {
-        "men": [
-          "ht"
-        ],
-        "women": [
-          "ht"
         ]
       },
       "hasResults": false
@@ -130796,6 +130789,34 @@
       "hasResults": true
     },
     {
+      "id": "7241692",
+      "name": "Meeting Label Régional WA de Volgelsheim #2",
+      "dateStart": "2026-05-31",
+      "dateEnd": "2026-05-31",
+      "city": "Terrain de Sport, Volgelsheim (FRA)",
+      "countryCode": "FRA",
+      "countryName": "FRA",
+      "region": "EUR",
+      "category": "OTHER",
+      "categoryRaw": "",
+      "isIndoor": false,
+      "website": "",
+      "contact": {
+        "name": "Thierry Lichtle",
+        "email": "thierry.lichtle@athle.fr",
+        "phone": "+33685233145"
+      },
+      "events": {
+        "men": [
+          "ht"
+        ],
+        "women": [
+          "ht"
+        ]
+      },
+      "hasResults": false
+    },
+    {
       "id": "7237184",
       "name": "Oklahoma Throws Series",
       "dateStart": "2026-05-31",
@@ -130891,48 +130912,6 @@
           "tj",
           "sp",
           "jt",
-          "4x100"
-        ]
-      },
-      "hasResults": true
-    },
-    {
-      "id": "7234907",
-      "name": "Meeting International de Forbach",
-      "dateStart": "2026-05-31",
-      "dateEnd": "2026-05-31",
-      "city": "Stade Omnisports Schlossberg, Forbach (FRA)",
-      "countryCode": "FRA",
-      "countryName": "FRA",
-      "region": "EUR",
-      "category": "CTB",
-      "categoryRaw": "World Athletics Continental Tour – Bronze",
-      "isIndoor": false,
-      "website": "meetinginternationaldeforbach.fr",
-      "contact": {
-        "name": "SCHULER PASCAL",
-        "email": "p.schuler@free.fr",
-        "phone": "+33614384606"
-      },
-      "events": {
-        "men": [
-          "100m",
-          "400m",
-          "800m",
-          "1500m",
-          "110mh",
-          "pv",
-          "tj",
-          "ht",
-          "4x100"
-        ],
-        "women": [
-          "100m",
-          "400m",
-          "800m",
-          "100mh",
-          "tj",
-          "ht",
           "4x100"
         ]
       },
@@ -131104,6 +131083,37 @@
       "hasResults": true
     },
     {
+      "id": "7241582",
+      "name": "MTK Budapest– Ugró Versenye",
+      "dateStart": "2026-05-31",
+      "dateEnd": "2026-05-31",
+      "city": "Lantos Mihály Sportközpont, Budapest (HUN)",
+      "countryCode": "HUN",
+      "countryName": "HUN",
+      "region": "EUR",
+      "category": "OTHER",
+      "categoryRaw": "",
+      "isIndoor": false,
+      "website": "",
+      "contact": {
+        "name": "István Knipl",
+        "email": "knipl.istvan@mtk1888.hu",
+        "phone": "+36302221163"
+      },
+      "events": {
+        "men": [
+          "pv",
+          "hj"
+        ],
+        "women": [
+          "pv",
+          "lj",
+          "tj"
+        ]
+      },
+      "hasResults": true
+    },
+    {
       "id": "7239413",
       "name": "SVM Nationalliga A",
       "dateStart": "2026-05-31",
@@ -131157,37 +131167,6 @@
           "ht",
           "jt",
           "4x100"
-        ]
-      },
-      "hasResults": true
-    },
-    {
-      "id": "7241582",
-      "name": "MTK Budapest– Ugró Versenye",
-      "dateStart": "2026-05-31",
-      "dateEnd": "2026-05-31",
-      "city": "Lantos Mihály Sportközpont, Budapest (HUN)",
-      "countryCode": "HUN",
-      "countryName": "HUN",
-      "region": "EUR",
-      "category": "OTHER",
-      "categoryRaw": "",
-      "isIndoor": false,
-      "website": "",
-      "contact": {
-        "name": "István Knipl",
-        "email": "knipl.istvan@mtk1888.hu",
-        "phone": "+36302221163"
-      },
-      "events": {
-        "men": [
-          "pv",
-          "hj"
-        ],
-        "women": [
-          "pv",
-          "lj",
-          "tj"
         ]
       },
       "hasResults": true
@@ -131264,74 +131243,6 @@
           "sp",
           "jt",
           "4x100"
-        ]
-      },
-      "hasResults": true
-    },
-    {
-      "id": "7240083",
-      "name": "2. kolo 2. ligy mužů a žen - skup. C",
-      "dateStart": "2026-05-31",
-      "dateEnd": "2026-05-31",
-      "city": "Městský atletický stadion, Pardubice (CZE)",
-      "countryCode": "CZE",
-      "countryName": "CZE",
-      "region": "EUR",
-      "category": "OTHER",
-      "categoryRaw": "",
-      "isIndoor": false,
-      "website": "",
-      "contact": {
-        "name": "Iva Tlapáková",
-        "email": "tlapakovaiva@email.cz",
-        "phone": "+420775907122"
-      },
-      "events": {
-        "men": [
-          "100m",
-          "200m",
-          "400m",
-          "800m",
-          "1500m",
-          "3000m",
-          "5000m",
-          "10000m",
-          "110mh",
-          "400mh",
-          "3000sc",
-          "hj",
-          "pv",
-          "lj",
-          "tj",
-          "sp",
-          "dt",
-          "ht",
-          "jt",
-          "4x100",
-          "4x400"
-        ],
-        "women": [
-          "100m",
-          "200m",
-          "400m",
-          "800m",
-          "1500m",
-          "3000m",
-          "5000m",
-          "10000m",
-          "100mh",
-          "400mh",
-          "3000sc",
-          "hj",
-          "pv",
-          "lj",
-          "tj",
-          "sp",
-          "dt",
-          "jt",
-          "ht",
-          "4x100",
-          "4x400"
         ]
       },
       "hasResults": true
@@ -131430,32 +131341,72 @@
       "hasResults": true
     },
     {
-      "id": "7241029",
-      "name": "Championnats LBFA de 10km sur route",
+      "id": "7240083",
+      "name": "2. kolo 2. ligy mužů a žen - skup. C",
       "dateStart": "2026-05-31",
       "dateEnd": "2026-05-31",
-      "city": "Malmedy (BEL)",
-      "countryCode": "BEL",
-      "countryName": "BEL",
+      "city": "Městský atletický stadion, Pardubice (CZE)",
+      "countryCode": "CZE",
+      "countryName": "CZE",
       "region": "EUR",
       "category": "OTHER",
       "categoryRaw": "",
       "isIndoor": false,
       "website": "",
       "contact": {
-        "name": "LBFA",
-        "email": "info@lbfa.be",
-        "phone": "+3224747201"
+        "name": "Iva Tlapáková",
+        "email": "tlapakovaiva@email.cz",
+        "phone": "+420775907122"
       },
       "events": {
         "men": [
-          "10km"
+          "100m",
+          "200m",
+          "400m",
+          "800m",
+          "1500m",
+          "3000m",
+          "5000m",
+          "10000m",
+          "110mh",
+          "400mh",
+          "3000sc",
+          "hj",
+          "pv",
+          "lj",
+          "tj",
+          "sp",
+          "dt",
+          "ht",
+          "jt",
+          "4x100",
+          "4x400"
         ],
         "women": [
-          "10km"
+          "100m",
+          "200m",
+          "400m",
+          "800m",
+          "1500m",
+          "3000m",
+          "5000m",
+          "10000m",
+          "100mh",
+          "400mh",
+          "3000sc",
+          "hj",
+          "pv",
+          "lj",
+          "tj",
+          "sp",
+          "dt",
+          "jt",
+          "ht",
+          "4x100",
+          "4x400"
         ]
       },
-      "hasResults": false
+      "hasResults": true
     },
     {
       "id": "7242501",
@@ -131512,76 +131463,71 @@
       "hasResults": true
     },
     {
-      "id": "7243450",
-      "name": "Spanish Clubs Championships Segunda Division Liga Joma - Men's Final A",
+      "id": "7242790",
+      "name": "Kentavria",
       "dateStart": "2026-05-31",
       "dateEnd": "2026-05-31",
-      "city": "Estadio Vallehermoso, Madrid (ESP)",
-      "countryCode": "ESP",
-      "countryName": "ESP",
+      "city": "Municipal Stadium, Thiva (GRE)",
+      "countryCode": "GRE",
+      "countryName": "GRE",
       "region": "EUR",
       "category": "OTHER",
       "categoryRaw": "",
       "isIndoor": false,
-      "website": "www.rfea.es",
+      "website": "Www.iraklisthivas.gr",
       "contact": {
-        "name": "Luis Saladie",
-        "email": "lsaladie@rfea.es",
-        "phone": "+34669987731"
+        "name": "Kiriakakis Kostantinos",
+        "email": "papadopoulos_thiva@yahoo.gr",
+        "phone": "+306947047059"
       },
       "events": {
         "men": [
-          "100m",
-          "200m",
-          "400m",
-          "800m",
-          "1500m",
-          "3000m",
-          "110mh",
-          "400mh",
-          "3000sc",
-          "hj",
-          "pv",
-          "lj",
-          "tj",
-          "sp",
-          "dt",
-          "ht",
-          "jt",
-          "4x100",
-          "4x400"
+          "1000m",
+          "300m",
+          "2000m",
+          "lj"
         ],
-        "women": []
+        "women": [
+          "100m",
+          "100mh",
+          "300m",
+          "1000m",
+          "2000m",
+          "hj",
+          "jt",
+          "sp",
+          "dt"
+        ]
       },
       "hasResults": true
     },
     {
-      "id": "7239903",
-      "name": "Polish U23 5000m Championships",
+      "id": "7241029",
+      "name": "Championnats LBFA de 10km sur route",
       "dateStart": "2026-05-31",
       "dateEnd": "2026-05-31",
-      "city": "Arena Lekkoatletyczna, Gliwice (POL)",
-      "countryCode": "POL",
-      "countryName": "POL",
+      "city": "Malmedy (BEL)",
+      "countryCode": "BEL",
+      "countryName": "BEL",
       "region": "EUR",
       "category": "OTHER",
       "categoryRaw": "",
       "isIndoor": false,
       "website": "",
       "contact": {
-        "name": "Maciej Jałoszyński",
-        "email": "maciej.jaloszynski@pzla.pl",
-        "phone": "+48664721383"
+        "name": "LBFA",
+        "email": "info@lbfa.be",
+        "phone": "+3224747201"
       },
       "events": {
         "men": [
-          "5000m"
+          "10km"
         ],
         "women": [
-          "5000m"
+          "10km"
         ]
       },
-      "hasResults": true
+      "hasResults": false
     },
     {
       "id": "7240178",
@@ -131618,49 +131564,103 @@
       "hasResults": true
     },
     {
-      "id": "7242494",
-      "name": "Competitie 3e Divisie Poule 13 R2",
+      "id": "7239903",
+      "name": "Polish U23 5000m Championships",
       "dateStart": "2026-05-31",
       "dateEnd": "2026-05-31",
-      "city": "Atletiekbaan Helmondse Atletiek Club, Helmond (NED)",
-      "countryCode": "NED",
-      "countryName": "NED",
+      "city": "Arena Lekkoatletyczna, Gliwice (POL)",
+      "countryCode": "POL",
+      "countryName": "POL",
       "region": "EUR",
       "category": "OTHER",
       "categoryRaw": "",
       "isIndoor": false,
-      "website": "atletiek.nl/competitie",
+      "website": "",
       "contact": {
-        "name": "Atletiekunie",
-        "email": "competitie@atletiekunie.nl",
-        "phone": "+31264834800"
+        "name": "Maciej Jałoszyński",
+        "email": "maciej.jaloszynski@pzla.pl",
+        "phone": "+48664721383"
+      },
+      "events": {
+        "men": [
+          "5000m"
+        ],
+        "women": [
+          "5000m"
+        ]
+      },
+      "hasResults": true
+    },
+    {
+      "id": "7239948",
+      "name": "Serbian U20 Team Championships",
+      "dateStart": "2026-05-31",
+      "dateEnd": "2026-05-31",
+      "city": "Atletski Stadion, Kruševac (SRB)",
+      "countryCode": "SRB",
+      "countryName": "SRB",
+      "region": "EUR",
+      "category": "OTHER",
+      "categoryRaw": "",
+      "isIndoor": false,
+      "website": "https://serbia.opentrack.run/en-gb/",
+      "contact": {
+        "name": "Marko Ristov",
+        "email": "marko.risov@sas.rs",
+        "phone": "+381648816275"
       },
       "events": {
         "men": [
           "100m",
-          "200m",
           "400m",
-          "1500m",
-          "400mh",
+          "800m",
+          "3000m",
+          "110mh",
           "hj",
-          "pv",
           "lj",
+          "tj",
           "sp",
           "jt",
           "4x100"
         ],
         "women": [
           "100m",
-          "200m",
           "400m",
           "800m",
           "3000m",
-          "400mh",
+          "60mh",
           "hj",
+          "lj",
           "tj",
           "sp",
           "jt",
           "4x100"
+        ]
+      },
+      "hasResults": true
+    },
+    {
+      "id": "7242823",
+      "name": "ASICS Österreichischer Frauenlauf",
+      "dateStart": "2026-05-31",
+      "dateEnd": "2026-05-31",
+      "city": "Prater Hauptallee, Wien (AUT)",
+      "countryCode": "AUT",
+      "countryName": "AUT",
+      "region": "EUR",
+      "category": "OTHER",
+      "categoryRaw": "",
+      "isIndoor": false,
+      "website": "https://www.oesterreichischer-frauenlauf.at",
+      "contact": {
+        "name": "Schnabl Andreas",
+        "email": "a.schnabl@austrianwomensrun.com",
+        "phone": "+4317138786212"
+      },
+      "events": {
+        "men": [],
+        "women": [
+          "10km"
         ]
       },
       "hasResults": true
@@ -131723,7 +131723,7 @@
           "4x100"
         ]
       },
-      "hasResults": false
+      "hasResults": true
     },
     {
       "id": "7241613",
@@ -132786,7 +132786,7 @@
           "4x400"
         ]
       },
-      "hasResults": false
+      "hasResults": true
     },
     {
       "id": "7235021",
@@ -137783,7 +137783,7 @@
           "4x400"
         ]
       },
-      "hasResults": false
+      "hasResults": true
     },
     {
       "id": "7242965",
@@ -138601,7 +138601,7 @@
           "4x400"
         ]
       },
-      "hasResults": false
+      "hasResults": true
     },
     {
       "id": "7241628",
@@ -140936,54 +140936,6 @@
       "hasResults": true
     },
     {
-      "id": "7242666",
-      "name": "Primer TIF - U de Chile",
-      "dateStart": "2026-05-28",
-      "dateEnd": "2026-05-28",
-      "city": "Pista Atlética Mario Recordón, Santiago de Chile (CHI)",
-      "countryCode": "CHI",
-      "countryName": "CHI",
-      "region": "AME",
-      "category": "OTHER",
-      "categoryRaw": "",
-      "isIndoor": false,
-      "website": "",
-      "contact": {
-        "name": "Maximiliano Perez",
-        "email": "mrperezgarrido@uchile.cl",
-        "phone": "+56945808444"
-      },
-      "events": {
-        "men": [
-          "100m",
-          "400m",
-          "800m",
-          "1500m",
-          "3000m",
-          "5000m",
-          "lj",
-          "sp",
-          "dt",
-          "jt",
-          "4x100"
-        ],
-        "women": [
-          "100m",
-          "400m",
-          "800m",
-          "1500m",
-          "3000m",
-          "5000m",
-          "lj",
-          "sp",
-          "dt",
-          "jt",
-          "4x100"
-        ]
-      },
-      "hasResults": false
-    },
-    {
       "id": "7238534",
       "name": "The 79th Ishikawa Prefectural High School Athletics Championship",
       "dateStart": "2026-05-28",
@@ -141009,6 +140961,34 @@
         "women": []
       },
       "hasResults": false
+    },
+    {
+      "id": "7239898",
+      "name": "VLV Dreisprung- und Langstaffelmeisterschaft mit int. Meeting",
+      "dateStart": "2026-05-28",
+      "dateEnd": "2026-05-28",
+      "city": "Parkstadion, Lustenau (AUT)",
+      "countryCode": "AUT",
+      "countryName": "AUT",
+      "region": "EUR",
+      "category": "OTHER",
+      "categoryRaw": "",
+      "isIndoor": false,
+      "website": "https://oelv.athmin.at/event-details.aspx?event=35680&int=&returnTo=L2V2ZW50cy5hc3B4",
+      "contact": {
+        "name": "Chantal Duelli",
+        "email": "c.duelli@ts-jahn.at",
+        "phone": "+4369910425472"
+      },
+      "events": {
+        "men": [
+          "tj"
+        ],
+        "women": [
+          "tj"
+        ]
+      },
+      "hasResults": true
     },
     {
       "id": "7235971",
@@ -141041,34 +141021,6 @@
           "100m",
           "400m",
           "800m",
-          "tj"
-        ]
-      },
-      "hasResults": true
-    },
-    {
-      "id": "7239898",
-      "name": "VLV Dreisprung- und Langstaffelmeisterschaft mit int. Meeting",
-      "dateStart": "2026-05-28",
-      "dateEnd": "2026-05-28",
-      "city": "Parkstadion, Lustenau (AUT)",
-      "countryCode": "AUT",
-      "countryName": "AUT",
-      "region": "EUR",
-      "category": "OTHER",
-      "categoryRaw": "",
-      "isIndoor": false,
-      "website": "https://oelv.athmin.at/event-details.aspx?event=35680&int=&returnTo=L2V2ZW50cy5hc3B4",
-      "contact": {
-        "name": "Chantal Duelli",
-        "email": "c.duelli@ts-jahn.at",
-        "phone": "+4369910425472"
-      },
-      "events": {
-        "men": [
-          "tj"
-        ],
-        "women": [
           "tj"
         ]
       },
@@ -141121,6 +141073,118 @@
         ]
       },
       "hasResults": true
+    },
+    {
+      "id": "7239761",
+      "name": "Reilu Cup 2",
+      "dateStart": "2026-05-28",
+      "dateEnd": "2026-05-28",
+      "city": "Radiomäen urheilukenttä, Lahti (FIN)",
+      "countryCode": "FIN",
+      "countryName": "FIN",
+      "region": "EUR",
+      "category": "OTHER",
+      "categoryRaw": "",
+      "isIndoor": false,
+      "website": "",
+      "contact": {
+        "name": "Tomi Savolainen",
+        "email": "tomi.savolainen@hotmail.fi",
+        "phone": "+358449693990"
+      },
+      "events": {
+        "men": [
+          "400m",
+          "500m",
+          "hj",
+          "jt",
+          "1500m"
+        ],
+        "women": [
+          "400m",
+          "500m",
+          "hj",
+          "jt",
+          "1500m"
+        ]
+      },
+      "hasResults": true
+    },
+    {
+      "id": "7242666",
+      "name": "Primer TIF - U de Chile",
+      "dateStart": "2026-05-28",
+      "dateEnd": "2026-05-28",
+      "city": "Pista Atlética Mario Recordón, Santiago de Chile (CHI)",
+      "countryCode": "CHI",
+      "countryName": "CHI",
+      "region": "AME",
+      "category": "OTHER",
+      "categoryRaw": "",
+      "isIndoor": false,
+      "website": "",
+      "contact": {
+        "name": "Maximiliano Perez",
+        "email": "mrperezgarrido@uchile.cl",
+        "phone": "+56945808444"
+      },
+      "events": {
+        "men": [
+          "100m",
+          "400m",
+          "800m",
+          "1500m",
+          "3000m",
+          "5000m",
+          "lj",
+          "sp",
+          "dt",
+          "jt",
+          "4x100"
+        ],
+        "women": [
+          "100m",
+          "400m",
+          "800m",
+          "1500m",
+          "3000m",
+          "5000m",
+          "lj",
+          "sp",
+          "dt",
+          "jt",
+          "4x100"
+        ]
+      },
+      "hasResults": false
+    },
+    {
+      "id": "7234670",
+      "name": "Kiryat Gat - Night Race",
+      "dateStart": "2026-05-28",
+      "dateEnd": "2026-05-28",
+      "city": "Kiryat Gat (ISR)",
+      "countryCode": "ISR",
+      "countryName": "ISR",
+      "region": "EUR",
+      "category": "OTHER",
+      "categoryRaw": "",
+      "isIndoor": false,
+      "website": "",
+      "contact": {
+        "name": "Arie Gamliel",
+        "email": "arie@iaa.co.il",
+        "phone": "+972506433033"
+      },
+      "events": {
+        "men": [
+          "10km"
+        ],
+        "women": [
+          "10km"
+        ]
+      },
+      "hasResults": false
     },
     {
       "id": "7230284",
@@ -141191,68 +141255,44 @@
       "hasResults": true
     },
     {
-      "id": "7239761",
-      "name": "Reilu Cup 2",
+      "id": "7235125",
+      "name": "Trond Mohn Games",
       "dateStart": "2026-05-28",
       "dateEnd": "2026-05-28",
-      "city": "Radiomäen urheilukenttä, Lahti (FIN)",
-      "countryCode": "FIN",
-      "countryName": "FIN",
+      "city": "Fana Stadion, Bergen (NOR)",
+      "countryCode": "NOR",
+      "countryName": "NOR",
       "region": "EUR",
-      "category": "OTHER",
-      "categoryRaw": "",
+      "category": "CTS",
+      "categoryRaw": "World Athletics Continental Tour – Silver",
       "isIndoor": false,
-      "website": "",
+      "website": "www.trondmohngames.no",
       "contact": {
-        "name": "Tomi Savolainen",
-        "email": "tomi.savolainen@hotmail.fi",
-        "phone": "+358449693990"
+        "name": "Eddie Mikal Ebbesvik",
+        "email": "eddie.ebbesvik@friidrett.no",
+        "phone": "+4792085025"
       },
       "events": {
         "men": [
-          "400m",
-          "500m",
+          "100m",
+          "300m",
+          "800m",
+          "1500m",
           "hj",
-          "jt",
-          "1500m"
+          "sp",
+          "ht",
+          "pv"
         ],
         "women": [
-          "400m",
-          "500m",
-          "hj",
-          "jt",
-          "1500m"
+          "300m",
+          "800m",
+          "1500m",
+          "100mh",
+          "pv",
+          "ht"
         ]
       },
       "hasResults": true
-    },
-    {
-      "id": "7234670",
-      "name": "Kiryat Gat - Night Race",
-      "dateStart": "2026-05-28",
-      "dateEnd": "2026-05-28",
-      "city": "Kiryat Gat (ISR)",
-      "countryCode": "ISR",
-      "countryName": "ISR",
-      "region": "EUR",
-      "category": "OTHER",
-      "categoryRaw": "",
-      "isIndoor": false,
-      "website": "",
-      "contact": {
-        "name": "Arie Gamliel",
-        "email": "arie@iaa.co.il",
-        "phone": "+972506433033"
-      },
-      "events": {
-        "men": [
-          "10km"
-        ],
-        "women": [
-          "10km"
-        ]
-      },
-      "hasResults": false
     },
     {
       "id": "7235175",
@@ -141299,44 +141339,75 @@
       "hasResults": true
     },
     {
-      "id": "7235125",
-      "name": "Trond Mohn Games",
-      "dateStart": "2026-05-28",
+      "id": "7237536",
+      "name": "4th AFN Golden League",
+      "dateStart": "2026-05-27",
       "dateEnd": "2026-05-28",
-      "city": "Fana Stadion, Bergen (NOR)",
-      "countryCode": "NOR",
-      "countryName": "NOR",
-      "region": "EUR",
-      "category": "CTS",
-      "categoryRaw": "World Athletics Continental Tour – Silver",
+      "city": "MKO Abiola International Stadium Stadium, Abeokuta (NGR)",
+      "countryCode": "NGR",
+      "countryName": "NGR",
+      "region": "AFR",
+      "category": "OTHER",
+      "categoryRaw": "",
       "isIndoor": false,
-      "website": "www.trondmohngames.no",
+      "website": "",
       "contact": {
-        "name": "Eddie Mikal Ebbesvik",
-        "email": "eddie.ebbesvik@friidrett.no",
-        "phone": "+4792085025"
+        "name": "Israel Inwang",
+        "email": "ngr@mf.worldathletics.org",
+        "phone": "+2348066916131"
       },
       "events": {
         "men": [
           "100m",
-          "300m",
+          "200m",
+          "400m",
           "800m",
           "1500m",
+          "3000m",
+          "5000m",
+          "10000m",
+          "110mh",
+          "400mh",
+          "3000sc",
+          "dt",
           "hj",
-          "sp",
+          "pv",
           "ht",
-          "pv"
+          "jt",
+          "lj",
+          "tj",
+          "sp",
+          "dec",
+          "5km",
+          "10km"
         ],
         "women": [
-          "300m",
+          "100m",
+          "200m",
           "800m",
+          "400m",
           "1500m",
+          "3000m",
+          "5000m",
+          "10000m",
           "100mh",
+          "400mh",
+          "2000sc",
+          "3000sc",
+          "sp",
+          "tj",
+          "jt",
+          "lj",
+          "ht",
           "pv",
-          "ht"
+          "dt",
+          "hj",
+          "hep",
+          "5km",
+          "10km"
         ]
       },
-      "hasResults": true
+      "hasResults": false
     },
     {
       "id": "7242621",
@@ -141563,31 +141634,40 @@
       "hasResults": true
     },
     {
-      "id": "7241725",
-      "name": "BMC Gold Standard Races",
+      "id": "7238703",
+      "name": "Hyvän Tuulen Kisat 1",
       "dateStart": "2026-05-27",
       "dateEnd": "2026-05-27",
-      "city": "Woodside Stadium, Watford (GBR)",
-      "countryCode": "GBR",
-      "countryName": "GBR",
+      "city": "Eläintarhan urheilukenttä, Helsinki (FIN)",
+      "countryCode": "FIN",
+      "countryName": "FIN",
       "region": "EUR",
       "category": "OTHER",
       "categoryRaw": "",
       "isIndoor": false,
-      "website": "https://www.britishmilersclub.com/",
+      "website": "",
       "contact": {
-        "name": "Tim Brennan",
-        "email": "timbrennan@britishmilersclub.com",
-        "phone": "+447966309931"
+        "name": "Niklas Hagelin",
+        "email": "niklas.hagelin@kolumbus.fi",
+        "phone": "+358505631348"
       },
       "events": {
         "men": [
-          "800m",
-          "1500m"
+          "100m",
+          "400m",
+          "400mh",
+          "ht",
+          "jt"
         ],
         "women": [
-          "800m",
-          "1500m"
+          "100m",
+          "400m",
+          "100mh",
+          "400mh",
+          "tj",
+          "ht",
+          "jt",
+          "lj"
         ]
       },
       "hasResults": true
@@ -141868,31 +141948,67 @@
       "hasResults": false
     },
     {
-      "id": "7241728",
-      "name": "Hercules Wimbledon 1500m Night of Races",
+      "id": "7236232",
+      "name": "NCAA Division I East First Rounds",
       "dateStart": "2026-05-27",
-      "dateEnd": "2026-05-27",
-      "city": "Wimbledon Park Athletics Track, London (GBR)",
-      "countryCode": "GBR",
-      "countryName": "GBR",
-      "region": "EUR",
+      "dateEnd": "2026-05-30",
+      "city": "Un. of Kentucky Outdoor Track Facility, Lexington, KY (USA)",
+      "countryCode": "USA",
+      "countryName": "USA",
+      "region": "AME",
       "category": "OTHER",
       "categoryRaw": "",
       "isIndoor": false,
-      "website": "https://data.opentrack.run/en-gb/x/2026/GBR/hwac15/",
+      "website": "www.ncaa.com/trackandfield",
       "contact": {
-        "name": "Ben Noad",
-        "email": "ben@bennoadcoaching.com",
-        "phone": "+447547154352"
+        "name": "Jeff Mlynski",
+        "email": "jmlynski@ncaa.org",
+        "phone": "+13179176503"
       },
       "events": {
         "men": [
+          "100m",
+          "200m",
+          "400m",
+          "800m",
           "1500m",
-          "500m"
+          "5000m",
+          "10000m",
+          "110mh",
+          "400mh",
+          "3000sc",
+          "hj",
+          "pv",
+          "lj",
+          "tj",
+          "sp",
+          "dt",
+          "ht",
+          "jt",
+          "4x100",
+          "4x400"
         ],
         "women": [
+          "100m",
+          "200m",
+          "400m",
+          "800m",
           "1500m",
-          "500m"
+          "5000m",
+          "10000m",
+          "100mh",
+          "400mh",
+          "3000sc",
+          "hj",
+          "pv",
+          "lj",
+          "tj",
+          "sp",
+          "dt",
+          "ht",
+          "jt",
+          "4x100",
+          "4x400"
         ]
       },
       "hasResults": true
@@ -141995,6 +142111,46 @@
       "hasResults": true
     },
     {
+      "id": "7241741",
+      "name": "North East Grand Prix Series - Match 2",
+      "dateStart": "2026-05-27",
+      "dateEnd": "2026-05-27",
+      "city": "Monkton Stadium, Jarrow (GBR)",
+      "countryCode": "GBR",
+      "countryName": "GBR",
+      "region": "EUR",
+      "category": "OTHER",
+      "categoryRaw": "",
+      "isIndoor": false,
+      "website": "necaa.co.uk",
+      "contact": {
+        "name": "Patricia Mellish",
+        "email": "patricia.mellish@gmail.com",
+        "phone": "+447976775115"
+      },
+      "events": {
+        "men": [
+          "200m",
+          "800m",
+          "3000m",
+          "hj",
+          "sp",
+          "lj",
+          "jt"
+        ],
+        "women": [
+          "200m",
+          "800m",
+          "3000m",
+          "hj",
+          "lj",
+          "sp",
+          "jt"
+        ]
+      },
+      "hasResults": true
+    },
+    {
       "id": "7241878",
       "name": "Meeting Luganese",
       "dateStart": "2026-05-27",
@@ -142037,80 +142193,97 @@
       "hasResults": true
     },
     {
-      "id": "7238703",
-      "name": "Hyvän Tuulen Kisat 1",
+      "id": "7241728",
+      "name": "Hercules Wimbledon 1500m Night of Races",
       "dateStart": "2026-05-27",
       "dateEnd": "2026-05-27",
-      "city": "Eläintarhan urheilukenttä, Helsinki (FIN)",
-      "countryCode": "FIN",
-      "countryName": "FIN",
-      "region": "EUR",
-      "category": "OTHER",
-      "categoryRaw": "",
-      "isIndoor": false,
-      "website": "",
-      "contact": {
-        "name": "Niklas Hagelin",
-        "email": "niklas.hagelin@kolumbus.fi",
-        "phone": "+358505631348"
-      },
-      "events": {
-        "men": [
-          "100m",
-          "400m",
-          "400mh",
-          "ht",
-          "jt"
-        ],
-        "women": [
-          "100m",
-          "400m",
-          "100mh",
-          "400mh",
-          "tj",
-          "ht",
-          "jt",
-          "lj"
-        ]
-      },
-      "hasResults": true
-    },
-    {
-      "id": "7241741",
-      "name": "North East Grand Prix Series - Match 2",
-      "dateStart": "2026-05-27",
-      "dateEnd": "2026-05-27",
-      "city": "Monkton Stadium, Jarrow (GBR)",
+      "city": "Wimbledon Park Athletics Track, London (GBR)",
       "countryCode": "GBR",
       "countryName": "GBR",
       "region": "EUR",
       "category": "OTHER",
       "categoryRaw": "",
       "isIndoor": false,
-      "website": "necaa.co.uk",
+      "website": "https://data.opentrack.run/en-gb/x/2026/GBR/hwac15/",
       "contact": {
-        "name": "Patricia Mellish",
-        "email": "patricia.mellish@gmail.com",
-        "phone": "+447976775115"
+        "name": "Ben Noad",
+        "email": "ben@bennoadcoaching.com",
+        "phone": "+447547154352"
       },
       "events": {
         "men": [
-          "200m",
-          "800m",
-          "3000m",
-          "hj",
+          "1500m",
+          "500m"
+        ],
+        "women": [
+          "1500m",
+          "500m"
+        ]
+      },
+      "hasResults": true
+    },
+    {
+      "id": "7241891",
+      "name": "Kohila pikamaajooksude sari III etapp",
+      "dateStart": "2026-05-27",
+      "dateEnd": "2026-05-27",
+      "city": "Kohila staadion, Kohila (EST)",
+      "countryCode": "EST",
+      "countryName": "EST",
+      "region": "EUR",
+      "category": "OTHER",
+      "categoryRaw": "",
+      "isIndoor": false,
+      "website": "",
+      "contact": {
+        "name": "Artur Ojasalu",
+        "email": "artur.ojasalu@kohila.ee",
+        "phone": "+37255560085"
+      },
+      "events": {
+        "men": [
+          "2000m",
+          "ht",
+          "dt",
           "sp",
-          "lj",
           "jt"
         ],
         "women": [
-          "200m",
+          "2000m",
+          "jt",
+          "ht",
+          "dt",
+          "sp"
+        ]
+      },
+      "hasResults": true
+    },
+    {
+      "id": "7241725",
+      "name": "BMC Gold Standard Races",
+      "dateStart": "2026-05-27",
+      "dateEnd": "2026-05-27",
+      "city": "Woodside Stadium, Watford (GBR)",
+      "countryCode": "GBR",
+      "countryName": "GBR",
+      "region": "EUR",
+      "category": "OTHER",
+      "categoryRaw": "",
+      "isIndoor": false,
+      "website": "https://www.britishmilersclub.com/",
+      "contact": {
+        "name": "Tim Brennan",
+        "email": "timbrennan@britishmilersclub.com",
+        "phone": "+447966309931"
+      },
+      "events": {
+        "men": [
           "800m",
-          "3000m",
-          "hj",
-          "lj",
-          "sp",
-          "jt"
+          "1500m"
+        ],
+        "women": [
+          "800m",
+          "1500m"
         ]
       },
       "hasResults": true
@@ -142157,108 +142330,6 @@
           "lj",
           "sp",
           "jt"
-        ]
-      },
-      "hasResults": true
-    },
-    {
-      "id": "7241891",
-      "name": "Kohila pikamaajooksude sari III etapp",
-      "dateStart": "2026-05-27",
-      "dateEnd": "2026-05-27",
-      "city": "Kohila staadion, Kohila (EST)",
-      "countryCode": "EST",
-      "countryName": "EST",
-      "region": "EUR",
-      "category": "OTHER",
-      "categoryRaw": "",
-      "isIndoor": false,
-      "website": "",
-      "contact": {
-        "name": "Artur Ojasalu",
-        "email": "artur.ojasalu@kohila.ee",
-        "phone": "+37255560085"
-      },
-      "events": {
-        "men": [
-          "2000m",
-          "ht",
-          "dt",
-          "sp",
-          "jt"
-        ],
-        "women": [
-          "2000m",
-          "jt",
-          "ht",
-          "dt",
-          "sp"
-        ]
-      },
-      "hasResults": true
-    },
-    {
-      "id": "7236232",
-      "name": "NCAA Division I East First Rounds",
-      "dateStart": "2026-05-27",
-      "dateEnd": "2026-05-30",
-      "city": "Un. of Kentucky Outdoor Track Facility, Lexington, KY (USA)",
-      "countryCode": "USA",
-      "countryName": "USA",
-      "region": "AME",
-      "category": "OTHER",
-      "categoryRaw": "",
-      "isIndoor": false,
-      "website": "www.ncaa.com/trackandfield",
-      "contact": {
-        "name": "Jeff Mlynski",
-        "email": "jmlynski@ncaa.org",
-        "phone": "+13179176503"
-      },
-      "events": {
-        "men": [
-          "100m",
-          "200m",
-          "400m",
-          "800m",
-          "1500m",
-          "5000m",
-          "10000m",
-          "110mh",
-          "400mh",
-          "3000sc",
-          "hj",
-          "pv",
-          "lj",
-          "tj",
-          "sp",
-          "dt",
-          "ht",
-          "jt",
-          "4x100",
-          "4x400"
-        ],
-        "women": [
-          "100m",
-          "200m",
-          "400m",
-          "800m",
-          "1500m",
-          "5000m",
-          "10000m",
-          "100mh",
-          "400mh",
-          "3000sc",
-          "hj",
-          "pv",
-          "lj",
-          "tj",
-          "sp",
-          "dt",
-          "ht",
-          "jt",
-          "4x100",
-          "4x400"
         ]
       },
       "hasResults": true
@@ -142521,77 +142592,6 @@
         ]
       },
       "hasResults": true
-    },
-    {
-      "id": "7237536",
-      "name": "4th AFN Golden League",
-      "dateStart": "2026-05-27",
-      "dateEnd": "2026-05-28",
-      "city": "MKO Abiola International Stadium Stadium, Abeokuta (NGR)",
-      "countryCode": "NGR",
-      "countryName": "NGR",
-      "region": "AFR",
-      "category": "OTHER",
-      "categoryRaw": "",
-      "isIndoor": false,
-      "website": "",
-      "contact": {
-        "name": "Israel Inwang",
-        "email": "ngr@mf.worldathletics.org",
-        "phone": "+2348066916131"
-      },
-      "events": {
-        "men": [
-          "100m",
-          "200m",
-          "400m",
-          "800m",
-          "1500m",
-          "3000m",
-          "5000m",
-          "10000m",
-          "110mh",
-          "400mh",
-          "3000sc",
-          "dt",
-          "hj",
-          "pv",
-          "ht",
-          "jt",
-          "lj",
-          "tj",
-          "sp",
-          "dec",
-          "5km",
-          "10km"
-        ],
-        "women": [
-          "100m",
-          "200m",
-          "800m",
-          "400m",
-          "1500m",
-          "3000m",
-          "5000m",
-          "10000m",
-          "100mh",
-          "400mh",
-          "2000sc",
-          "3000sc",
-          "sp",
-          "tj",
-          "jt",
-          "lj",
-          "ht",
-          "pv",
-          "dt",
-          "hj",
-          "hep",
-          "5km",
-          "10km"
-        ]
-      },
-      "hasResults": false
     },
     {
       "id": "7240652",
@@ -143185,29 +143185,36 @@
       "hasResults": true
     },
     {
-      "id": "7240079",
-      "name": "Nationales Stabhochsprungmeeting",
+      "id": "7238005",
+      "name": "Sibbo Energi-tävling / Sipoon Energia-kisa 3",
       "dateStart": "2026-05-25",
       "dateEnd": "2026-05-25",
-      "city": "Sportplatz, Oberhaugstett (GER)",
-      "countryCode": "GER",
-      "countryName": "GER",
+      "city": "Nikkilän keskusurheilukenttä, Sipoo (FIN)",
+      "countryCode": "FIN",
+      "countryName": "FIN",
       "region": "EUR",
       "category": "OTHER",
       "categoryRaw": "",
       "isIndoor": false,
-      "website": "www.tv-oberhaugstett.de",
+      "website": "",
       "contact": {
-        "name": "Albrecht Luz",
-        "email": "albrecht.luz@lbs-sued.de",
-        "phone": "+4915209918850"
+        "name": "Kristian Tillander",
+        "email": "kristian.tillander@outlook.com",
+        "phone": "+358505595955"
       },
       "events": {
         "men": [
-          "pv"
+          "800m",
+          "110mh",
+          "tj",
+          "jt"
         ],
         "women": [
-          "pv"
+          "800m",
+          "100mh",
+          "tj",
+          "jt",
+          "100m"
         ]
       },
       "hasResults": true
@@ -143258,261 +143265,31 @@
       "hasResults": true
     },
     {
-      "id": "7242073",
-      "name": "Meeting Athletisme Friend'z",
+      "id": "7238191",
+      "name": "Moukarin- ja painonheittokilpailut - Hammer and weight throw",
       "dateStart": "2026-05-25",
       "dateEnd": "2026-05-25",
-      "city": "Stade Municipal, Montfort-le-Gesnois (FRA)",
-      "countryCode": "FRA",
-      "countryName": "FRA",
+      "city": "Eläintarhan urheilukenttä, Helsinki (FIN)",
+      "countryCode": "FIN",
+      "countryName": "FIN",
       "region": "EUR",
       "category": "OTHER",
       "categoryRaw": "",
       "isIndoor": false,
       "website": "",
       "contact": {
-        "name": "ANNE RETHORE",
-        "email": "anne.rethore@lapl.fr",
-        "phone": "+33683029579"
+        "name": "Lauri Rantala",
+        "email": "lauri.rantala@welho.com",
+        "phone": "+358400297204"
       },
       "events": {
         "men": [
-          "100m",
-          "400m",
-          "1500m",
-          "3000m",
-          "110mh",
-          "400mh",
-          "hj",
-          "pv",
-          "tj",
-          "dt",
-          "ht"
+          "ht",
+          "wt"
         ],
         "women": [
-          "100m",
-          "400m",
-          "1500m",
-          "3000m",
-          "100mh",
-          "400mh",
-          "hj",
-          "pv",
-          "tj",
-          "dt",
-          "ht"
-        ]
-      },
-      "hasResults": true
-    },
-    {
-      "id": "7240349",
-      "name": "Bannister Opening",
-      "dateStart": "2026-05-25",
-      "dateEnd": "2026-05-25",
-      "city": "Åby Friidrott, Mölndal (SWE)",
-      "countryCode": "SWE",
-      "countryName": "SWE",
-      "region": "EUR",
-      "category": "OTHER",
-      "categoryRaw": "",
-      "isIndoor": false,
-      "website": "http://www.bannisterinvitational.se",
-      "contact": {
-        "name": "Per Skoog",
-        "email": "competition@bannisterrunning.com",
-        "phone": "+46738138080"
-      },
-      "events": {
-        "men": [
-          "100m",
-          "800m",
-          "200m"
-        ],
-        "women": [
-          "100m",
-          "800m",
-          "200m"
-        ]
-      },
-      "hasResults": true
-    },
-    {
-      "id": "7240684",
-      "name": "Pentathlon pour Cadets à Seniors + Epreuve TC",
-      "dateStart": "2026-05-25",
-      "dateEnd": "2026-05-25",
-      "city": "Stadium Bielmont, Verviers (BEL)",
-      "countryCode": "BEL",
-      "countryName": "BEL",
-      "region": "EUR",
-      "category": "OTHER",
-      "categoryRaw": "",
-      "isIndoor": false,
-      "website": "",
-      "contact": {
-        "name": "www.h-f.be",
-        "email": "secretariat.hautesfagnes@gmail.com",
-        "phone": "+3224747201"
-      },
-      "events": {
-        "men": [
-          "100m",
-          "200m",
-          "1500m"
-        ],
-        "women": [
-          "100m",
-          "200m",
-          "1500m"
-        ]
-      },
-      "hasResults": true
-    },
-    {
-      "id": "7238567",
-      "name": "Luxembourg 5 km Road Running Championships",
-      "dateStart": "2026-05-25",
-      "dateEnd": "2026-05-25",
-      "city": "Wasserbillig (LUX)",
-      "countryCode": "LUX",
-      "countryName": "LUX",
-      "region": "EUR",
-      "category": "OTHER",
-      "categoryRaw": "National Senior Road Running Championships",
-      "isIndoor": false,
-      "website": "http://www.lowpointrun.lu/",
-      "contact": {
-        "name": "Steve Wirtz",
-        "email": "steve.wirtz@education.lu",
-        "phone": "+352621274843"
-      },
-      "events": {
-        "men": [],
-        "women": []
-      },
-      "hasResults": true
-    },
-    {
-      "id": "7240252",
-      "name": "Meeting Label Régional WA d'Amnéville",
-      "dateStart": "2026-05-25",
-      "dateEnd": "2026-05-25",
-      "city": "Stade Municipal, Amneville (FRA)",
-      "countryCode": "FRA",
-      "countryName": "FRA",
-      "region": "EUR",
-      "category": "OTHER",
-      "categoryRaw": "",
-      "isIndoor": false,
-      "website": "",
-      "contact": {
-        "name": "Bruno Hue",
-        "email": "joly.ericrm@gmail.com",
-        "phone": "+33684895913"
-      },
-      "events": {
-        "men": [
-          "100m",
-          "300m",
-          "1000m",
-          "5000m",
-          "400mh",
-          "hj",
-          "lj",
-          "sp",
-          "jt"
-        ],
-        "women": [
-          "100m",
-          "300m",
-          "1000m",
-          "3000m",
-          "400mh",
-          "hj",
-          "lj",
-          "sp",
-          "jt"
-        ]
-      },
-      "hasResults": true
-    },
-    {
-      "id": "7240078",
-      "name": "39. Großes LGM Pfingstsportfest",
-      "dateStart": "2026-05-25",
-      "dateEnd": "2026-05-25",
-      "city": "Grenzlandstadion, Mönchengladbach (GER)",
-      "countryCode": "GER",
-      "countryName": "GER",
-      "region": "EUR",
-      "category": "OTHER",
-      "categoryRaw": "",
-      "isIndoor": false,
-      "website": "https://lg-moenchengladbach.de/veranstaltungen/pfingstsportfest/",
-      "contact": {
-        "name": "Tobias Montazeri-Schäfer",
-        "email": "webmaster@lg-moenchengladbach.de",
-        "phone": "+4917622867950"
-      },
-      "events": {
-        "men": [
-          "100m",
-          "200m",
-          "400m",
-          "800m",
-          "hj",
-          "lj",
-          "sp",
-          "300m"
-        ],
-        "women": [
-          "100m",
-          "200m",
-          "400m",
-          "hj",
-          "lj",
-          "sp",
-          "800m",
-          "300m"
-        ]
-      },
-      "hasResults": true
-    },
-    {
-      "id": "7242668",
-      "name": "Stratford Speed GP1",
-      "dateStart": "2026-05-25",
-      "dateEnd": "2026-05-25",
-      "city": "London Marathon Community Track, London (GBR)",
-      "countryCode": "GBR",
-      "countryName": "GBR",
-      "region": "EUR",
-      "category": "OTHER",
-      "categoryRaw": "",
-      "isIndoor": false,
-      "website": "https://stratfordspeedgp.com",
-      "contact": {
-        "name": "Tony Shiret",
-        "email": "tshiretbeagles@gmail.com",
-        "phone": "+447802536668"
-      },
-      "events": {
-        "men": [
-          "100m",
-          "200m",
-          "400m",
-          "800m",
-          "1500m",
-          "500m"
-        ],
-        "women": [
-          "100m",
-          "200m",
-          "400m",
-          "800m",
-          "1500m",
-          "500m"
+          "ht",
+          "wt"
         ]
       },
       "hasResults": true
@@ -143564,45 +143341,250 @@
       "hasResults": true
     },
     {
-      "id": "7236942",
-      "name": "Hapoel Championships",
+      "id": "7240684",
+      "name": "Pentathlon pour Cadets à Seniors + Epreuve TC",
       "dateStart": "2026-05-25",
       "dateEnd": "2026-05-25",
-      "city": "Givat Ram Stadium, Jerusalem (ISR)",
-      "countryCode": "ISR",
-      "countryName": "ISR",
+      "city": "Stadium Bielmont, Verviers (BEL)",
+      "countryCode": "BEL",
+      "countryName": "BEL",
       "region": "EUR",
       "category": "OTHER",
       "categoryRaw": "",
       "isIndoor": false,
       "website": "",
       "contact": {
-        "name": "Jack Cohen",
-        "email": "jack@iaa.co.il",
-        "phone": "+972505202961"
+        "name": "www.h-f.be",
+        "email": "secretariat.hautesfagnes@gmail.com",
+        "phone": "+3224747201"
+      },
+      "events": {
+        "men": [
+          "100m",
+          "200m",
+          "1500m"
+        ],
+        "women": [
+          "100m",
+          "200m",
+          "1500m"
+        ]
+      },
+      "hasResults": true
+    },
+    {
+      "id": "7241733",
+      "name": "Judith Temperton Northern Inter-County Championships",
+      "dateStart": "2026-05-25",
+      "dateEnd": "2026-05-25",
+      "city": "Shildon Stadium 2000, Shildon (GBR)",
+      "countryCode": "GBR",
+      "countryName": "GBR",
+      "region": "EUR",
+      "category": "OTHER",
+      "categoryRaw": "",
+      "isIndoor": false,
+      "website": "www.northernathletics.co.uk",
+      "contact": {
+        "name": "Mark Tallon",
+        "email": "mark@northernathletics.co.uk",
+        "phone": "+447856899175"
+      },
+      "events": {
+        "men": [
+          "100m",
+          "200m",
+          "400m",
+          "800m",
+          "500m",
+          "3000m",
+          "hj",
+          "pv",
+          "lj",
+          "sp",
+          "dt",
+          "ht",
+          "300m"
+        ],
+        "women": [
+          "100m",
+          "200m",
+          "300m",
+          "800m",
+          "500m",
+          "3000m",
+          "hj",
+          "pv",
+          "lj",
+          "sp",
+          "dt",
+          "ht"
+        ]
+      },
+      "hasResults": true
+    },
+    {
+      "id": "7240252",
+      "name": "Meeting Label Régional WA d'Amnéville",
+      "dateStart": "2026-05-25",
+      "dateEnd": "2026-05-25",
+      "city": "Stade Municipal, Amneville (FRA)",
+      "countryCode": "FRA",
+      "countryName": "FRA",
+      "region": "EUR",
+      "category": "OTHER",
+      "categoryRaw": "",
+      "isIndoor": false,
+      "website": "",
+      "contact": {
+        "name": "Bruno Hue",
+        "email": "joly.ericrm@gmail.com",
+        "phone": "+33684895913"
+      },
+      "events": {
+        "men": [
+          "100m",
+          "300m",
+          "1000m",
+          "5000m",
+          "400mh",
+          "hj",
+          "lj",
+          "sp",
+          "jt"
+        ],
+        "women": [
+          "100m",
+          "300m",
+          "1000m",
+          "3000m",
+          "400mh",
+          "hj",
+          "lj",
+          "sp",
+          "jt"
+        ]
+      },
+      "hasResults": true
+    },
+    {
+      "id": "7240079",
+      "name": "Nationales Stabhochsprungmeeting",
+      "dateStart": "2026-05-25",
+      "dateEnd": "2026-05-25",
+      "city": "Sportplatz, Oberhaugstett (GER)",
+      "countryCode": "GER",
+      "countryName": "GER",
+      "region": "EUR",
+      "category": "OTHER",
+      "categoryRaw": "",
+      "isIndoor": false,
+      "website": "www.tv-oberhaugstett.de",
+      "contact": {
+        "name": "Albrecht Luz",
+        "email": "albrecht.luz@lbs-sued.de",
+        "phone": "+4915209918850"
+      },
+      "events": {
+        "men": [
+          "pv"
+        ],
+        "women": [
+          "pv"
+        ]
+      },
+      "hasResults": true
+    },
+    {
+      "id": "7238567",
+      "name": "Luxembourg 5 km Road Running Championships",
+      "dateStart": "2026-05-25",
+      "dateEnd": "2026-05-25",
+      "city": "Wasserbillig (LUX)",
+      "countryCode": "LUX",
+      "countryName": "LUX",
+      "region": "EUR",
+      "category": "OTHER",
+      "categoryRaw": "National Senior Road Running Championships",
+      "isIndoor": false,
+      "website": "http://www.lowpointrun.lu/",
+      "contact": {
+        "name": "Steve Wirtz",
+        "email": "steve.wirtz@education.lu",
+        "phone": "+352621274843"
+      },
+      "events": {
+        "men": [],
+        "women": []
+      },
+      "hasResults": true
+    },
+    {
+      "id": "7240349",
+      "name": "Bannister Opening",
+      "dateStart": "2026-05-25",
+      "dateEnd": "2026-05-25",
+      "city": "Åby Friidrott, Mölndal (SWE)",
+      "countryCode": "SWE",
+      "countryName": "SWE",
+      "region": "EUR",
+      "category": "OTHER",
+      "categoryRaw": "",
+      "isIndoor": false,
+      "website": "http://www.bannisterinvitational.se",
+      "contact": {
+        "name": "Per Skoog",
+        "email": "competition@bannisterrunning.com",
+        "phone": "+46738138080"
       },
       "events": {
         "men": [
           "100m",
           "800m",
-          "3000m",
-          "110mh",
-          "pv",
-          "lj",
-          "sp",
-          "ht",
-          "200m",
-          "hj"
+          "200m"
         ],
         "women": [
           "100m",
           "800m",
-          "3000m",
-          "100mh",
-          "lj",
-          "sp",
-          "ht",
           "200m"
+        ]
+      },
+      "hasResults": true
+    },
+    {
+      "id": "7242668",
+      "name": "Stratford Speed GP1",
+      "dateStart": "2026-05-25",
+      "dateEnd": "2026-05-25",
+      "city": "London Marathon Community Track, London (GBR)",
+      "countryCode": "GBR",
+      "countryName": "GBR",
+      "region": "EUR",
+      "category": "OTHER",
+      "categoryRaw": "",
+      "isIndoor": false,
+      "website": "https://stratfordspeedgp.com",
+      "contact": {
+        "name": "Tony Shiret",
+        "email": "tshiretbeagles@gmail.com",
+        "phone": "+447802536668"
+      },
+      "events": {
+        "men": [
+          "100m",
+          "200m",
+          "400m",
+          "800m",
+          "1500m",
+          "500m"
+        ],
+        "women": [
+          "100m",
+          "200m",
+          "400m",
+          "800m",
+          "1500m",
+          "500m"
         ]
       },
       "hasResults": true
@@ -143696,79 +143678,87 @@
       "hasResults": true
     },
     {
-      "id": "7243730",
-      "name": "Royal Run Copenhagen",
+      "id": "7240078",
+      "name": "39. Großes LGM Pfingstsportfest",
       "dateStart": "2026-05-25",
       "dateEnd": "2026-05-25",
-      "city": "Copenhagen (DEN)",
-      "countryCode": "DEN",
-      "countryName": "DEN",
+      "city": "Grenzlandstadion, Mönchengladbach (GER)",
+      "countryCode": "GER",
+      "countryName": "GER",
       "region": "EUR",
       "category": "OTHER",
       "categoryRaw": "",
       "isIndoor": false,
-      "website": "https://royalrun.dk/",
+      "website": "https://lg-moenchengladbach.de/veranstaltungen/pfingstsportfest/",
       "contact": {
-        "name": "Christian Friis",
-        "email": "chfr@sparta.dk",
-        "phone": "+4531328685"
-      },
-      "events": {
-        "men": [
-          "mile",
-          "10km"
-        ],
-        "women": [
-          "mile",
-          "10km"
-        ]
-      },
-      "hasResults": false
-    },
-    {
-      "id": "7240692",
-      "name": "62. Susanne Meier Memorial",
-      "dateStart": "2026-05-25",
-      "dateEnd": "2026-05-25",
-      "city": "Stadion Schützenmatte, Basel (SUI)",
-      "countryCode": "SUI",
-      "countryName": "SUI",
-      "region": "EUR",
-      "category": "OTHER",
-      "categoryRaw": "",
-      "isIndoor": false,
-      "website": "www.lcbasel.ch",
-      "contact": {
-        "name": "Stephan Grüninger",
-        "email": "stephan.grueninger@lcbasel.ch",
-        "phone": "+41781234567"
+        "name": "Tobias Montazeri-Schäfer",
+        "email": "webmaster@lg-moenchengladbach.de",
+        "phone": "+4917622867950"
       },
       "events": {
         "men": [
           "100m",
           "200m",
           "400m",
-          "1500m",
-          "110mh",
-          "400mh",
+          "800m",
           "hj",
           "lj",
-          "tj",
           "sp",
-          "ht"
+          "300m"
         ],
         "women": [
           "100m",
           "200m",
           "400m",
-          "1500m",
-          "100mh",
-          "400mh",
           "hj",
+          "lj",
+          "sp",
+          "800m",
+          "300m"
+        ]
+      },
+      "hasResults": true
+    },
+    {
+      "id": "7236942",
+      "name": "Hapoel Championships",
+      "dateStart": "2026-05-25",
+      "dateEnd": "2026-05-25",
+      "city": "Givat Ram Stadium, Jerusalem (ISR)",
+      "countryCode": "ISR",
+      "countryName": "ISR",
+      "region": "EUR",
+      "category": "OTHER",
+      "categoryRaw": "",
+      "isIndoor": false,
+      "website": "",
+      "contact": {
+        "name": "Jack Cohen",
+        "email": "jack@iaa.co.il",
+        "phone": "+972505202961"
+      },
+      "events": {
+        "men": [
+          "100m",
+          "800m",
+          "3000m",
+          "110mh",
           "pv",
           "lj",
           "sp",
-          "ht"
+          "ht",
+          "200m",
+          "hj"
+        ],
+        "women": [
+          "100m",
+          "800m",
+          "3000m",
+          "100mh",
+          "lj",
+          "sp",
+          "ht",
+          "200m"
         ]
       },
       "hasResults": true
@@ -143806,90 +143796,86 @@
       "hasResults": true
     },
     {
-      "id": "7241739",
-      "name": "BIGish Jumps & Throws Fest",
+      "id": "7242070",
+      "name": "Nasjonalt løpsstevne",
       "dateStart": "2026-05-25",
       "dateEnd": "2026-05-25",
-      "city": "Bedford Athletic Stadium, Bedford (GBR)",
-      "countryCode": "GBR",
-      "countryName": "GBR",
+      "city": "Sentralidrettsanlegg, Nittedal (NOR)",
+      "countryCode": "NOR",
+      "countryName": "NOR",
       "region": "EUR",
       "category": "OTHER",
       "categoryRaw": "",
       "isIndoor": false,
-      "website": "www.bedfordgames.co.uk",
+      "website": "",
       "contact": {
-        "name": "Carol Jackson",
-        "email": "carol@gobiguk.net",
-        "phone": "+447850190299"
+        "name": "Bjørn Dalhus",
+        "email": "bdalhus@online.no",
+        "phone": "+4794411248"
       },
       "events": {
         "men": [
-          "hj",
-          "lj",
-          "tj",
-          "sp",
-          "dt",
-          "ht",
-          "jt"
+          "100m",
+          "200m",
+          "800m",
+          "3000m",
+          "2000sc",
+          "2000m",
+          "3000sc"
         ],
         "women": [
-          "hj",
-          "lj",
-          "tj",
-          "sp",
-          "dt",
-          "ht",
-          "jt"
+          "100m",
+          "200m",
+          "800m",
+          "3000m",
+          "2000sc",
+          "3000sc"
         ]
       },
-      "hasResults": true
+      "hasResults": false
     },
     {
-      "id": "7241733",
-      "name": "Judith Temperton Northern Inter-County Championships",
+      "id": "7242073",
+      "name": "Meeting Athletisme Friend'z",
       "dateStart": "2026-05-25",
       "dateEnd": "2026-05-25",
-      "city": "Shildon Stadium 2000, Shildon (GBR)",
-      "countryCode": "GBR",
-      "countryName": "GBR",
+      "city": "Stade Municipal, Montfort-le-Gesnois (FRA)",
+      "countryCode": "FRA",
+      "countryName": "FRA",
       "region": "EUR",
       "category": "OTHER",
       "categoryRaw": "",
       "isIndoor": false,
-      "website": "www.northernathletics.co.uk",
+      "website": "",
       "contact": {
-        "name": "Mark Tallon",
-        "email": "mark@northernathletics.co.uk",
-        "phone": "+447856899175"
+        "name": "ANNE RETHORE",
+        "email": "anne.rethore@lapl.fr",
+        "phone": "+33683029579"
       },
       "events": {
         "men": [
           "100m",
-          "200m",
           "400m",
-          "800m",
-          "500m",
+          "1500m",
           "3000m",
+          "110mh",
+          "400mh",
           "hj",
           "pv",
-          "lj",
-          "sp",
+          "tj",
           "dt",
-          "ht",
-          "300m"
+          "ht"
         ],
         "women": [
           "100m",
-          "200m",
-          "300m",
-          "800m",
-          "500m",
+          "400m",
+          "1500m",
           "3000m",
+          "100mh",
+          "400mh",
           "hj",
           "pv",
-          "lj",
-          "sp",
+          "tj",
           "dt",
           "ht"
         ]
@@ -143945,6 +143931,94 @@
       "hasResults": true
     },
     {
+      "id": "7241739",
+      "name": "BIGish Jumps & Throws Fest",
+      "dateStart": "2026-05-25",
+      "dateEnd": "2026-05-25",
+      "city": "Bedford Athletic Stadium, Bedford (GBR)",
+      "countryCode": "GBR",
+      "countryName": "GBR",
+      "region": "EUR",
+      "category": "OTHER",
+      "categoryRaw": "",
+      "isIndoor": false,
+      "website": "www.bedfordgames.co.uk",
+      "contact": {
+        "name": "Carol Jackson",
+        "email": "carol@gobiguk.net",
+        "phone": "+447850190299"
+      },
+      "events": {
+        "men": [
+          "hj",
+          "lj",
+          "tj",
+          "sp",
+          "dt",
+          "ht",
+          "jt"
+        ],
+        "women": [
+          "hj",
+          "lj",
+          "tj",
+          "sp",
+          "dt",
+          "ht",
+          "jt"
+        ]
+      },
+      "hasResults": true
+    },
+    {
+      "id": "7240692",
+      "name": "62. Susanne Meier Memorial",
+      "dateStart": "2026-05-25",
+      "dateEnd": "2026-05-25",
+      "city": "Stadion Schützenmatte, Basel (SUI)",
+      "countryCode": "SUI",
+      "countryName": "SUI",
+      "region": "EUR",
+      "category": "OTHER",
+      "categoryRaw": "",
+      "isIndoor": false,
+      "website": "www.lcbasel.ch",
+      "contact": {
+        "name": "Stephan Grüninger",
+        "email": "stephan.grueninger@lcbasel.ch",
+        "phone": "+41781234567"
+      },
+      "events": {
+        "men": [
+          "100m",
+          "200m",
+          "400m",
+          "1500m",
+          "110mh",
+          "400mh",
+          "hj",
+          "lj",
+          "tj",
+          "sp",
+          "ht"
+        ],
+        "women": [
+          "100m",
+          "200m",
+          "400m",
+          "1500m",
+          "100mh",
+          "400mh",
+          "hj",
+          "pv",
+          "lj",
+          "sp",
+          "ht"
+        ]
+      },
+      "hasResults": true
+    },
+    {
       "id": "7238420",
       "name": "BOLDERBoulder",
       "dateStart": "2026-05-25",
@@ -143973,136 +144047,34 @@
       "hasResults": true
     },
     {
-      "id": "7242070",
-      "name": "Nasjonalt løpsstevne",
+      "id": "7243730",
+      "name": "Royal Run Copenhagen",
       "dateStart": "2026-05-25",
       "dateEnd": "2026-05-25",
-      "city": "Sentralidrettsanlegg, Nittedal (NOR)",
-      "countryCode": "NOR",
-      "countryName": "NOR",
+      "city": "Copenhagen (DEN)",
+      "countryCode": "DEN",
+      "countryName": "DEN",
       "region": "EUR",
       "category": "OTHER",
       "categoryRaw": "",
       "isIndoor": false,
-      "website": "",
+      "website": "https://royalrun.dk/",
       "contact": {
-        "name": "Bjørn Dalhus",
-        "email": "bdalhus@online.no",
-        "phone": "+4794411248"
+        "name": "Christian Friis",
+        "email": "chfr@sparta.dk",
+        "phone": "+4531328685"
       },
       "events": {
         "men": [
-          "100m",
-          "200m",
-          "800m",
-          "3000m",
-          "2000sc",
-          "2000m",
-          "3000sc"
+          "mile",
+          "10km"
         ],
         "women": [
-          "100m",
-          "200m",
-          "800m",
-          "3000m",
-          "2000sc",
-          "3000sc"
+          "mile",
+          "10km"
         ]
       },
       "hasResults": false
-    },
-    {
-      "id": "7238191",
-      "name": "Moukarin- ja painonheittokilpailut - Hammer and weight throw",
-      "dateStart": "2026-05-25",
-      "dateEnd": "2026-05-25",
-      "city": "Eläintarhan urheilukenttä, Helsinki (FIN)",
-      "countryCode": "FIN",
-      "countryName": "FIN",
-      "region": "EUR",
-      "category": "OTHER",
-      "categoryRaw": "",
-      "isIndoor": false,
-      "website": "",
-      "contact": {
-        "name": "Lauri Rantala",
-        "email": "lauri.rantala@welho.com",
-        "phone": "+358400297204"
-      },
-      "events": {
-        "men": [
-          "ht",
-          "wt"
-        ],
-        "women": [
-          "ht",
-          "wt"
-        ]
-      },
-      "hasResults": true
-    },
-    {
-      "id": "7238005",
-      "name": "Sibbo Energi-tävling / Sipoon Energia-kisa 3",
-      "dateStart": "2026-05-25",
-      "dateEnd": "2026-05-25",
-      "city": "Nikkilän keskusurheilukenttä, Sipoo (FIN)",
-      "countryCode": "FIN",
-      "countryName": "FIN",
-      "region": "EUR",
-      "category": "OTHER",
-      "categoryRaw": "",
-      "isIndoor": false,
-      "website": "",
-      "contact": {
-        "name": "Kristian Tillander",
-        "email": "kristian.tillander@outlook.com",
-        "phone": "+358505595955"
-      },
-      "events": {
-        "men": [
-          "800m",
-          "110mh",
-          "tj",
-          "jt"
-        ],
-        "women": [
-          "800m",
-          "100mh",
-          "tj",
-          "jt",
-          "100m"
-        ]
-      },
-      "hasResults": true
-    },
-    {
-      "id": "7238562",
-      "name": "Espoonlahden heittokisat",
-      "dateStart": "2026-05-24",
-      "dateEnd": "2026-05-24",
-      "city": "Koulumäen kenttä, Espoo (FIN)",
-      "countryCode": "FIN",
-      "countryName": "FIN",
-      "region": "EUR",
-      "category": "OTHER",
-      "categoryRaw": "",
-      "isIndoor": false,
-      "website": "",
-      "contact": {
-        "name": "Simo Kaleva",
-        "email": "simo.kaleva@outlook.com",
-        "phone": "+358405794915"
-      },
-      "events": {
-        "men": [
-          "ht"
-        ],
-        "women": [
-          "ht"
-        ]
-      },
-      "hasResults": true
     },
     {
       "id": "7236648",
@@ -144834,6 +144806,74 @@
       "hasResults": true
     },
     {
+      "id": "7241768",
+      "name": "KP SKAS jednotlivců muži, ženy, jři, jky, dci, dky",
+      "dateStart": "2026-05-24",
+      "dateEnd": "2026-05-24",
+      "city": "Mestský Stadion Sletište, Kladno (CZE)",
+      "countryCode": "CZE",
+      "countryName": "CZE",
+      "region": "EUR",
+      "category": "OTHER",
+      "categoryRaw": "",
+      "isIndoor": false,
+      "website": "www.atletika.cz",
+      "contact": {
+        "name": "Jiří Klesnil",
+        "email": "jiri.klesnil@volny.cz",
+        "phone": "+420603815534"
+      },
+      "events": {
+        "men": [
+          "100m",
+          "200m",
+          "400m",
+          "800m",
+          "1500m",
+          "5000m",
+          "110mh",
+          "400mh",
+          "3000sc",
+          "hj",
+          "pv",
+          "lj",
+          "sp",
+          "tj",
+          "dt",
+          "ht",
+          "jt",
+          "4x100",
+          "4x400",
+          "500m",
+          "3000m"
+        ],
+        "women": [
+          "100m",
+          "200m",
+          "400m",
+          "800m",
+          "1500m",
+          "5000m",
+          "100mh",
+          "400mh",
+          "3000sc",
+          "hj",
+          "pv",
+          "lj",
+          "tj",
+          "sp",
+          "dt",
+          "ht",
+          "jt",
+          "4x100",
+          "4x400",
+          "3000m",
+          "500m"
+        ]
+      },
+      "hasResults": true
+    },
+    {
       "id": "7233272",
       "name": "RMAC Outdoor Track and Field Championship",
       "dateStart": "2026-05-24",
@@ -145311,74 +145351,6 @@
           "dt",
           "600m",
           "5000m"
-        ]
-      },
-      "hasResults": true
-    },
-    {
-      "id": "7241768",
-      "name": "KP SKAS jednotlivců muži, ženy, jři, jky, dci, dky",
-      "dateStart": "2026-05-24",
-      "dateEnd": "2026-05-24",
-      "city": "Mestský Stadion Sletište, Kladno (CZE)",
-      "countryCode": "CZE",
-      "countryName": "CZE",
-      "region": "EUR",
-      "category": "OTHER",
-      "categoryRaw": "",
-      "isIndoor": false,
-      "website": "www.atletika.cz",
-      "contact": {
-        "name": "Jiří Klesnil",
-        "email": "jiri.klesnil@volny.cz",
-        "phone": "+420603815534"
-      },
-      "events": {
-        "men": [
-          "100m",
-          "200m",
-          "400m",
-          "800m",
-          "1500m",
-          "5000m",
-          "110mh",
-          "400mh",
-          "3000sc",
-          "hj",
-          "pv",
-          "lj",
-          "sp",
-          "tj",
-          "dt",
-          "ht",
-          "jt",
-          "4x100",
-          "4x400",
-          "500m",
-          "3000m"
-        ],
-        "women": [
-          "100m",
-          "200m",
-          "400m",
-          "800m",
-          "1500m",
-          "5000m",
-          "100mh",
-          "400mh",
-          "3000sc",
-          "hj",
-          "pv",
-          "lj",
-          "tj",
-          "sp",
-          "dt",
-          "ht",
-          "jt",
-          "4x100",
-          "4x400",
-          "3000m",
-          "500m"
         ]
       },
       "hasResults": true
@@ -146018,6 +145990,34 @@
           "800m",
           "1500m",
           "3000m"
+        ]
+      },
+      "hasResults": true
+    },
+    {
+      "id": "7238562",
+      "name": "Espoonlahden heittokisat",
+      "dateStart": "2026-05-24",
+      "dateEnd": "2026-05-24",
+      "city": "Koulumäen kenttä, Espoo (FIN)",
+      "countryCode": "FIN",
+      "countryName": "FIN",
+      "region": "EUR",
+      "category": "OTHER",
+      "categoryRaw": "",
+      "isIndoor": false,
+      "website": "",
+      "contact": {
+        "name": "Simo Kaleva",
+        "email": "simo.kaleva@outlook.com",
+        "phone": "+358405794915"
+      },
+      "events": {
+        "men": [
+          "ht"
+        ],
+        "women": [
+          "ht"
         ]
       },
       "hasResults": true
@@ -154201,6 +154201,36 @@
       "hasResults": false
     },
     {
+      "id": "7235373",
+      "name": "Kifisia Jump",
+      "dateStart": "2026-05-22",
+      "dateEnd": "2026-05-23",
+      "city": "Kifisia (GRE)",
+      "countryCode": "GRE",
+      "countryName": "GRE",
+      "region": "EUR",
+      "category": "CT",
+      "categoryRaw": "World Athletics Continental Tour – Challenger",
+      "isIndoor": false,
+      "website": "https://gskifissias.gr/",
+      "contact": {
+        "name": "Panagiotis Panagos",
+        "email": "info@gskifissias.gr",
+        "phone": "+306932819322"
+      },
+      "events": {
+        "men": [
+          "pv",
+          "lj"
+        ],
+        "women": [
+          "pv",
+          "lj"
+        ]
+      },
+      "hasResults": true
+    },
+    {
       "id": "7241802",
       "name": "The Samuel Matete Classics",
       "dateStart": "2026-05-22",
@@ -154262,36 +154292,6 @@
         ]
       },
       "hasResults": false
-    },
-    {
-      "id": "7235373",
-      "name": "Kifisia Jump",
-      "dateStart": "2026-05-22",
-      "dateEnd": "2026-05-23",
-      "city": "Kifisia (GRE)",
-      "countryCode": "GRE",
-      "countryName": "GRE",
-      "region": "EUR",
-      "category": "CT",
-      "categoryRaw": "World Athletics Continental Tour – Challenger",
-      "isIndoor": false,
-      "website": "https://gskifissias.gr/",
-      "contact": {
-        "name": "Panagiotis Panagos",
-        "email": "info@gskifissias.gr",
-        "phone": "+306932819322"
-      },
-      "events": {
-        "men": [
-          "pv",
-          "lj"
-        ],
-        "women": [
-          "pv",
-          "lj"
-        ]
-      },
-      "hasResults": true
     },
     {
       "id": "7234294",
